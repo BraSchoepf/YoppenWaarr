@@ -1,5 +1,5 @@
-<h1 align="center"> TP Grupal para UPC </h1>
-<h3 align="center">Nombre del Grupo: LONG HAIR GAMES.</h3>
+<h1> TP Grupal para UPC </h1>
+<h3>Nombre del Grupo: LONG HAIR GAMES.</h3>
    <ul> 
        <p>Integrantes</p>
        <li> Brian Schoepf <a></a></li>
@@ -24,79 +24,76 @@
        <li> Recibir daño</li>
       <li> Morir </li> 
    </ul>
+   
+   <p>Tipos de Armas</p>
    <ul>
-      <p>Tipos de Armas</p>
-    <li>Melee</li>
+     <li>Melee</li>
     <li>Rango</li>
    </ul>
-  
-  <ul>
-    <p>Objeto Consumible</p>
-    <li> Poción de vida </li>
-  </ul>
 
-   <ul>
-    <p>Objeto Consumible</p>
+  <p>Objeto Consumible</p>
+  <ul>
     <li> Poción de vida </li>
   </ul>
 
   <li> Enemigos</li> 
+  <p>Animaciones</p>
     <ul> 
-       <p>Animaciones</p>
        <li> Iddle </li>
        <li>  Caminar / Correr </li>
        <li> Golpear </li>
        <li> Recibir daño</li>
       <li> Morir </li> 
    </ul>
+
+   <p>Tipos de Enemigos</p>
    <ul>
-      <p>Tipos de Enemigos</p>
-    <li> 1- Enemigo con ataque Mellé </li>
+     <li> 1- Enemigo con ataque Mellé </li>
     <li> 1- Enemigo con ataque Rango </li>
     <li> 1- Enemigo con ataque Híbrido </li>
     <li>3 Assets diferentes</li>
    </ul>
   
+  <p>UX/UI</p>
   <ul>
-    <p>UX/UI</p>
     <li> Poción de vida </li>
   </ul>
 
+   <p>Objeto Consumible</p>
    <ul>
-    <p>Objeto Consumible</p>
-    <li> Vida </li>
+      <li> Vida </li>
      <li> Contador de puntos </li>
      <li> Timer </li>
    </ul>
 
 <p>Environment</p>
   
+   <p>Audio</p>
    <ul>
-    <p>Audio</p>
     <li> Música </li>
      <li> Sound SFX </li>
   </ul>
 
+  <p>Juego</p>
   <ul>
-    <p>Juego</p>
     <li> Problema principal </li>
     <li> Misión </li>
+   <p>Objeto clave</p>
     <ul>
-      <p>Objeto clave</p>
       <li>Llave</li>
       <li>Arma</li>
       <li>Condición</li>
     </ul>
-    <ul>
-      <p>Final</p>
+    <p>Final</p>
+     <ul>
       <li>Derrotar al boss</li>
       <li>Encontrar objeto</li>
     </ul>
   </ul>
 </ol>
 
+<p>Detalles del proyecto</p>
 <ul>
-  <p>Detalles del proyecto</p>
- <li>Pixel art</li>
+  <li>Pixel art</li>
  <li>Unity version 6</li>
 </ul>
