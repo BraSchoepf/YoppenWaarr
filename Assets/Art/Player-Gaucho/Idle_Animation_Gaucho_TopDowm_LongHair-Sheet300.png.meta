@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 9261ef458c1555d43bc0f4a9803a0bc2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6628600609373984118
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_0
+  - first:
+      213: -5009268237074894822
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_1
+  - first:
+      213: 5442618573420058003
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_2
+  - first:
+      213: 5698354117822744357
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_3
+  - first:
+      213: -546799299366156682
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_4
+  - first:
+      213: 3282988056716183643
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_5
+  - first:
+      213: 7173184076652478926
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_6
+  - first:
+      213: 2102078998742108618
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_7
+  - first:
+      213: 8102688890480504184
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_8
+  - first:
+      213: -4435470513282369307
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_9
+  - first:
+      213: 980081678629948424
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_10
+  - first:
+      213: -8899829912694164791
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_11
+  - first:
+      213: -6858917528757440145
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_12
+  - first:
+      213: 633410988595358391
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_13
+  - first:
+      213: 1996712054709503689
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_14
+  - first:
+      213: 603067113246022259
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_15
+  - first:
+      213: 1222233102032783893
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_16
+  - first:
+      213: -8460760681891918777
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_17
+  - first:
+      213: 4513992695005764614
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_18
+  - first:
+      213: -3098699888965330686
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_19
+  - first:
+      213: -337910938449306919
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_20
+  - first:
+      213: 9009309707270646955
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_21
+  - first:
+      213: -4860338532171396819
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_22
+  - first:
+      213: -3275288600370526713
+    second: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8a63589dda7204a0800000000000000
+      internalID: -6628600609373984118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a10f08024118b7ab0800000000000000
+      internalID: -5009268237074894822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39555ac91c0188b40800000000000000
+      internalID: 5442618573420058003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527853501ee941f40800000000000000
+      internalID: 5698354117822744357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67609dd2fe06968f0800000000000000
+      internalID: -546799299366156682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b580b6a5e348f8d20800000000000000
+      internalID: 3282988056716183643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec10c5d99e44c8360800000000000000
+      internalID: 7173184076652478926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac905d946b51c2d10800000000000000
+      internalID: 2102078998742108618
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87d2892bd98827070800000000000000
+      internalID: 8102688890480504184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8b51c711b0272c0800000000000000
+      internalID: -4435470513282369307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_10
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80c4b911813f99d00800000000000000
+      internalID: 980081678629948424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_11
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c2f77409d37d7480800000000000000
+      internalID: -8899829912694164791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_12
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6176b209da30d0a0800000000000000
+      internalID: -6858917528757440145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_13
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba2e0c20f35ac800800000000000000
+      internalID: 633410988595358391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_14
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c643b3e80fb5bb10800000000000000
+      internalID: 1996712054709503689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_15
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37adfb428568e5800800000000000000
+      internalID: 603067113246022259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_16
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51a4367d78e36f010800000000000000
+      internalID: 1222233102032783893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_17
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74c8d32acf6559a80800000000000000
+      internalID: -8460760681891918777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_18
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60cd680a07ce4ae30800000000000000
+      internalID: 4513992695005764614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_19
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 209ddac5ed43ff4d0800000000000000
+      internalID: -3098699888965330686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_20
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9da9204bacf7f4bf0800000000000000
+      internalID: -337910938449306919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_21
+      rect:
+        serializedVersion: 2
+        x: 2016
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bac6855027f770d70800000000000000
+      internalID: 9009309707270646955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_22
+      rect:
+        serializedVersion: 2
+        x: 2112
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29c7cd2bdb9c8cb0800000000000000
+      internalID: -4860338532171396819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_23
+      rect:
+        serializedVersion: 2
+        x: 2208
+        y: 0
+        width: 96
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70647060f56db82d0800000000000000
+      internalID: -3275288600370526713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 6c613a8123a867441826cc79934ab35f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_0: -6628600609373984118
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_1: -5009268237074894822
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_10: 980081678629948424
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_11: -8899829912694164791
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_12: -6858917528757440145
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_13: 633410988595358391
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_14: 1996712054709503689
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_15: 603067113246022259
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_16: 1222233102032783893
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_17: -8460760681891918777
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_18: 4513992695005764614
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_19: -3098699888965330686
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_2: 5442618573420058003
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_20: -337910938449306919
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_21: 9009309707270646955
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_22: -4860338532171396819
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_23: -3275288600370526713
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_3: 5698354117822744357
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_4: -546799299366156682
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_5: 3282988056716183643
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_6: 7173184076652478926
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_7: 2102078998742108618
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_8: 8102688890480504184
+      Idle_Animation_Gaucho_TopDowm_LongHair-Sheet300_9: -4435470513282369307
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
