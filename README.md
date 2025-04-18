@@ -1,12 +1,14 @@
 <h1> TP Grupal para UPC </h1>
-<h3>Nombre del Grupo: LONG HAIR GAMES.</h3>
+<h3>Nombre del Grupo: LONG HAIR GAMES</h3>
    <ul> 
        <p>Integrantes</p>
        <li> Brian Schoepf <a></a></li>
-       <li> Esteban Barone </li>
-       <li> Fabian García </li>
+       <p>Lead Artis, Game Designer, Producer, Programmer</p>
+       <li> Esteban Barone <a></a></li>
+       <p>Programmer,ArtistGame Design, Artis, Producer</p>
+       <li> Fabian García <a></a></li>
+       <p>Producer, Programmer, Game Design, Artist</p>
   </ul>
-
 
 <h4 align="center">
 :construction: Proyecto en construcción :construction:
@@ -97,10 +99,17 @@
 </ol>
 <br>
 <hr>
-<p>Detalles del proyecto</p>
+
+<h2>Detalles del proyecto</h2>
+<p>Nombre del Juego: Yoppen Waarr</p>
 <ul>
   <li>Pixel art</li>
- <li>Unity version 6</li>
+  <li>Versión unity 6000.0.43f1</li>
+</ul>
+<ul>
+  <p>Organización del proyecto en Notion</p>
+  <li><a>https://www.notion.so/1cff3136b1c8805b92e4e366c449887f?v=c58f3136b1c88375a0ce088f3bc97ed1</a></li>
 </ul>
 <hr>
 <hr>
+
