@@ -1,0 +1,2891 @@
+fileFormatVersion: 2
+guid: f51db6fd0e26f5a48beac73be7dc3550
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1618681149210267321
+    second: spr_TileSet_SceneTutorial_300%_0
+  - first:
+      213: 1549581324820943330
+    second: spr_TileSet_SceneTutorial_300%_1
+  - first:
+      213: 9129542356046829586
+    second: spr_TileSet_SceneTutorial_300%_2
+  - first:
+      213: 3261745248012455042
+    second: spr_TileSet_SceneTutorial_300%_3
+  - first:
+      213: 5661003318065814726
+    second: spr_TileSet_SceneTutorial_300%_4
+  - first:
+      213: 5793972471561227680
+    second: spr_TileSet_SceneTutorial_300%_5
+  - first:
+      213: -2541573292539865832
+    second: spr_TileSet_SceneTutorial_300%_6
+  - first:
+      213: -4604065805678371476
+    second: spr_TileSet_SceneTutorial_300%_7
+  - first:
+      213: 8472361914757291903
+    second: spr_TileSet_SceneTutorial_300%_8
+  - first:
+      213: 1373095432751418549
+    second: spr_TileSet_SceneTutorial_300%_9
+  - first:
+      213: 8285578766794331925
+    second: spr_TileSet_SceneTutorial_300%_10
+  - first:
+      213: -9050641043390332972
+    second: spr_TileSet_SceneTutorial_300%_11
+  - first:
+      213: 3993373443926050599
+    second: spr_TileSet_SceneTutorial_300%_12
+  - first:
+      213: -2500136805575140037
+    second: spr_TileSet_SceneTutorial_300%_13
+  - first:
+      213: -8761795310219537666
+    second: spr_TileSet_SceneTutorial_300%_14
+  - first:
+      213: 206113412515799765
+    second: spr_TileSet_SceneTutorial_300%_15
+  - first:
+      213: 306320235154279892
+    second: spr_TileSet_SceneTutorial_300%_16
+  - first:
+      213: 1822409506630314489
+    second: spr_TileSet_SceneTutorial_300%_17
+  - first:
+      213: 153481048306085059
+    second: spr_TileSet_SceneTutorial_300%_18
+  - first:
+      213: 3801380924945942364
+    second: spr_TileSet_SceneTutorial_300%_19
+  - first:
+      213: -1615153373292577219
+    second: spr_TileSet_SceneTutorial_300%_20
+  - first:
+      213: 8634823070387363639
+    second: spr_TileSet_SceneTutorial_300%_21
+  - first:
+      213: -4941861657275803653
+    second: spr_TileSet_SceneTutorial_300%_22
+  - first:
+      213: 7905322551524919955
+    second: spr_TileSet_SceneTutorial_300%_23
+  - first:
+      213: 5890905147593781021
+    second: spr_TileSet_SceneTutorial_300%_24
+  - first:
+      213: 6959103658566988763
+    second: spr_TileSet_SceneTutorial_300%_25
+  - first:
+      213: -8627917783178083298
+    second: spr_TileSet_SceneTutorial_300%_26
+  - first:
+      213: 483040279781991602
+    second: spr_TileSet_SceneTutorial_300%_27
+  - first:
+      213: 1817223295742151527
+    second: spr_TileSet_SceneTutorial_300%_28
+  - first:
+      213: 8171049075094431800
+    second: spr_TileSet_SceneTutorial_300%_29
+  - first:
+      213: -4074580395664640037
+    second: spr_TileSet_SceneTutorial_300%_30
+  - first:
+      213: 8644811155765948847
+    second: spr_TileSet_SceneTutorial_300%_31
+  - first:
+      213: 1705029098119312370
+    second: spr_TileSet_SceneTutorial_300%_32
+  - first:
+      213: 6075485117444413671
+    second: spr_TileSet_SceneTutorial_300%_33
+  - first:
+      213: -1723811439334251397
+    second: spr_TileSet_SceneTutorial_300%_34
+  - first:
+      213: 2398743779877679188
+    second: spr_TileSet_SceneTutorial_300%_35
+  - first:
+      213: 1824929432180313581
+    second: spr_TileSet_SceneTutorial_300%_36
+  - first:
+      213: 1646546307119849506
+    second: spr_TileSet_SceneTutorial_300%_37
+  - first:
+      213: 7377063271543092265
+    second: spr_TileSet_SceneTutorial_300%_38
+  - first:
+      213: 6448237397180874345
+    second: spr_TileSet_SceneTutorial_300%_39
+  - first:
+      213: 4965071738355617576
+    second: spr_TileSet_SceneTutorial_300%_40
+  - first:
+      213: 2975956510285831347
+    second: spr_TileSet_SceneTutorial_300%_41
+  - first:
+      213: 2703729292715259194
+    second: spr_TileSet_SceneTutorial_300%_42
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 96
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be8c47dde5b67610800000000000000
+      internalID: 1618681149210267321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_1
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e118804108318510800000000000000
+      internalID: 1549581324820943330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_2
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 218dd060766a2be70800000000000000
+      internalID: 9129542356046829586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_3
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28cc997850c044d20800000000000000
+      internalID: 3261745248012455042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_4
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ccde95468cef8e40800000000000000
+      internalID: 5661003318065814726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_5
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad8ccdd343586050800000000000000
+      internalID: 5793972471561227680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_6
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8159a876e848abcd0800000000000000
+      internalID: -2541573292539865832
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_7
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6d940a0b821b10c0800000000000000
+      internalID: -4604065805678371476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_8
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f18a1e540e39570800000000000000
+      internalID: 8472361914757291903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_9
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bc0cd765073e0310800000000000000
+      internalID: 1373095432751418549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_10
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5179b415df94cf270800000000000000
+      internalID: 8285578766794331925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_11
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dff5236ce9a56280800000000000000
+      internalID: -9050641043390332972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_12
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 727c0bc4dff4b6730800000000000000
+      internalID: 3993373443926050599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_13
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d50d552dabd4dd0800000000000000
+      internalID: -2500136805575140037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_14
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef25eab5699d76680800000000000000
+      internalID: -8761795310219537666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_15
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2a2708e034cd200800000000000000
+      internalID: 206113412515799765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd82e381a4404400800000000000000
+      internalID: 306320235154279892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_17
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f9aefd6acf7a4910800000000000000
+      internalID: 1822409506630314489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_18
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cce9044336412200800000000000000
+      internalID: 153481048306085059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_19
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5749578fc731c430800000000000000
+      internalID: 3801380924945942364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_20
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3e3f1f7092d599e0800000000000000
+      internalID: -1615153373292577219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_21
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73f59c055dd05d770800000000000000
+      internalID: 8634823070387363639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_22
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf7d3fc710bfa6bb0800000000000000
+      internalID: -4941861657275803653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_23
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39a0786f9f855bd60800000000000000
+      internalID: 7905322551524919955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_24
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1fe8d73503b0c150800000000000000
+      internalID: 5890905147593781021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_25
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd3b10418e3b39060800000000000000
+      internalID: 6959103658566988763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_26
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1405662d7a734880800000000000000
+      internalID: -8627917783178083298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_27
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b46c90439a14b600800000000000000
+      internalID: 483040279781991602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_28
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b864c95f2183910800000000000000
+      internalID: 1817223295742151527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_29
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838a94b77d5656170800000000000000
+      internalID: 8171049075094431800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_30
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd773abd7be2477c0800000000000000
+      internalID: -4074580395664640037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_31
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa173c9a1f988f770800000000000000
+      internalID: 8644811155765948847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_32
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f33b1d5eea79a710800000000000000
+      internalID: 1705029098119312370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_33
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e852776685705450800000000000000
+      internalID: 6075485117444413671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_34
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b742aba01aac318e0800000000000000
+      internalID: -1723811439334251397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_35
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45079ca32cc0a4120800000000000000
+      internalID: 2398743779877679188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_36
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded434156a3735910800000000000000
+      internalID: 1824929432180313581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_37
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2202c1e7425b9d610800000000000000
+      internalID: 1646546307119849506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_38
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92438e9c5f7906660800000000000000
+      internalID: 7377063271543092265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_39
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96efa5e9fbdbc7950800000000000000
+      internalID: 6448237397180874345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_40
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82f8401a07a77e440800000000000000
+      internalID: 4965071738355617576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_41
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bc1996cda8bc4920800000000000000
+      internalID: 2975956510285831347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_42
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a357c1d7773958520800000000000000
+      internalID: 2703729292715259194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_43
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d91260c83be0e834f89a9f6e53c99825
+      internalID: -910379044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_44
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25c4a52cf47b6e446b61223b362dbf10
+      internalID: -1800303672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_45
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eeb2535ff696bf446ade834f63cc0828
+      internalID: 1597976977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_46
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed1637b2768f6ad4ca30e3502fe0518e
+      internalID: -2062760449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_47
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23788c9d6f6824c40bac92d1e15fe520
+      internalID: 431114194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_48
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9831c8d75a366f349990acdf797e72aa
+      internalID: 404951906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_49
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94328fabe663076438cbe96ebb888319
+      internalID: -469144489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_50
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2391790a0c853004488d93707960f6ff
+      internalID: -1553175015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_51
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40f8f53dfd7cf2a4588518e44bbec7cd
+      internalID: -1131317418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_52
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df0fbdd5d8ede8d4aaba380b9474f341
+      internalID: 849224927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_53
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f986b4f657567f43b728ce7bdfab72a
+      internalID: -993283971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_54
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18da8faf64e01534ea5d8c3bb8aea740
+      internalID: -799642522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_55
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 941d3a11e2321e04d835165a55f5b8ea
+      internalID: 780006271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_56
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e71d7684f814d94a8da92bc75388c75
+      internalID: -1914589150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_57
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9fc1d1fd2af3d2409af6ebbec2edc4f
+      internalID: -537052068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_58
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a5f69f14b4a72e448bc84cb2160faca
+      internalID: -121779718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_59
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5c8516a5ee20fa4285c4a8b01ac64b7
+      internalID: -6442533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_60
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08513da419810c9409c0b52a78b3b725
+      internalID: -1949556370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_61
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78aed088a0aa3db429861a4f8e31e0bd
+      internalID: 54930091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_62
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78a0b1cdc4a8f074a825d4e7c1f96a11
+      internalID: 1887074865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_63
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fb9a51a00560e24a8167c6790ea595d
+      internalID: 1511389059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_64
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc040aad91b431b479cdffdaeb5f6884
+      internalID: -889415105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_65
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac2b404632023ec47b013832a6fcd6eb
+      internalID: 103134328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_66
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 428c1b50e97d71b44bb6b2d1f40388eb
+      internalID: 1801487281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_67
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9eddb7ae105b9eb4799f7e8d58d69a95
+      internalID: 1768416946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_68
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db49af903d375a14eb0e8fff35bcb14a
+      internalID: -334135649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_69
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ee10a11414509343be0e964de7529a1
+      internalID: -979480070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_70
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23e093d3942d9cc42a52c9651dc03d54
+      internalID: 439470928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_71
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1079d9a97bccab345823f80a0b0b8044
+      internalID: 1928591163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_72
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 857f6e193baa22a4093c48b6583ceeeb
+      internalID: 1579810006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_73
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79a930442cb05974cbbdaba2aea3ca50
+      internalID: 1417033407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_74
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3ff655fb1d76d648a0a476d363adb53
+      internalID: -1154782050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_75
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9d85be7247957441b0f575a0da959bc
+      internalID: 466593085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_76
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b6bb4f901322fb4c9b1d3ca8c86daeb
+      internalID: 1067609683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_77
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0b2a21d7c2d91b4b8a4c4e80618df30
+      internalID: -174809502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24cc207bac5eb584eacee2541d387dc7
+      internalID: -300661705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_79
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b08e15fa255c384dbb33a0f971a040d
+      internalID: 1925870710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_80
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e97c41526fd24a642b5955471f97c326
+      internalID: 441743467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_81
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa6666a8f3702824da10cdf9d48ec403
+      internalID: -1055267136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_82
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 607b059e14b376048b8abe5072eac7e3
+      internalID: -1383939816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_83
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 065f8b2f733f4c441953bd846a046735
+      internalID: 688761108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_84
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc0da138b031ef8468382100afb456b1
+      internalID: 1169508918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_85
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d21b518d74956bd4299508bf0da05a56
+      internalID: 1813508740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_86
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42bc1afe8c1ea814bbe8fdf6d613c857
+      internalID: -1106238458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_87
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c90f2979fc34ce4dbf1218823eb06ae
+      internalID: 1294972940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_88
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb3919cbffbdb7a42a4aa2b8f4ae86f5
+      internalID: 1922820009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_89
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61a792edde837724a9c51048fc3da052
+      internalID: -1973015386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_90
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352f066ac3cb29644812b02ac61c8f0b
+      internalID: 376026211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_91
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7d76024da7d264cb5eacf950c047b1
+      internalID: 1770345754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_92
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e9d585b32f38dc43b03f1036b78eaab
+      internalID: -568753166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_93
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 120e14a99e1f8d54eaee1d57bc6e3691
+      internalID: -418463655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_94
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03d5de94d06b8e043a9b305a55356463
+      internalID: -1420337305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad77c7b4ebcee1146b562ea7122a5fcd
+      internalID: -2047104093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_96
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f176fe80b2de6949a1b4e48c232711f
+      internalID: 509341810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_97
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 887ed03809eaeb24ca3c04bd72265347
+      internalID: -85257469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_98
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f6d51f43e88804418ac61a6d2d77418
+      internalID: 1818006210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_99
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dedee6eab4c13ec4f81c22ae0ce1982d
+      internalID: -1155133935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_100
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79423ad3eac3ec24d99a603373396b73
+      internalID: -674287333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_101
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a0ea6b8b704674a843185726757cfb
+      internalID: -1495242479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_102
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9873b2b6671ee04ebcbf36090f73d16
+      internalID: -171322560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_103
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21fbb77184684c44e8ea3a505b9ace1b
+      internalID: -1904711279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_104
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8163a03ef2e79547bcd6b558a4158f8
+      internalID: 473708458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_105
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f5494994a24d274abaeb394cd60c2b2
+      internalID: 386926677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_106
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 431b9cc7ab29fd34f9d0922e6043bc35
+      internalID: 1251505859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_107
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e138d13b3b19044b020578c87889dc
+      internalID: 1209248645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_108
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5408f8d9c63299a4bbc105462dafc1ee
+      internalID: -8386600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_109
+      rect:
+        serializedVersion: 2
+        x: 1344
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e5aa1e3b3dc6e441afa95f742fbd616
+      internalID: 1456257790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_110
+      rect:
+        serializedVersion: 2
+        x: 1440
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69e7041c2bafe2e4eb6a3cabbe85fc81
+      internalID: -549623951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_111
+      rect:
+        serializedVersion: 2
+        x: 1536
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af0029252e106dd4c803dfb940492fd7
+      internalID: 2117290984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_112
+      rect:
+        serializedVersion: 2
+        x: 1632
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658fef2ce9f76b946a3ce340b4d6d99c
+      internalID: 1105105765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_113
+      rect:
+        serializedVersion: 2
+        x: 1728
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7149258b4e4463648b2722f5555fc93a
+      internalID: -1003960534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_TileSet_SceneTutorial_300%_114
+      rect:
+        serializedVersion: 2
+        x: 1824
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2ba2c7798169114d852948733d71e3e
+      internalID: 1728172176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 0bfe0f11f8f6f7d4f9e66252db4647ee
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_TileSet_SceneTutorial_300%_0: 1618681149210267321
+      spr_TileSet_SceneTutorial_300%_1: 1549581324820943330
+      spr_TileSet_SceneTutorial_300%_10: 8285578766794331925
+      spr_TileSet_SceneTutorial_300%_100: -674287333
+      spr_TileSet_SceneTutorial_300%_101: -1495242479
+      spr_TileSet_SceneTutorial_300%_102: -171322560
+      spr_TileSet_SceneTutorial_300%_103: -1904711279
+      spr_TileSet_SceneTutorial_300%_104: 473708458
+      spr_TileSet_SceneTutorial_300%_105: 386926677
+      spr_TileSet_SceneTutorial_300%_106: 1251505859
+      spr_TileSet_SceneTutorial_300%_107: 1209248645
+      spr_TileSet_SceneTutorial_300%_108: -8386600
+      spr_TileSet_SceneTutorial_300%_109: 1456257790
+      spr_TileSet_SceneTutorial_300%_11: -9050641043390332972
+      spr_TileSet_SceneTutorial_300%_110: -549623951
+      spr_TileSet_SceneTutorial_300%_111: 2117290984
+      spr_TileSet_SceneTutorial_300%_112: 1105105765
+      spr_TileSet_SceneTutorial_300%_113: -1003960534
+      spr_TileSet_SceneTutorial_300%_114: 1728172176
+      spr_TileSet_SceneTutorial_300%_12: 3993373443926050599
+      spr_TileSet_SceneTutorial_300%_13: -2500136805575140037
+      spr_TileSet_SceneTutorial_300%_14: -8761795310219537666
+      spr_TileSet_SceneTutorial_300%_15: 206113412515799765
+      spr_TileSet_SceneTutorial_300%_16: 306320235154279892
+      spr_TileSet_SceneTutorial_300%_17: 1822409506630314489
+      spr_TileSet_SceneTutorial_300%_18: 153481048306085059
+      spr_TileSet_SceneTutorial_300%_19: 3801380924945942364
+      spr_TileSet_SceneTutorial_300%_2: 9129542356046829586
+      spr_TileSet_SceneTutorial_300%_20: -1615153373292577219
+      spr_TileSet_SceneTutorial_300%_21: 8634823070387363639
+      spr_TileSet_SceneTutorial_300%_22: -4941861657275803653
+      spr_TileSet_SceneTutorial_300%_23: 7905322551524919955
+      spr_TileSet_SceneTutorial_300%_24: 5890905147593781021
+      spr_TileSet_SceneTutorial_300%_25: 6959103658566988763
+      spr_TileSet_SceneTutorial_300%_26: -8627917783178083298
+      spr_TileSet_SceneTutorial_300%_27: 483040279781991602
+      spr_TileSet_SceneTutorial_300%_28: 1817223295742151527
+      spr_TileSet_SceneTutorial_300%_29: 8171049075094431800
+      spr_TileSet_SceneTutorial_300%_3: 3261745248012455042
+      spr_TileSet_SceneTutorial_300%_30: -4074580395664640037
+      spr_TileSet_SceneTutorial_300%_31: 8644811155765948847
+      spr_TileSet_SceneTutorial_300%_32: 1705029098119312370
+      spr_TileSet_SceneTutorial_300%_33: 6075485117444413671
+      spr_TileSet_SceneTutorial_300%_34: -1723811439334251397
+      spr_TileSet_SceneTutorial_300%_35: 2398743779877679188
+      spr_TileSet_SceneTutorial_300%_36: 1824929432180313581
+      spr_TileSet_SceneTutorial_300%_37: 1646546307119849506
+      spr_TileSet_SceneTutorial_300%_38: 7377063271543092265
+      spr_TileSet_SceneTutorial_300%_39: 6448237397180874345
+      spr_TileSet_SceneTutorial_300%_4: 5661003318065814726
+      spr_TileSet_SceneTutorial_300%_40: 4965071738355617576
+      spr_TileSet_SceneTutorial_300%_41: 2975956510285831347
+      spr_TileSet_SceneTutorial_300%_42: 2703729292715259194
+      spr_TileSet_SceneTutorial_300%_43: -910379044
+      spr_TileSet_SceneTutorial_300%_44: -1800303672
+      spr_TileSet_SceneTutorial_300%_45: 1597976977
+      spr_TileSet_SceneTutorial_300%_46: -2062760449
+      spr_TileSet_SceneTutorial_300%_47: 431114194
+      spr_TileSet_SceneTutorial_300%_48: 404951906
+      spr_TileSet_SceneTutorial_300%_49: -469144489
+      spr_TileSet_SceneTutorial_300%_5: 5793972471561227680
+      spr_TileSet_SceneTutorial_300%_50: -1553175015
+      spr_TileSet_SceneTutorial_300%_51: -1131317418
+      spr_TileSet_SceneTutorial_300%_52: 849224927
+      spr_TileSet_SceneTutorial_300%_53: -993283971
+      spr_TileSet_SceneTutorial_300%_54: -799642522
+      spr_TileSet_SceneTutorial_300%_55: 780006271
+      spr_TileSet_SceneTutorial_300%_56: -1914589150
+      spr_TileSet_SceneTutorial_300%_57: -537052068
+      spr_TileSet_SceneTutorial_300%_58: -121779718
+      spr_TileSet_SceneTutorial_300%_59: -6442533
+      spr_TileSet_SceneTutorial_300%_6: -2541573292539865832
+      spr_TileSet_SceneTutorial_300%_60: -1949556370
+      spr_TileSet_SceneTutorial_300%_61: 54930091
+      spr_TileSet_SceneTutorial_300%_62: 1887074865
+      spr_TileSet_SceneTutorial_300%_63: 1511389059
+      spr_TileSet_SceneTutorial_300%_64: -889415105
+      spr_TileSet_SceneTutorial_300%_65: 103134328
+      spr_TileSet_SceneTutorial_300%_66: 1801487281
+      spr_TileSet_SceneTutorial_300%_67: 1768416946
+      spr_TileSet_SceneTutorial_300%_68: -334135649
+      spr_TileSet_SceneTutorial_300%_69: -979480070
+      spr_TileSet_SceneTutorial_300%_7: -4604065805678371476
+      spr_TileSet_SceneTutorial_300%_70: 439470928
+      spr_TileSet_SceneTutorial_300%_71: 1928591163
+      spr_TileSet_SceneTutorial_300%_72: 1579810006
+      spr_TileSet_SceneTutorial_300%_73: 1417033407
+      spr_TileSet_SceneTutorial_300%_74: -1154782050
+      spr_TileSet_SceneTutorial_300%_75: 466593085
+      spr_TileSet_SceneTutorial_300%_76: 1067609683
+      spr_TileSet_SceneTutorial_300%_77: -174809502
+      spr_TileSet_SceneTutorial_300%_78: -300661705
+      spr_TileSet_SceneTutorial_300%_79: 1925870710
+      spr_TileSet_SceneTutorial_300%_8: 8472361914757291903
+      spr_TileSet_SceneTutorial_300%_80: 441743467
+      spr_TileSet_SceneTutorial_300%_81: -1055267136
+      spr_TileSet_SceneTutorial_300%_82: -1383939816
+      spr_TileSet_SceneTutorial_300%_83: 688761108
+      spr_TileSet_SceneTutorial_300%_84: 1169508918
+      spr_TileSet_SceneTutorial_300%_85: 1813508740
+      spr_TileSet_SceneTutorial_300%_86: -1106238458
+      spr_TileSet_SceneTutorial_300%_87: 1294972940
+      spr_TileSet_SceneTutorial_300%_88: 1922820009
+      spr_TileSet_SceneTutorial_300%_89: -1973015386
+      spr_TileSet_SceneTutorial_300%_9: 1373095432751418549
+      spr_TileSet_SceneTutorial_300%_90: 376026211
+      spr_TileSet_SceneTutorial_300%_91: 1770345754
+      spr_TileSet_SceneTutorial_300%_92: -568753166
+      spr_TileSet_SceneTutorial_300%_93: -418463655
+      spr_TileSet_SceneTutorial_300%_94: -1420337305
+      spr_TileSet_SceneTutorial_300%_95: -2047104093
+      spr_TileSet_SceneTutorial_300%_96: 509341810
+      spr_TileSet_SceneTutorial_300%_97: -85257469
+      spr_TileSet_SceneTutorial_300%_98: 1818006210
+      spr_TileSet_SceneTutorial_300%_99: -1155133935
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
