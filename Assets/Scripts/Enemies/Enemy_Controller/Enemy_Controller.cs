@@ -1,67 +1,130 @@
-// using UnityEngine;
-// using UnityEngine.AI;
-
-// public class Enemy_Controller : MonoBehaviour
-// {
-//     private Transform _target;
-//     private NavMeshAgent _agent;
-//     // Start is called once before the first execution of Update after the MonoBehaviour is created
-//     void Start()
-//     {
-//         _agent = GetComponent<NavMeshAgent>();
-//         _agent.updateRotation = false;
-//         _agent.updateUpAxis = false;
-//     }
-
-//     // Update is called once per frame
-//     void Update()
-//     {
-//         if (_target == null) return;
-//         _agent.SetDestination(_target.position);
-//     }
-
-//     public void SetTarget(Transform target)
-//     {
-//         _target = target;
-//     }
-// }
-
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Enemy_Controller : MonoBehaviour
+public class EnemyController : MonoBehaviour
 {
-    private Transform _target;
+    public float visionRange = 5f;
+    public LayerMask obstacleMask;
+    public Transform player;
+    public float wanderRadius = 3f;
+    public float chaseSpeed = 3.5f;
+    public float wanderSpeed = 2f;
+
     private NavMeshAgent _agent;
     private Vector3 _initialPosition;
+    private bool _isChasing = false;
+    private Vector3 _lastSeenPosition;
+    private bool _goingToLastSeenPosition = false;
 
-    void Start()
+    private float _wanderCooldown = 0.5f;
+    private float _wanderTimer = 0.5f;
+
+    private void Start()
     {
         _agent = GetComponent<NavMeshAgent>();
-        _initialPosition = transform.position;  // Guardamos la posición inicial
         _agent.updateRotation = false;
         _agent.updateUpAxis = false;
+        _initialPosition = transform.position;
     }
 
-    void Update()
+    private void Update()
     {
-        if (_target != null)
+        if (player == null) return;
+
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+
+        if (CanSeePlayer() && distanceToPlayer <= visionRange)
         {
-            _agent.SetDestination(_target.position);
+            _lastSeenPosition = player.position;
+            _goingToLastSeenPosition = false;
+            _isChasing = true;
+            _agent.speed = chaseSpeed;
+            _agent.SetDestination(player.position);
+        }
+        else if (_isChasing)
+        {
+            if (!_goingToLastSeenPosition)
+            {
+                _agent.speed = chaseSpeed;
+                _agent.SetDestination(_lastSeenPosition);
+                _goingToLastSeenPosition = true;
+            }
+            else
+            {
+                if (Vector2.Distance(transform.position, _lastSeenPosition) < 0.5f)
+                {
+                    _isChasing = false;
+                    _goingToLastSeenPosition = false;
+                    _wanderTimer = _wanderCooldown; // Forzar a que busque un nuevo punto de wander
+                }
+            }
         }
         else
         {
-            _agent.SetDestination(_initialPosition);  // Si no hay target, vuelve al inicio
+            Wander();
         }
     }
 
-    public void SetTarget(Transform target)
+
+    bool CanSeePlayer()
     {
-        _target = target;
+        Vector2 direction = (player.position - transform.position).normalized;
+        float distance = Vector2.Distance(transform.position, player.position);
+
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, direction, distance, obstacleMask);
+        if (hit.collider == null)
+        {
+            return true; // No hay obstáculo en medio
+        }
+        return false; // Hay algo bloqueando
     }
 
-    public void ClearTarget()
+    void ChasePlayer()
     {
-        _target = null;
+        _isChasing = true;
+        _agent.speed = chaseSpeed;
+        _agent.SetDestination(player.position);
+    }
+
+    void ReturnToInitialPosition()
+    {
+        _agent.speed = wanderSpeed;
+        _agent.SetDestination(_initialPosition);
+
+        if (Vector2.Distance(transform.position, _initialPosition) < 0.5f)
+        {
+            _isChasing = false;
+        }
+    }
+
+    void Wander()
+    {
+        _wanderTimer += Time.deltaTime;
+
+        if (!_agent.hasPath || _agent.remainingDistance < 0.5f || _wanderTimer >= _wanderCooldown)
+        {
+            Vector2 randomDirection = Random.insideUnitCircle * wanderRadius;
+            Vector3 wanderTarget = _initialPosition + new Vector3(randomDirection.x, randomDirection.y, 0);
+
+            NavMeshHit hit;
+            if (NavMesh.SamplePosition(wanderTarget, out hit, 1.0f, NavMesh.AllAreas))
+            {
+                _agent.speed = wanderSpeed;
+                _agent.SetDestination(hit.position);
+            }
+
+            _wanderTimer = 0f;
+        }
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        // Color para la visión
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(transform.position, visionRange);
+
+        // Color para el wander
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(_initialPosition != Vector3.zero ? _initialPosition : transform.position, wanderRadius);
     }
 }
