@@ -15,7 +15,7 @@ public class Player_Movement : MonoBehaviour
     private Vector2 _currentDirection;
 
     //Maquina de estados
-    private Player_State_Machine _stateMachine; 
+    public Player_State_Machine _stateMachine; 
     public PlayerIdleState idleState;
     public PlayerMoveState moveState;
 
@@ -26,7 +26,8 @@ public class Player_Movement : MonoBehaviour
 
         idleState = new PlayerIdleState(this);
         moveState = new PlayerMoveState(this);
-        _stateMachine = new Player_State_Machine();
+        _stateMachine = GetComponent<Player_State_Machine>();
+        _stateMachine.Initialize(_animator, this);
     }
 
     private void Start()
