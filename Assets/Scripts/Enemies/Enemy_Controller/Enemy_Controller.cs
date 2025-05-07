@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.AI;
+using UnityEngine.Timeline;
 
 public class EnemyController : MonoBehaviour
 {
@@ -15,9 +16,18 @@ public class EnemyController : MonoBehaviour
     private bool _isChasing = false;
     private Vector3 _lastSeenPosition;
     private bool _goingToLastSeenPosition = false;
+    private bool _returningToInitialPosition = false;
 
-    private float _wanderCooldown = 0.5f;
-    private float _wanderTimer = 0.5f;
+    [SerializeField]private float _wanderCooldown = 0.5f;
+    [SerializeField]private float _wanderTimer = 0.5f;
+
+    [Header("Attack Settings")]
+    public float attackRange = 1f;
+    public float attackCooldown = 1f;
+    public int attackDamage = 1;
+
+    private float _lastAttackTime;
+
 
     private void Start()
     {
@@ -39,7 +49,17 @@ public class EnemyController : MonoBehaviour
             _goingToLastSeenPosition = false;
             _isChasing = true;
             _agent.speed = chaseSpeed;
-            _agent.SetDestination(player.position);
+            
+
+            if (distanceToPlayer <= attackRange)
+            {
+                 Attack();
+                _agent.SetDestination(transform.position);
+            }
+            else
+            {
+                _agent.SetDestination(player.position);
+            }
         }
         else if (_isChasing)
         {
@@ -55,13 +75,26 @@ public class EnemyController : MonoBehaviour
                 {
                     _isChasing = false;
                     _goingToLastSeenPosition = false;
-                    _wanderTimer = _wanderCooldown; // Forzar a que busque un nuevo punto de wander
+                    // _wanderTimer = _wanderCooldown; // Forzar a que busque un nuevo punto de wander
+                    _returningToInitialPosition = true;
+                    ReturnToInitialPosition();                    
                 }
             }
         }
         else
         {
-            Wander();
+            if (_returningToInitialPosition)
+            {
+                if (Vector2.Distance(transform.position, _initialPosition) < 0.5f)
+                {
+                    _returningToInitialPosition =false;
+                    _wanderTimer = _wanderCooldown;
+                }
+            }
+            else
+            {
+                Wander();
+            }
         }
     }
 
@@ -116,6 +149,21 @@ public class EnemyController : MonoBehaviour
             _wanderTimer = 0f;
         }
     }
+
+    void Attack()
+    {
+        if (Time.time - _lastAttackTime < attackCooldown) return;
+
+        PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+        if (playerHealth != null)
+        {
+            playerHealth.TakeDamage(attackDamage);
+            Debug.Log("Enemy attacked the player!");
+        }
+
+        _lastAttackTime = Time.time;
+    }
+
 
     private void OnDrawGizmosSelected()
     {

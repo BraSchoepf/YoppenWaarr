@@ -13,7 +13,7 @@ public class EnemyHealth : MonoBehaviour
     public void TakeDamage(int amount)
     {
         _currentHealth -= amount;
-        Debug.Log("Enemy took damage. Current health: " + _currentHealth);
+        Debug.Log("El enemigo recibe da√±o, vida restante:: " + _currentHealth);
 
         if (_currentHealth <= 0)
         {
@@ -23,8 +23,8 @@ public class EnemyHealth : MonoBehaviour
 
     private void Die()
     {
-        Debug.Log("Enemy died.");
-        // PodÈs agregar animaciones, efectos, etc.
+        Debug.Log("ENEMY DOWN, COUNTER-TERRORIST WIN.");
+        // dejo este espacio para agregar animaciaones mas adelante
         Destroy(gameObject);
     }
 }
