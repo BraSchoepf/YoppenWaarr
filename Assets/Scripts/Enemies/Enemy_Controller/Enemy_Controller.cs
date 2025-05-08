@@ -158,7 +158,7 @@ public class EnemyController : MonoBehaviour
         if (playerHealth != null)
         {
             playerHealth.TakeDamage(attackDamage);
-            Debug.Log("Enemy attacked the player!");
+            Debug.Log("El enemigo comenzo a atacar");
         }
 
         _lastAttackTime = Time.time;
