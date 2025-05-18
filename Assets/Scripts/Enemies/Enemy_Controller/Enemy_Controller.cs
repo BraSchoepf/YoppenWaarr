@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Timeline;
@@ -30,7 +31,7 @@ public class EnemyController : MonoBehaviour
 
     //For animations
     private Animator _animator;
-
+    private Coroutine _attackCoroutine;
 
     private void Start()
     {
@@ -168,6 +169,19 @@ public class EnemyController : MonoBehaviour
             Debug.Log("El enemigo comenzo a atacar");
         }
 
+        //Activate animation attack
+        _animator.SetBool("isAttacking", true);
+
+        //After attack desactivate with invoke, coroutine o event
+        //Invoke(nameof(StopAttackAnimation), 1.5f);  ajusta el tiempo al largo de la animación VER ESTO URGENTE
+
+        //-nvo ::: Paramos cualquier coroutine anterior antes de lanzar una nueva
+        if (_attackCoroutine != null)
+        {
+            StopCoroutine(_attackCoroutine);
+        }
+
+        _attackCoroutine = StartCoroutine(StopAttackAfterDelay(1.1f)); // diración del ataque
         _lastAttackTime = Time.time;
     }
 
@@ -199,4 +213,17 @@ public class EnemyController : MonoBehaviour
             _animator.SetFloat("Move_Y", direction.y);
         }
     }
+    
+    IEnumerator StopAttackAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        _animator.SetBool("isAttacking", false);
+    }
+
+    //void StopAttackAnimation() esto era del Invoke();
+    //{
+    //    _animator.SetBool("isAttacking", false);
+    //}
+
+
 }
