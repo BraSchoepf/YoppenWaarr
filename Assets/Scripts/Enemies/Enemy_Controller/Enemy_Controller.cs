@@ -28,6 +28,9 @@ public class EnemyController : MonoBehaviour
 
     private float _lastAttackTime;
 
+    //For animations
+    private Animator _animator;
+
 
     private void Start()
     {
@@ -35,6 +38,8 @@ public class EnemyController : MonoBehaviour
         _agent.updateRotation = false;
         _agent.updateUpAxis = false;
         _initialPosition = transform.position;
+
+        _animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -96,6 +101,8 @@ public class EnemyController : MonoBehaviour
                 Wander();
             }
         }
+
+        HandleAnimations();
     }
 
 
@@ -174,5 +181,22 @@ public class EnemyController : MonoBehaviour
         // Color para el wander
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(_initialPosition != Vector3.zero ? _initialPosition : transform.position, wanderRadius);
+    }
+
+    // for animations
+    private void HandleAnimations()
+    {
+        Vector3 velocity = _agent.velocity; // se toma la velocidad del agente 
+        bool isWalking = velocity.magnitude > 0.1f;
+
+        _animator.SetBool("isWalking", isWalking);
+
+        if (isWalking)
+        {
+            Vector2 direction = velocity.normalized;
+
+            _animator.SetFloat("Move_X", direction.x);
+            _animator.SetFloat("Move_Y", direction.y);
+        }
     }
 }
