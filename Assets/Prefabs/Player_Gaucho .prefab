@@ -260,6 +260,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxHealth: 10
+  spriteRenderer: {fileID: 8018744163965627180}
   healthText: {fileID: 0}
 --- !u!1 &6829388332236424826
 GameObject:

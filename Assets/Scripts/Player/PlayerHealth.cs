@@ -1,11 +1,16 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using TMPro;
+using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 5;
     private int currentHealth;
+
+    //effect for damage recive
+    public SpriteRenderer spriteRenderer;
+    private Color _originalColor;
 
     [Header("UI")]
     public TextMeshProUGUI healthText;
@@ -14,6 +19,7 @@ public class PlayerHealth : MonoBehaviour
     {
         currentHealth = maxHealth;
         UpdateHealthUI();
+        _originalColor  = spriteRenderer.color;
     }
 
     public void TakeDamage(int amount)
@@ -21,6 +27,8 @@ public class PlayerHealth : MonoBehaviour
         currentHealth -= amount;
         Debug.Log("El player recibe daño, vida restante: " + currentHealth);
         UpdateHealthUI();
+
+        StartCoroutine(FlashDamage());
 
         if (currentHealth <= 0)
         {   
@@ -40,5 +48,22 @@ public class PlayerHealth : MonoBehaviour
     {
         Debug.Log("El player murio");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+    }
+
+    //Coroutina for effect damage recive
+
+    IEnumerator FlashDamage()
+    {
+        int flashCount = 2;
+        float flashDuration = 0.1f;
+        
+
+        for (int i = 0; i < flashCount; i++)
+        {
+            spriteRenderer.color = Color.red;
+            yield return new WaitForSeconds(flashDuration);
+            spriteRenderer.color = _originalColor; // o el color original, si no es blanco
+            yield return new WaitForSeconds(flashDuration);
+        }
     }
 }
