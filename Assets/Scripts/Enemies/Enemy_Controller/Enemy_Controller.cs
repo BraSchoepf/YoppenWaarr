@@ -162,6 +162,29 @@ public class EnemyController : MonoBehaviour
     {
         if (Time.time - _lastAttackTime < attackCooldown) return;
 
+
+        //Activate animation attack
+        _animator.SetBool("isAttacking", true);
+
+        // Paramos cualquier coroutine anterior antes de lanzar una nueva
+        if (_attackCoroutine != null)
+        {
+            StopCoroutine(_attackCoroutine);
+        }
+
+        _attackCoroutine = StartCoroutine(StopAttackAfterDelay(1.1f)); // duración del ataque
+        _lastAttackTime = Time.time;
+    }
+
+    // Acá aplico el daño
+    public void ApplyAttackDamage()
+    {
+        if(player == null) return;
+
+        float distance = Vector2.Distance(transform.position, player.position);
+        if (distance > attackRange) return; // evita el daño si el player ya se alejó
+
+
         PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
         if (playerHealth != null)
         {
@@ -169,23 +192,7 @@ public class EnemyController : MonoBehaviour
             Debug.Log("El enemigo comenzo a atacar");
         }
 
-        //Activate animation attack
-        _animator.SetBool("isAttacking", true);
-
-        //After attack desactivate with invoke, coroutine o event
-        //Invoke(nameof(StopAttackAnimation), 1.5f);  ajusta el tiempo al largo de la animación VER ESTO URGENTE
-
-        //-nvo ::: Paramos cualquier coroutine anterior antes de lanzar una nueva
-        if (_attackCoroutine != null)
-        {
-            StopCoroutine(_attackCoroutine);
-        }
-
-        _attackCoroutine = StartCoroutine(StopAttackAfterDelay(1.1f)); // diración del ataque
-        _lastAttackTime = Time.time;
     }
-
-
     private void OnDrawGizmosSelected()
     {
         // Color para la visión
@@ -219,11 +226,4 @@ public class EnemyController : MonoBehaviour
         yield return new WaitForSeconds(delay);
         _animator.SetBool("isAttacking", false);
     }
-
-    //void StopAttackAnimation() esto era del Invoke();
-    //{
-    //    _animator.SetBool("isAttacking", false);
-    //}
-
-
 }
