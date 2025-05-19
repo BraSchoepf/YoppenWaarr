@@ -11,7 +11,7 @@ public class PlayerHealth : MonoBehaviour
     //effect for damage recive
     public SpriteRenderer spriteRenderer;
     private Color _originalColor;
-
+    
     [Header("UI")]
     public TextMeshProUGUI healthText;
 
@@ -28,6 +28,7 @@ public class PlayerHealth : MonoBehaviour
         Debug.Log("El player recibe daño, vida restante: " + currentHealth);
         UpdateHealthUI();
 
+        // Coroutina para el flash rojo del golpe recibido
         StartCoroutine(FlashDamage());
 
         if (currentHealth <= 0)
@@ -62,7 +63,7 @@ public class PlayerHealth : MonoBehaviour
         {
             spriteRenderer.color = Color.red;
             yield return new WaitForSeconds(flashDuration);
-            spriteRenderer.color = _originalColor; // o el color original, si no es blanco
+            spriteRenderer.color = _originalColor; //  el color original
             yield return new WaitForSeconds(flashDuration);
         }
     }
