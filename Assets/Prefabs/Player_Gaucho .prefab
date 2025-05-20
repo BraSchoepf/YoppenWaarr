@@ -20,7 +20,7 @@ GameObject:
   - component: {fileID: 2806283818423656086}
   m_Layer: 7
   m_Name: 'Player_Gaucho '
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -259,7 +259,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5f782285c64542445b57541a80140178, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  maxHealth: 10
+  maxHealth: 100
   spriteRenderer: {fileID: 8018744163965627180}
   healthText: {fileID: 0}
 --- !u!1 &6829388332236424826

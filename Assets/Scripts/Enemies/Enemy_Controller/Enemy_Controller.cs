@@ -1,7 +1,11 @@
 using System.Collections;
+using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Timeline;
+using System.Collections.Generic;
 
 public class EnemyController : MonoBehaviour
 {
@@ -160,14 +164,16 @@ public class EnemyController : MonoBehaviour
 
     void Attack()
     {
-        if (Time.time - _lastAttackTime < attackCooldown) return;
+        //Esto asegura que el enemigo no inicie un nuevo ataque si ya está atacando, pero sí podrá volver a atacar cuando termine y el cooldown lo permita.
+        if (Time.time - _lastAttackTime < attackCooldown || _animator.GetBool("isAttacking")) return;
 
-        //Congelar manualmente la velocidad del NavMeshAgent durante el ataque -
+        //Congelar manualmente la velocidad del NavMeshAgent durante el ataque - YW-ES-005 BUG-ES-004
         _agent.velocity = Vector3.zero;
         _agent.isStopped = true;
 
+        //For attack para que dispare la función ApplyAttackDamage() 1 vez x golpe y 1HP quite - YW-ES-006 BUG-ES-005
         //Activate animation attack
-        _animator.SetBool("isAttacking", true);
+        _animator.SetTrigger("Attack");
 
         // Paramos cualquier coroutine anterior antes de lanzar una nueva
         if (_attackCoroutine != null)
@@ -177,12 +183,13 @@ public class EnemyController : MonoBehaviour
 
         _attackCoroutine = StartCoroutine(StopAttackAfterDelay(1.1f)); // duración del ataque
         _lastAttackTime = Time.time;
-    }
+    } 
 
     // Acá aplico el daño
     public void ApplyAttackDamage()
     {
-        if(player == null) return;
+        Debug.Log("ApplyAttackDamage ejecutado");
+        if (player == null) return;
 
         float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
@@ -193,6 +200,7 @@ public class EnemyController : MonoBehaviour
             if (playerHealth != null)
             {
                 playerHealth.TakeDamage(attackDamage);
+                Debug.Log("Daño aplicado al jugador");
             }
         }
     }
@@ -228,6 +236,6 @@ public class EnemyController : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         _animator.SetBool("isAttacking", false);
-        _agent.isStopped = false; // // Reanuda el movimiento después del ataque 
+        _agent.isStopped = false; //  Reanuda el movimiento después del ataque 
     }
 }

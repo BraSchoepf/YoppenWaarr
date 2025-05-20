@@ -167,7 +167,7 @@ MonoBehaviour:
   _wanderTimer: 0.5
   attackRange: 3
   attackCooldown: 1
-  attackDamage: 1
+  attackDamage: 5
 --- !u!195 &9145073027863312851
 NavMeshAgent:
   m_ObjectHideFlags: 0
