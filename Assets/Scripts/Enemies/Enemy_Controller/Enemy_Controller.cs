@@ -162,6 +162,9 @@ public class EnemyController : MonoBehaviour
     {
         if (Time.time - _lastAttackTime < attackCooldown) return;
 
+        //Congelar manualmente la velocidad del NavMeshAgent durante el ataque -
+        _agent.velocity = Vector3.zero;
+        _agent.isStopped = true;
 
         //Activate animation attack
         _animator.SetBool("isAttacking", true);
@@ -181,17 +184,17 @@ public class EnemyController : MonoBehaviour
     {
         if(player == null) return;
 
-        float distance = Vector2.Distance(transform.position, player.position);
-        if (distance > attackRange) return; // evita el daño si el player ya se alejó
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
 
-
-        PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
-        if (playerHealth != null)
+        // Esto asegura que el daño solo ocurra si el player sigue dentro del rango en el instante correcto.
+        if (distanceToPlayer <= attackRange)
         {
-            playerHealth.TakeDamage(attackDamage);
-            Debug.Log("El enemigo comenzo a atacar");
+            PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(attackDamage);
+            }
         }
-
     }
     private void OnDrawGizmosSelected()
     {
@@ -225,5 +228,6 @@ public class EnemyController : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         _animator.SetBool("isAttacking", false);
+        _agent.isStopped = false; // // Reanuda el movimiento después del ataque 
     }
 }
