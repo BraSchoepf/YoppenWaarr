@@ -202,6 +202,14 @@ public class EnemyController : MonoBehaviour
                 playerHealth.TakeDamage(attackDamage);
                 Debug.Log("Daño aplicado al jugador");
             }
+
+            // Knockback
+            Player_Movement playerMovement = player.GetComponent<Player_Movement>();
+            if (playerMovement != null)
+            {
+                Vector2 knockbackDir = (player.position - transform.position).normalized;
+                playerMovement.ApplyKnockback(knockbackDir, 5f); // 3f es la fuerza, podés probar con 2f o 4f
+            }
         }
     }
     private void OnDrawGizmosSelected()

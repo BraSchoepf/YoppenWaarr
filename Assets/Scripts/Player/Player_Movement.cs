@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using System.Collections;
+
 
 
 [RequireComponent (typeof(Rigidbody2D))]
@@ -93,5 +95,22 @@ public class Player_Movement : MonoBehaviour
 
         // Aplicar movimiento basado en velocidad del SO
         _rbPlayer.MovePosition(_rbPlayer.position + moveInput * _character_Data_SO.Speed * Time.fixedDeltaTime);
+    }
+
+    //AddForce con ForceMode2D.Impulse porque es un empujón rápido e inmediato (como un golpe físico).
+    public void ApplyKnockback(Vector2 direction, float force)
+    {
+        StopAllCoroutines(); // Por si ya hay un knockback activo
+        StartCoroutine(KnockbackCoroutine(direction, force));
+    }
+
+    private IEnumerator KnockbackCoroutine(Vector2 direction, float force)
+    {
+        _rbPlayer.linearVelocity = Vector2.zero; // Paramos movimiento previo
+        _rbPlayer.AddForce(direction.normalized * force, ForceMode2D.Impulse);
+
+        yield return new WaitForSeconds(0.15f); // Tiempo de deslizamiento
+
+        _rbPlayer.linearVelocity = Vector2.zero; // Detenemos completamente
     }
 }
