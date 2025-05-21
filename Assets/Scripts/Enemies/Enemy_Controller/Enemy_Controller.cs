@@ -37,6 +37,9 @@ public class EnemyController : MonoBehaviour
     private Animator _animator;
     private Coroutine _attackCoroutine;
 
+    // para bloquear la dirección del ataque
+    private Vector2 _attackDirection;
+
     private void Start()
     {
         _agent = GetComponent<NavMeshAgent>();
@@ -171,6 +174,12 @@ public class EnemyController : MonoBehaviour
         _agent.velocity = Vector3.zero;
         _agent.isStopped = true;
 
+        // para bloquear la dirección del ataque
+        _attackDirection = (player.position - transform.position).normalized;
+        _animator.SetFloat("Move_X", _attackDirection.x);
+        _animator.SetFloat("Move_Y", _attackDirection.y);
+        _animator.SetBool("isAttacking", true);
+
         //For attack para que dispare la función ApplyAttackDamage() 1 vez x golpe y 1HP quite - YW-ES-006 BUG-ES-005
         //Activate animation attack
         _animator.SetTrigger("Attack");
@@ -226,6 +235,8 @@ public class EnemyController : MonoBehaviour
     // for animations
     private void HandleAnimations()
     {
+        if (_animator.GetBool("isAttacking")) return; // prevenír cambios si está atacando
+
         Vector3 velocity = _agent.velocity; // se toma la velocidad del agente 
         bool isWalking = velocity.magnitude > 0.1f;
 
