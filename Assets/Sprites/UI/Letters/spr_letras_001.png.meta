@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: ee619a4920559a944aca67614dcb19e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8291627214123254739
+    second: spr_letras_001_0
+  - first:
+      213: 6681593651286489718
+    second: spr_letras_001_1
+  - first:
+      213: -3783246750086707181
+    second: spr_letras_001_2
+  - first:
+      213: 1709099749884399446
+    second: spr_letras_001_3
+  - first:
+      213: -5289667299917089243
+    second: spr_letras_001_4
+  - first:
+      213: 3917166333673654109
+    second: spr_letras_001_5
+  - first:
+      213: 5403145123657884605
+    second: spr_letras_001_6
+  - first:
+      213: -4785716295416716109
+    second: spr_letras_001_7
+  - first:
+      213: -3787812169849433632
+    second: spr_letras_001_8
+  - first:
+      213: -4789231791856920022
+    second: spr_letras_001_9
+  - first:
+      213: -1171130241365238272
+    second: spr_letras_001_10
+  - first:
+      213: -2461652640153832058
+    second: spr_letras_001_11
+  - first:
+      213: -3037410522313509342
+    second: spr_letras_001_12
+  - first:
+      213: 4866862148933789033
+    second: spr_letras_001_13
+  - first:
+      213: -614456586239462627
+    second: spr_letras_001_14
+  - first:
+      213: -2392570375525408607
+    second: spr_letras_001_15
+  - first:
+      213: 322259905872910778
+    second: spr_letras_001_16
+  - first:
+      213: -5848646443682432078
+    second: spr_letras_001_17
+  - first:
+      213: 2815421550118187884
+    second: spr_letras_001_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 9
+  spritePivot: {x: 0.37192982, y: 0.8124038}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 1415, z: 1526, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_letras_001_0
+      rect:
+        serializedVersion: 2
+        x: 84
+        y: 1495
+        width: 4329
+        height: 773
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d347c33507c11370800000000000000
+      internalID: 8291627214123254739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_letras_001_13
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 353
+        width: 3192
+        height: 928
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9652ef5b6519a8340800000000000000
+      internalID: 4866862148933789033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 1537655665
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_letras_001_0: 8291627214123254739
+      spr_letras_001_1: 6681593651286489718
+      spr_letras_001_10: -1171130241365238272
+      spr_letras_001_11: -2461652640153832058
+      spr_letras_001_12: -3037410522313509342
+      spr_letras_001_13: 4866862148933789033
+      spr_letras_001_14: -614456586239462627
+      spr_letras_001_15: -2392570375525408607
+      spr_letras_001_16: 322259905872910778
+      spr_letras_001_17: -5848646443682432078
+      spr_letras_001_18: 2815421550118187884
+      spr_letras_001_2: -3783246750086707181
+      spr_letras_001_3: 1709099749884399446
+      spr_letras_001_4: -5289667299917089243
+      spr_letras_001_5: 3917166333673654109
+      spr_letras_001_6: 5403145123657884605
+      spr_letras_001_7: -4785716295416716109
+      spr_letras_001_8: -3787812169849433632
+      spr_letras_001_9: -4789231791856920022
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
