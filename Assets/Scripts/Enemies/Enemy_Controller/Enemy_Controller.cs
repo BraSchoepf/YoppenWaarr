@@ -1,6 +1,11 @@
+using System.Collections;
+using Unity.VisualScripting;
+using UnityEditor.Experimental.GraphView;
+using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
 using UnityEngine.Timeline;
+using System.Collections.Generic;
 
 public class EnemyController : MonoBehaviour
 {
@@ -28,6 +33,12 @@ public class EnemyController : MonoBehaviour
 
     private float _lastAttackTime;
 
+    //For animations
+    private Animator _animator;
+    private Coroutine _attackCoroutine;
+
+    // para bloquear la dirección del ataque
+    private Vector2 _attackDirection;
 
     private void Start()
     {
@@ -35,6 +46,8 @@ public class EnemyController : MonoBehaviour
         _agent.updateRotation = false;
         _agent.updateUpAxis = false;
         _initialPosition = transform.position;
+
+        _animator = GetComponent<Animator>();
     }
 
     private void Update()
@@ -96,6 +109,8 @@ public class EnemyController : MonoBehaviour
                 Wander();
             }
         }
+
+        HandleAnimations();
     }
 
 
@@ -152,19 +167,60 @@ public class EnemyController : MonoBehaviour
 
     void Attack()
     {
-        if (Time.time - _lastAttackTime < attackCooldown) return;
+        //Esto asegura que el enemigo no inicie un nuevo ataque si ya está atacando, pero sí podrá volver a atacar cuando termine y el cooldown lo permita.
+        if (Time.time - _lastAttackTime < attackCooldown || _animator.GetBool("isAttacking")) return;
 
-        PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
-        if (playerHealth != null)
+        //Congelar manualmente la velocidad del NavMeshAgent durante el ataque - YW-ES-005 BUG-ES-004
+        _agent.velocity = Vector3.zero;
+        _agent.isStopped = true;
+
+        // para bloquear la dirección del ataque
+        _attackDirection = (player.position - transform.position).normalized;
+        _animator.SetFloat("Move_X", _attackDirection.x);
+        _animator.SetFloat("Move_Y", _attackDirection.y);
+        _animator.SetBool("isAttacking", true);
+
+        //For attack para que dispare la función ApplyAttackDamage() 1 vez x golpe y 1HP quite - YW-ES-006 BUG-ES-005
+        //Activate animation attack
+        _animator.SetTrigger("Attack");
+
+        // Paramos cualquier coroutine anterior antes de lanzar una nueva
+        if (_attackCoroutine != null)
         {
-            playerHealth.TakeDamage(attackDamage);
-            Debug.Log("El enemigo comenzo a atacar");
+            StopCoroutine(_attackCoroutine);
         }
 
+        _attackCoroutine = StartCoroutine(StopAttackAfterDelay(1.1f)); // duración del ataque
         _lastAttackTime = Time.time;
+    } 
+
+    // Acá aplico el daño
+    public void ApplyAttackDamage()
+    {
+        Debug.Log("ApplyAttackDamage ejecutado");
+        if (player == null) return;
+
+        float distanceToPlayer = Vector2.Distance(transform.position, player.position);
+
+        // Esto asegura que el daño solo ocurra si el player sigue dentro del rango en el instante correcto.
+        if (distanceToPlayer <= attackRange)
+        {
+            PlayerHealth playerHealth = player.GetComponent<PlayerHealth>();
+            if (playerHealth != null)
+            {
+                playerHealth.TakeDamage(attackDamage);
+                Debug.Log("Daño aplicado al jugador");
+            }
+
+            // Knockback
+            Player_Movement playerMovement = player.GetComponent<Player_Movement>();
+            if (playerMovement != null)
+            {
+                Vector2 knockbackDir = (player.position - transform.position).normalized;
+                playerMovement.ApplyKnockback(knockbackDir, 5f); // 3f es la fuerza, podés probar con 2f o 4f
+            }
+        }
     }
-
-
     private void OnDrawGizmosSelected()
     {
         // Color para la visión
@@ -174,5 +230,31 @@ public class EnemyController : MonoBehaviour
         // Color para el wander
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(_initialPosition != Vector3.zero ? _initialPosition : transform.position, wanderRadius);
+    }
+
+    // for animations
+    private void HandleAnimations()
+    {
+        if (_animator.GetBool("isAttacking")) return; // prevenír cambios si está atacando
+
+        Vector3 velocity = _agent.velocity; // se toma la velocidad del agente 
+        bool isWalking = velocity.magnitude > 0.1f;
+
+        _animator.SetBool("isWalking", isWalking);
+
+        if (isWalking)
+        {
+            Vector2 direction = velocity.normalized;
+
+            _animator.SetFloat("Move_X", direction.x);
+            _animator.SetFloat("Move_Y", direction.y);
+        }
+    }
+    
+    IEnumerator StopAttackAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        _animator.SetBool("isAttacking", false);
+        _agent.isStopped = false; //  Reanuda el movimiento después del ataque 
     }
 }
