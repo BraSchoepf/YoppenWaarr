@@ -434,7 +434,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_icons_inventory_0: -5832355261510247963
+      spr_icons_inventory_1: 7897365518186065518
+      spr_icons_inventory_10: -7950086204094793461
+      spr_icons_inventory_11: -338437602809429677
+      spr_icons_inventory_12: -4327438879650805676
+      spr_icons_inventory_2: 1620705517793405655
+      spr_icons_inventory_3: 3173371014351113512
+      spr_icons_inventory_4: -1503200419271236219
+      spr_icons_inventory_5: -5259680183044376913
+      spr_icons_inventory_6: 356753331636748932
+      spr_icons_inventory_7: -3839135717125904705
+      spr_icons_inventory_8: -504027142789826125
+      spr_icons_inventory_9: -8296353743401181413
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
