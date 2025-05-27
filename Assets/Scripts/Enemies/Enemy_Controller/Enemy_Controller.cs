@@ -1,6 +1,9 @@
 using System.Collections;
 using Unity.VisualScripting;
+#if UNITY_EDITOR
 using UnityEditor.Experimental.GraphView;
+// u otro código de editor
+#endif
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.AI;
