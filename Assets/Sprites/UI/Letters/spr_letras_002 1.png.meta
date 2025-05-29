@@ -1,0 +1,239 @@
+fileFormatVersion: 2
+guid: d69f4b0b333c77941afd99d5fa7e17cf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8090424602850139563
+    second: spr_letras_002 1_0
+  - first:
+      213: -8232294929920146961
+    second: spr_letras_002 1_1
+  - first:
+      213: 3343908304889695573
+    second: spr_letras_002 1_2
+  - first:
+      213: -6017161592782778377
+    second: spr_letras_002 1_3
+  - first:
+      213: -7339304112291148401
+    second: spr_letras_002 1_4
+  - first:
+      213: 4881702975982479903
+    second: spr_letras_002 1_5
+  - first:
+      213: -4789673943784501566
+    second: spr_letras_002 1_6
+  - first:
+      213: 849363269944541373
+    second: spr_letras_002 1_7
+  - first:
+      213: 5762286002232257064
+    second: spr_letras_002 1_8
+  - first:
+      213: -6091732500003936555
+    second: spr_letras_002 1_9
+  - first:
+      213: -5355534042452945629
+    second: spr_letras_002 1_10
+  - first:
+      213: -8030251033686912746
+    second: spr_letras_002 1_11
+  - first:
+      213: -6855076028422414876
+    second: spr_letras_002 1_12
+  - first:
+      213: 1228330923811533197
+    second: spr_letras_002 1_13
+  - first:
+      213: 1465848129988800924
+    second: spr_letras_002 1_14
+  - first:
+      213: -7054585583179438034
+    second: spr_letras_002 1_15
+  - first:
+      213: -2895292581711340790
+    second: spr_letras_002 1_16
+  - first:
+      213: 3368099193191043966
+    second: spr_letras_002 1_17
+  - first:
+      213: -5933388881457976583
+    second: spr_letras_002 1_18
+  - first:
+      213: 3973605792253192107
+    second: spr_letras_002 1_19
+  - first:
+      213: 6989022141587341204
+    second: spr_letras_002 1_20
+  - first:
+      213: -2086915278856495866
+    second: spr_letras_002 1_21
+  - first:
+      213: -8640682711603631592
+    second: spr_letras_002 1_22
+  - first:
+      213: -7025645700761832932
+    second: spr_letras_002 1_23
+  - first:
+      213: -756075737082959553
+    second: spr_letras_002 1_24
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_letras_002 1_0
+      rect:
+        serializedVersion: 2
+        x: 81
+        y: 1497
+        width: 6379
+        height: 783
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552690940b909bf80800000000000000
+      internalID: -8090424602850139563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: ba5ea2a24bc6ac64bab1431211d99752
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_letras_002 1_0: -8090424602850139563
+      spr_letras_002 1_1: -8232294929920146961
+      spr_letras_002 1_10: -5355534042452945629
+      spr_letras_002 1_11: -8030251033686912746
+      spr_letras_002 1_12: -6855076028422414876
+      spr_letras_002 1_13: 1228330923811533197
+      spr_letras_002 1_14: 1465848129988800924
+      spr_letras_002 1_15: -7054585583179438034
+      spr_letras_002 1_16: -2895292581711340790
+      spr_letras_002 1_17: 3368099193191043966
+      spr_letras_002 1_18: -5933388881457976583
+      spr_letras_002 1_19: 3973605792253192107
+      spr_letras_002 1_2: 3343908304889695573
+      spr_letras_002 1_20: 6989022141587341204
+      spr_letras_002 1_21: -2086915278856495866
+      spr_letras_002 1_22: -8640682711603631592
+      spr_letras_002 1_23: -7025645700761832932
+      spr_letras_002 1_24: -756075737082959553
+      spr_letras_002 1_3: -6017161592782778377
+      spr_letras_002 1_4: -7339304112291148401
+      spr_letras_002 1_5: 4881702975982479903
+      spr_letras_002 1_6: -4789673943784501566
+      spr_letras_002 1_7: 849363269944541373
+      spr_letras_002 1_8: 5762286002232257064
+      spr_letras_002 1_9: -6091732500003936555
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
