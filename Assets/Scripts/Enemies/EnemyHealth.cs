@@ -24,7 +24,7 @@ public class EnemyHealth : MonoBehaviour
     private void Die()
     {
         Debug.Log("ENEMY DOWN, COUNTER-TERRORIST WIN.");
-        // dejo este espacio para agregar animaciones mas adelante
+        // I leave this space to add animations at a later date
         Destroy(gameObject);
     }
 }

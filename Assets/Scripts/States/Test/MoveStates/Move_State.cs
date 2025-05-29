@@ -19,7 +19,7 @@ public class PlayerMoveState : IPlayer_State
 
         if (Input.GetKeyDown(KeyCode.R))
         {
-            _player._stateMachine.ChangeState(new Ground_Entry_State(_player._stateMachine));
+            _player.stateMachine.ChangeState(new Ground_Entry_State(_player.stateMachine));
         }
 
         if (input == Vector2.zero)

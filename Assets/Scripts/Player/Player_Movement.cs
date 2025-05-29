@@ -13,11 +13,11 @@ public class Player_Movement : MonoBehaviour
     private Rigidbody2D _rbPlayer;
     private Animator _animator;
 
-    private Vector2 _lastMoveDirection = Vector2.down; // Dirección inicial por defecto
+    private Vector2 _lastMoveDirection = Vector2.down; // Default starting address
     private Vector2 _currentDirection;
 
-    //Maquina de estados
-    public Player_State_Machine _stateMachine; 
+    //State machine
+    public Player_State_Machine stateMachine; 
     public PlayerIdleState idleState;
     public PlayerMoveState moveState;
 
@@ -28,32 +28,32 @@ public class Player_Movement : MonoBehaviour
 
         idleState = new PlayerIdleState(this);
         moveState = new PlayerMoveState(this);
-        _stateMachine = GetComponent<Player_State_Machine>();
-        _stateMachine.Initialize(_animator, this);
+        stateMachine = GetComponent<Player_State_Machine>();
+        stateMachine.Initialize(_animator, this);
     }
 
     private void Start()
     {
-        _stateMachine.ChangeState(idleState);
+        stateMachine.ChangeState(idleState);
     }
 
     // Update is called once per frame
     void Update()
     {
            
-        _stateMachine.Update();
+        stateMachine.Update();
     }
 
     private void FixedUpdate()
     {
-           _stateMachine.FixedUpdate();
+           stateMachine.FixedUpdate();
     }
 
     public void UpdateAnimation(Vector2 moveInput)
     {
         if (moveInput != Vector2.zero)
         {
-            // Movimiento activo → guardamos la última dirección válida
+            // Active movement → we save the last valid address
             _lastMoveDirection = moveInput;
 
             _animator.SetFloat("Move_X", moveInput.x);
@@ -62,11 +62,11 @@ public class Player_Movement : MonoBehaviour
         }
         else
         {
-            // No hay movimiento → mostrar idle en la última dirección válida
+            // No movement → show idle at the last valid address
             _animator.SetFloat("Move_X", _lastMoveDirection.x);
             _animator.SetFloat("Move_Y", _lastMoveDirection.y);
 
-            // Para idles, usás los mismos valores
+            // PFor idles use the same values
             _animator.SetFloat("Idle_X", _lastMoveDirection.x);
             _animator.SetFloat("Idle_Y", _lastMoveDirection.y);
 
@@ -78,12 +78,12 @@ public class Player_Movement : MonoBehaviour
        
     public void ChangeState(IPlayer_State newState)
     {
-        _stateMachine.ChangeState(newState);
+        stateMachine.ChangeState(newState);
     }
 
     public Vector2 ReadInput()
     {
-        // Leer input y asignar dirección
+        // Read input and assign address
         float _move_X = Input.GetAxisRaw("Horizontal");
         float _move_Y = Input.GetAxisRaw("Vertical");
         _currentDirection = new Vector2(_move_X, _move_Y).normalized;
@@ -93,24 +93,24 @@ public class Player_Movement : MonoBehaviour
     public void ApplyMovement(Vector2 moveInput)
     {
 
-        // Aplicar movimiento basado en velocidad del SO
+        // Apply motion based on SO velocity
         _rbPlayer.MovePosition(_rbPlayer.position + moveInput * _character_Data_SO.Speed * Time.fixedDeltaTime);
     }
 
-    //AddForce con ForceMode2D.Impulse porque es un empujón rápido e inmediato (como un golpe físico).
+    //AddForce with ForceMode2D.Impulse because it is a quick and immediate push (like a physical blow).
     public void ApplyKnockback(Vector2 direction, float force)
     {
-        StopAllCoroutines(); // Por si ya hay un knockback activo
+        StopAllCoroutines(); // In case there is already an active knockback
         StartCoroutine(KnockbackCoroutine(direction, force));
     }
 
     private IEnumerator KnockbackCoroutine(Vector2 direction, float force)
     {
-        _rbPlayer.linearVelocity = Vector2.zero; // Paramos movimiento previo
+        _rbPlayer.linearVelocity = Vector2.zero; // We stop previous movement
         _rbPlayer.AddForce(direction.normalized * force, ForceMode2D.Impulse);
 
-        yield return new WaitForSeconds(0.15f); // Tiempo de deslizamiento
+        yield return new WaitForSeconds(0.15f); 
 
-        _rbPlayer.linearVelocity = Vector2.zero; // Detenemos completamente
+        _rbPlayer.linearVelocity = Vector2.zero; 
     }
 }
