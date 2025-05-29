@@ -9,11 +9,11 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: d1f379a69cc96854f9fade00778e6fd9
   - enabled: 1
-    path: Assets/Scenes/ScenaTestInventoryUI.unity
-    guid: 19adc83e76524f6428ea76180737df1d
-  - enabled: 1
     path: Assets/Scenes/SceneTutorial.unity
     guid: a3ce18c5632a02a4eaa061627ff5c26f
+  - enabled: 1
+    path: Assets/Scenes/ScenaTestInventoryUI.unity
+    guid: 19adc83e76524f6428ea76180737df1d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0
