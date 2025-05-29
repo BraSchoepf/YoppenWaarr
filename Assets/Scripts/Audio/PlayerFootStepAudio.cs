@@ -15,34 +15,33 @@ public class PlayerFootStepAudio : MonoBehaviour
 
     private void Awake()
     {
+        //#TEST
         if (!_stepEvent.IsNull)
             Debug.Log("Step event asignado correctamente.");
         else
             Debug.LogWarning("El eventReference de pasos es nulo");
     }
 
-    // Esta función se llama desde un Animation Event
+    // This function is called from an Animation Event
     public void PlayFootstep()
     {
-        // Verifica que haya movimiento
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
-       // if (rb != null && rb.linearVelocity.magnitude < 0.1f) return;
-
+       
         float materialValue = DetectMaterialValue();
         AudioManager.Instance.PlayStepWithMaterial(_stepEvent, materialValue, transform.position);
-        Debug.Log($"Llamando a PlayFootstep. Valor de material: {materialValue}");
+        ////#TEST Debug.Log($"Llamando a PlayFootstep. Valor de material: {materialValue}");
 
     }
 
     private float DetectMaterialValue()
     {
         if (Physics2D.Raycast(transform.position, Vector2.down, _rayLength, _sandMask))
-            return 0f; // Arena
+            return 0f; // Sand
         if (Physics2D.Raycast(transform.position, Vector2.down, _rayLength, _woodMask))
-            return 1f; // Madera
+            return 1f; // Wood
 
-        return 0f; // Default: arena
-        //Debug.Log("Raycast hacia abajo: " + Physics2D.Raycast(transform.position, Vector2.down, _rayLength, _sandMask));
+        return 0f; // Default: Sand
+        ////#TEST Debug.Log("Raycast hacia abajo: " + Physics2D.Raycast(transform.position, Vector2.down, _rayLength, _sandMask));
 
     }
 

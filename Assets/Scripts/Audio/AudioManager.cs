@@ -23,7 +23,7 @@ public class AudioManager : MonoBehaviour
     {
         if (soundEvent.IsNull)
         {
-            Debug.LogWarning("El EventReference es nulo.");
+            Debug.LogWarning("El EventReference es nulo."); 
             return;
         }
         RuntimeManager.PlayOneShot(soundEvent, position);

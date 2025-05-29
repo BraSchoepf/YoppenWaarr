@@ -5,10 +5,14 @@ using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public int maxHealth = 5;
-    private int currentHealth;
+    [Header("Referencia al SO")]
 
-    //effect for damage recive
+    [SerializeField] private Character_Data_SO _character_Data_SO;
+
+    private int _maxHealth;
+    private int _currentHealth;
+
+    //effect for damage recive - for flashDamage()
     public SpriteRenderer spriteRenderer;
     private Color _originalColor;
     
@@ -17,21 +21,22 @@ public class PlayerHealth : MonoBehaviour
 
     void Start()
     {
-        currentHealth = maxHealth;
+        _maxHealth = _character_Data_SO.Health;
+        _currentHealth = _maxHealth;
         UpdateHealthUI();
         _originalColor  = spriteRenderer.color;
     }
 
     public void TakeDamage(int amount)
     {
-        currentHealth -= amount;
-        Debug.Log("El player recibe daño, vida restante: " + currentHealth);
+        _currentHealth -= amount;
+        Debug.Log("El player recibe daño, vida restante: " + _currentHealth);
         UpdateHealthUI();
 
-        // Coroutina para el flash rojo del golpe recibido
+        // Coroutina for flashDamage()
         StartCoroutine(FlashDamage());
 
-        if (currentHealth <= 0)
+        if (_currentHealth <= 0)
         {   
             Die();
         }
@@ -41,7 +46,7 @@ public class PlayerHealth : MonoBehaviour
     {
         if (healthText != null)
         {
-            healthText.text = "Vida: " + currentHealth;
+            healthText.text = "Vida: " + _currentHealth;
         }
     }
 
@@ -63,7 +68,7 @@ public class PlayerHealth : MonoBehaviour
         {
             spriteRenderer.color = Color.red;
             yield return new WaitForSeconds(flashDuration);
-            spriteRenderer.color = _originalColor; //  el color original
+            spriteRenderer.color = _originalColor; 
             yield return new WaitForSeconds(flashDuration);
         }
     }

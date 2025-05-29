@@ -11,7 +11,7 @@ public class YSort : MonoBehaviour
 
     void LateUpdate()
     {
-        // Cuanto más bajo esté (menor Y), mayor será el Order
+        // The lower it is (minor Y), the higher the Order
         sr.sortingOrder = Mathf.RoundToInt(-transform.position.y * 100);
     }
 }

@@ -25,7 +25,7 @@ public class ComboManager : MonoBehaviour
             _comboIndex++;
             _comboIndex = Mathf.Clamp(_comboIndex, 1, 3);
 
-            // Detectar si está mirando a la derecha o izquierda
+            // Detect whether you are looking to the right or to the left
             float moveX = _playerMovement.GetComponent<Animator>().GetFloat("Move_X");
             bool isFacingRight = moveX > 0f;
 
@@ -42,7 +42,7 @@ public class ComboManager : MonoBehaviour
         }
     }
 
-    // Este método se llama desde eventos en las animaciones
+    // This method is called from events in the animations
     public void EnableInput()
     {
         _canReceiveInput = true;
