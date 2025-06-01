@@ -1,0 +1,2323 @@
+fileFormatVersion: 2
+guid: 8932f59ec32a4c24db3c7689fcfa3da9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1842336062648663635
+    second: AllTowers300%_001_0
+  - first:
+      213: -8929116492414408911
+    second: AllTowers300%_001_1
+  - first:
+      213: 6356507783232047188
+    second: AllTowers300%_001_2
+  - first:
+      213: -7633545021342661084
+    second: AllTowers300%_001_3
+  - first:
+      213: 2961552866879072990
+    second: AllTowers300%_001_4
+  - first:
+      213: 4431078036326092003
+    second: AllTowers300%_001_5
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 96
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: AllTowers300%_001_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 864
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da14fe4bc15be66e0800000000000000
+      internalID: -1842336062648663635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 864
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137ae8fcbd7651480800000000000000
+      internalID: -8929116492414408911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 864
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4584d8f862ad63850800000000000000
+      internalID: 6356507783232047188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 864
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4264be15f33301690800000000000000
+      internalID: -7633545021342661084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 864
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edaedd534ac891920800000000000000
+      internalID: 2961552866879072990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 864
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ec80474ff95e7d30800000000000000
+      internalID: 4431078036326092003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 864
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248e40b174f72be4480a4c68811e100b
+      internalID: -380667967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_7
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 864
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b94c44316497fd46bcb7ab3eb9b041e
+      internalID: 2026299529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_8
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 864
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a17e84bea7455c488c89aa4d10a0328
+      internalID: 1723556370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_9
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 864
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f3b96a0dd9a1964f885c7fd9e17db74
+      internalID: -669383488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 768
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970cb71b86244ac478011d44c0c2ff04
+      internalID: -445343590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_11
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 768
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1ebb5b6f23ccb941baf7e822bc4823a
+      internalID: -1399200065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_12
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 768
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1d4b5415f6444241b73eeeaf3da4f9b
+      internalID: -530667011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_13
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 768
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b4e46bf39650f84e868c9923f3225fc
+      internalID: 1004279870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_14
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 768
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c669342cf3868104aa83a0d29e09ddd8
+      internalID: -100839552
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_15
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 768
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 774f9a9cbc92db94baf22a890352a02a
+      internalID: 553799263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_16
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 768
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49bf4e32ab3fe244d87477977565c843
+      internalID: 1646556024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_17
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 768
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d9b014690993234c9ea7497916a7078
+      internalID: -1698230387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_18
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 768
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2174a530a78d4498d104e82efb7412
+      internalID: 217706697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_19
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 768
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503ee1f452036f041b5e99aedcc64b72
+      internalID: 1570004908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: -48}
+        - {x: 48, y: 48}
+        - {x: 18, y: 48}
+        - {x: 18, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5251843898f5795489727cc94e2d17b2
+      internalID: 1496194548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_21
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a0d849c8fdb8154082d6d79c018f9e6
+      internalID: -1672091109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_22
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be437c974bac97b4cac3d271b2e3718a
+      internalID: 925592124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_23
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 531f1b4f8bfe35d45a465d8d12417112
+      internalID: 1015367345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26708fa5e04947449905b445cd672fa2
+      internalID: -1384130939
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_25
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8880de52b39d5564188e374f9766470a
+      internalID: 678817351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_26
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -18, y: -48}
+        - {x: -18, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: -48}
+        - {x: 48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f987e446e49a73b46b7ed72f3da7c164
+      internalID: 174141328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_27
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da3e69371b23c0c4795fbefd26ccc3ad
+      internalID: 1205093153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_28
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eef7a40c8c6376641a64014ebba64f3d
+      internalID: -2084818816
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_29
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7ac6b3e03d3ac04ba96d21d271b9a33
+      internalID: 73337161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: -48}
+        - {x: 48, y: 48}
+        - {x: 18, y: 48}
+        - {x: 18, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3c4ee7972d1c4499189692353496b4
+      internalID: 841710324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_31
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2822b8d9d160d10439d0ac5fc57a978d
+      internalID: 1632562804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_32
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e1c00e3d8194e4786a328c515d9f9e
+      internalID: -1208172363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8aa1aa244b808314d81d4a806ded6634
+      internalID: -553136933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1605cd0cfbc3ff242ab1237782e90a7a
+      internalID: -1916324288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_35
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32383d6b534e1be43acfc0ee9e3049e9
+      internalID: 797013052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -18, y: -48}
+        - {x: -18, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 877c84151b4c20b438e1ad37a7ed6213
+      internalID: 976855012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_37
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9b7fb3cba186fb469b1c0b4ea43c3f9
+      internalID: -1385267271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_38
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15fb27ddaa7530e4389185fa35bb3e0f
+      internalID: -1552478085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_39
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea81faa3665e86345aa7e26191d39668
+      internalID: 1710389448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: -48}
+        - {x: 48, y: 48}
+        - {x: 18, y: 48}
+        - {x: 18, y: -48}
+        - {x: -48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1471215b18a4f44195f6c21ec2644be
+      internalID: -2055589471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6724438f74d43514fa048badf65a0243
+      internalID: -712918867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 42, y: -48}
+        - {x: 44, y: -45}
+        - {x: 48, y: -44}
+        - {x: 48, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cfb5feee0be3164f84f3c016b772a02
+      internalID: -720756845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -34, y: -34}
+        - {x: -2, y: -31}
+        - {x: 26, y: -32}
+        - {x: 48, y: -42}
+        - {x: 48, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: -44}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 617a6e1b0130a454498b94924e45d954
+      internalID: 144125790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: -42}
+        - {x: -44, y: -44}
+        - {x: -40, y: -48}
+        - {x: 48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1a35097918b4504ebb24d6c9b568601
+      internalID: 1920548794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_45
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4968980bc4f26ec4ba011c88765923f6
+      internalID: 507494464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_46
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -18, y: -48}
+        - {x: -18, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: -48}
+        - {x: 48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3d8a447b43dd874fb76e4ee483d0f69
+      internalID: 538862869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_47
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7d0b713d315c0479755e4092a44303
+      internalID: 71043800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_48
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffd491b18f106974eab86cba25b58ae2
+      internalID: -606518913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_49
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93fc8abcea5a604e9bee351aec64757
+      internalID: 1207546339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 3, y: 30}
+        - {x: 3, y: 48}
+        - {x: -24, y: 48}
+        - {x: -24, y: 29}
+        - {x: -20, y: 26}
+        - {x: -1, y: 26}
+      - - {x: 48, y: 48}
+        - {x: 18, y: 48}
+        - {x: 18, y: 30}
+        - {x: 25, y: 27}
+        - {x: 48, y: 27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 259288dd352a8814aa523e129e08ea05
+      internalID: -395000918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_51
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: 27}
+        - {x: 48, y: 27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6e785b1dd1748a4fb14a1f8462c5d12
+      internalID: -736844837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_52
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 42, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: 27}
+        - {x: 24, y: 27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87d3e63914b12e4bbe8f4c49669709a
+      internalID: 1681299208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_53
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: 48}
+        - {x: -40, y: 48}
+        - {x: -32, y: 40}
+        - {x: -23, y: 27}
+        - {x: 48, y: 27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dd8d329f0bc76641992ba1c8bc05f90
+      internalID: -1007564205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_54
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: 27}
+        - {x: 48, y: 27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3907048d2503cf47a74deee39d189ba
+      internalID: -269772742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_55
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 22, y: 30}
+        - {x: 22, y: 48}
+        - {x: -1, y: 48}
+        - {x: -1, y: 29}
+        - {x: 2, y: 24}
+        - {x: 20, y: 24}
+      - - {x: -18, y: 30}
+        - {x: -18, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: 27}
+        - {x: -31, y: 27}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80f3101b396759742951313d10537270
+      internalID: 1889524296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_56
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 0, y: -24}
+        - {x: 42, y: -24}
+        - {x: 42, y: 48}
+        - {x: -21, y: 48}
+        - {x: -21, y: -3}
+        - {x: 0, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4af6f41545579eb46bec9c47ab114498
+      internalID: 84479364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_57
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 18, y: -3}
+        - {x: 18, y: 48}
+        - {x: -3, y: 48}
+        - {x: -3, y: -3}
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeedfaa30cbbe4a47b85a0646c0d5fb8
+      internalID: 154346479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -7, y: -48}
+        - {x: -3, y: -40}
+        - {x: -3, y: -21}
+        - {x: 0, y: -9}
+        - {x: 3, y: 0}
+        - {x: 9, y: 0}
+        - {x: 12, y: -3}
+        - {x: 9, y: -12}
+        - {x: 9, y: -29}
+        - {x: 48, y: -29}
+        - {x: 48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70f32e1ccde535340a76a21c91e44403
+      internalID: -503975258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_59
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: -29}
+        - {x: -48, y: -29}
+        - {x: -48, y: -48}
+        - {x: 48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: d41cf8da1066b8143a0ba9f472079a6b
+      internalID: 190589768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_60
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 6, y: -48}
+        - {x: 6, y: -41}
+        - {x: 6, y: -21}
+        - {x: 3, y: -10}
+        - {x: 0, y: 0}
+        - {x: -6, y: 0}
+        - {x: -9, y: -3}
+        - {x: -9, y: -12}
+        - {x: -5, y: -29}
+        - {x: -48, y: -29}
+        - {x: -48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5df6ebbf86fa347b3bbfbb40ac564c
+      internalID: 1849880975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_61
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: -27}
+        - {x: -48, y: -27}
+        - {x: -48, y: -48}
+        - {x: 48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 735d7f93b4838de4b9afe3de38de6269
+      internalID: -1568583204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_62
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: -27}
+        - {x: -48, y: -27}
+        - {x: -48, y: -48}
+        - {x: 48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19d68da4c11abaa4aa20919988a9975b
+      internalID: -1915938381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_63
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5b9d8bc5aac2ca4a908cf586a25408e
+      internalID: -1545810066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_64
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -35, y: -48}
+        - {x: -35, y: -32}
+        - {x: -11, y: -32}
+        - {x: -11, y: -3}
+        - {x: -11, y: 48}
+        - {x: 48, y: 48}
+        - {x: 48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e33cfd6110fc6264d85a1942840f2c50
+      internalID: -186385866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_65
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d0322495fe1cb4592f9ff0c004400c
+      internalID: -2127018901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_66
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 39, y: -48}
+        - {x: 39, y: -34}
+        - {x: 25, y: -34}
+        - {x: 12, y: -34}
+        - {x: 13, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 064516fc9dd0a6848ba2bb1054f7d938
+      internalID: 1470169852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_67
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: -30}
+        - {x: -22, y: -30}
+        - {x: -19, y: -36}
+        - {x: 48, y: -36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f4957dcacabf2ad4a8381a0ba288a786
+      internalID: 429465087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_68
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -48, y: 48}
+        - {x: 48, y: 48}
+        - {x: 48, y: -30}
+        - {x: 24, y: -30}
+        - {x: 18, y: -36}
+        - {x: -48, y: -36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56910f3262b894440be31935b9ac85f9
+      internalID: -840638476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_69
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: -12}
+        - {x: -29, y: -42}
+        - {x: -26, y: -48}
+        - {x: 48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65a385f1cb69a9144af13f60412c1c4b
+      internalID: 162881106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_70
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: 17}
+        - {x: -48, y: -12}
+        - {x: -48, y: -48}
+        - {x: 48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f7c8b08153c3bf438f8d0566e33cb98
+      internalID: -2123075510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_71
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 9, y: -24}
+        - {x: -48, y: 17}
+        - {x: -48, y: -48}
+        - {x: 21, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333a271c5d97d8c46bfd15785ac39939
+      internalID: -2137207847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -36, y: -48}
+        - {x: -36, y: -33}
+        - {x: -40, y: -26}
+        - {x: -40, y: -1}
+        - {x: -36, y: 6}
+        - {x: -36, y: 48}
+        - {x: 48, y: 48}
+        - {x: 48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4274ec7287e2706428b2b739c73e4f5f
+      internalID: -1129457062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_73
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05abad98a1613fe48b2e7be577576701
+      internalID: 32190341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_74
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 39, y: -48}
+        - {x: 39, y: -34}
+        - {x: 43, y: -27}
+        - {x: 43, y: 1}
+        - {x: 39, y: 6}
+        - {x: 39, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88e289d542a4c1241ae32fcd8f33568a
+      internalID: 1451082657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_75
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: -27}
+        - {x: -48, y: -27}
+        - {x: -48, y: -48}
+        - {x: 48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0378dc97dfd90e4cab1d47d3e0e7000
+      internalID: -995948114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_76
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: -27}
+        - {x: -48, y: -27}
+        - {x: -48, y: -48}
+        - {x: 48, y: -48}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb680bf553e17c4ebd6e5874fc95f7a
+      internalID: -220766568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_77
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: 48}
+        - {x: -26, y: 48}
+        - {x: -9, y: 40}
+        - {x: 39, y: -9}
+        - {x: 48, y: -18}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1318fd43f69854a44949d03a2b252732
+      internalID: 997206612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_78
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: -18}
+        - {x: -24, y: -44}
+        - {x: 48, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7362bfa375da8649b7a99854ea78d53
+      internalID: 1031760069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_79
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 30, y: 30}
+        - {x: 21, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: -10}
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb303047b820c8f4a9f54dd1c16fbc31
+      internalID: -1761963142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -12, y: 13}
+        - {x: -36, y: 13}
+        - {x: -36, y: 48}
+        - {x: 48, y: 48}
+        - {x: 48, y: -2}
+        - {x: -5, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: 677b9ae4277b75f44a63d07b06abb9b0
+      internalID: -98144200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_81
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: -2}
+        - {x: 48, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f13fcec3838c0f44d93455fd400b84fc
+      internalID: 1228680078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_82
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 11, y: 13}
+        - {x: 39, y: 13}
+        - {x: 39, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: -2}
+        - {x: 8, y: -2}
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3542fd2b1ebbaf4f9b49895977d2c8d
+      internalID: -1639276485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_83
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: 48, y: 48}
+        - {x: -48, y: 48}
+        - {x: -48, y: -30}
+        - {x: -22, y: -30}
+        - {x: -19, y: -36}
+        - {x: 48, y: -36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: f88470e67d91aa0429524c1edaff06c6
+      internalID: 893894963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: AllTowers300%_001_84
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape:
+      - - {x: -48, y: 48}
+        - {x: 48, y: 48}
+        - {x: 48, y: -30}
+        - {x: 24, y: -30}
+        - {x: 18, y: -36}
+        - {x: -48, y: -36}
+      tessellationDetail: 0
+      bones: []
+      spriteID: b486a0c7fe01fb242a7e97aa61ed0ac7
+      internalID: -99131764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dc5ce88790b7c644396f8bea58d38702
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      AllTowers300%_001_0: -1842336062648663635
+      AllTowers300%_001_1: -8929116492414408911
+      AllTowers300%_001_10: -445343590
+      AllTowers300%_001_11: -1399200065
+      AllTowers300%_001_12: -530667011
+      AllTowers300%_001_13: 1004279870
+      AllTowers300%_001_14: -100839552
+      AllTowers300%_001_15: 553799263
+      AllTowers300%_001_16: 1646556024
+      AllTowers300%_001_17: -1698230387
+      AllTowers300%_001_18: 217706697
+      AllTowers300%_001_19: 1570004908
+      AllTowers300%_001_2: 6356507783232047188
+      AllTowers300%_001_20: 1496194548
+      AllTowers300%_001_21: -1672091109
+      AllTowers300%_001_22: 925592124
+      AllTowers300%_001_23: 1015367345
+      AllTowers300%_001_24: -1384130939
+      AllTowers300%_001_25: 678817351
+      AllTowers300%_001_26: 174141328
+      AllTowers300%_001_27: 1205093153
+      AllTowers300%_001_28: -2084818816
+      AllTowers300%_001_29: 73337161
+      AllTowers300%_001_3: -7633545021342661084
+      AllTowers300%_001_30: 841710324
+      AllTowers300%_001_31: 1632562804
+      AllTowers300%_001_32: -1208172363
+      AllTowers300%_001_33: -553136933
+      AllTowers300%_001_34: -1916324288
+      AllTowers300%_001_35: 797013052
+      AllTowers300%_001_36: 976855012
+      AllTowers300%_001_37: -1385267271
+      AllTowers300%_001_38: -1552478085
+      AllTowers300%_001_39: 1710389448
+      AllTowers300%_001_4: 2961552866879072990
+      AllTowers300%_001_40: -2055589471
+      AllTowers300%_001_41: -712918867
+      AllTowers300%_001_42: -720756845
+      AllTowers300%_001_43: 144125790
+      AllTowers300%_001_44: 1920548794
+      AllTowers300%_001_45: 507494464
+      AllTowers300%_001_46: 538862869
+      AllTowers300%_001_47: 71043800
+      AllTowers300%_001_48: -606518913
+      AllTowers300%_001_49: 1207546339
+      AllTowers300%_001_5: 4431078036326092003
+      AllTowers300%_001_50: -395000918
+      AllTowers300%_001_51: -736844837
+      AllTowers300%_001_52: 1681299208
+      AllTowers300%_001_53: -1007564205
+      AllTowers300%_001_54: -269772742
+      AllTowers300%_001_55: 1889524296
+      AllTowers300%_001_56: 84479364
+      AllTowers300%_001_57: 154346479
+      AllTowers300%_001_58: -503975258
+      AllTowers300%_001_59: 190589768
+      AllTowers300%_001_6: -380667967
+      AllTowers300%_001_60: 1849880975
+      AllTowers300%_001_61: -1568583204
+      AllTowers300%_001_62: -1915938381
+      AllTowers300%_001_63: -1545810066
+      AllTowers300%_001_64: -186385866
+      AllTowers300%_001_65: -2127018901
+      AllTowers300%_001_66: 1470169852
+      AllTowers300%_001_67: 429465087
+      AllTowers300%_001_68: -840638476
+      AllTowers300%_001_69: 162881106
+      AllTowers300%_001_7: 2026299529
+      AllTowers300%_001_70: -2123075510
+      AllTowers300%_001_71: -2137207847
+      AllTowers300%_001_72: -1129457062
+      AllTowers300%_001_73: 32190341
+      AllTowers300%_001_74: 1451082657
+      AllTowers300%_001_75: -995948114
+      AllTowers300%_001_76: -220766568
+      AllTowers300%_001_77: 997206612
+      AllTowers300%_001_78: 1031760069
+      AllTowers300%_001_79: -1761963142
+      AllTowers300%_001_8: 1723556370
+      AllTowers300%_001_80: -98144200
+      AllTowers300%_001_81: 1228680078
+      AllTowers300%_001_82: -1639276485
+      AllTowers300%_001_83: 893894963
+      AllTowers300%_001_84: -99131764
+      AllTowers300%_001_9: -669383488
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
