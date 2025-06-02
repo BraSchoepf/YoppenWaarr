@@ -53,7 +53,16 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("El player murio");
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        
+        if (GameManager.Instance != null)
+        {
+            GameManager.Instance.GameOver();
+        }
+        else //backup n debug in case of gamemanager breaks just restart the scene
+        {
+            Debug.LogWarning("No se encontró GameManager. Reseteando escena.");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex); 
+        }
     }
 
     //Coroutina for effect damage recive
