@@ -37,7 +37,7 @@ public class EnemyController : MonoBehaviour
 
     public bool isMovementBlocked = false; // block enemy AI behavior momentarily
 
-
+    private EnemyHealth _enemyHealth; // Reference to EnemyHealth
 
     private void Start()
     {
@@ -45,13 +45,13 @@ public class EnemyController : MonoBehaviour
         _agent.updateRotation = false;
         _agent.updateUpAxis = false;
         _initialPosition = transform.position;
-
+        _enemyHealth = GetComponent<EnemyHealth>(); // Get the EnemyHealth component
         _animator = GetComponent<Animator>();
     }
 
     private void Update()
     {
-        if (isMovementBlocked) return; // We block AI while it is active
+        if (isMovementBlocked || _enemyHealth.IsDead) return; // We block AI while it is active or if the enemy is dead
 
         HandleEnemyLogic();
 
@@ -281,16 +281,4 @@ public class EnemyController : MonoBehaviour
             StartCoroutine(StopAttackAfterDelay(1.1f)); // duration of the attack
         }
     }
-
-    //IEnumerator SimulateAttackApproach(Vector2 direction, float speed, float duration)
-    //{
-    //    float elapsed = 0f;
-    //    while (elapsed < duration)
-    //    {
-    //        transform.position += (Vector3)(direction * speed * Time.deltaTime);
-    //        elapsed += Time.deltaTime;
-    //        yield return null;
-    //    }
-    //}
-
 }

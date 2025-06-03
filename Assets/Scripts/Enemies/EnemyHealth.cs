@@ -22,6 +22,10 @@ public class EnemyHealth : MonoBehaviour
 
     private Animator _animator;
 
+    private bool isDead = false; // Flag to ensure death animation only plays once
+
+    public bool IsDead => isDead; // Expose isDead as a public property
+
     private void Start()
     {
         _currentHealth = _maxHealth;
@@ -47,7 +51,7 @@ public class EnemyHealth : MonoBehaviour
         // Aplicar knockback
         StartCoroutine(SimulateKnockback(knockbackDirection.normalized, _knockbackDuration));
 
-        if (_currentHealth <= 0)
+        if (_currentHealth <= 0 && !isDead)
         {
             Die();
         }
@@ -97,7 +101,17 @@ public class EnemyHealth : MonoBehaviour
     }
     private void Die()
     {
-        Debug.Log("ENEMY DOWN, COUNTER-TERRORIST WIN.");
+        if (isDead) return; // Ensure death animation only plays once
+
+        Debug.Log("Death animation triggered.");
+
+        isDead = true; // Set the flag to true
+
+        // Disable the NavMeshAgent
+        if (_navAgent != null)
+        {
+            _navAgent.enabled = false;
+        }
 
         //Set the direction for the death animation
         float direction = _animator.GetFloat("Move_X");
@@ -112,8 +126,12 @@ public class EnemyHealth : MonoBehaviour
 
     private IEnumerator DestroyAfterAnimation()
     {
+        Debug.Log("Waiting for animation to finish.");
+
         // Wait for the animation to finish (adjust the time as needed)
         yield return new WaitForSeconds(2f); // Adjust the duration based on your animation length
+
+        Debug.Log("Destroying enemy.");
 
         Destroy(gameObject);
     }
