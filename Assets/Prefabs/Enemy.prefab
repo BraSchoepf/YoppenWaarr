@@ -143,8 +143,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxHealth: 6
   spriteRenderer: {fileID: 3994617162317874866}
-  _knockbackForce: 8
-  _knockbackDuration: 0.15
+  _knockbackForce: 10
+  _knockbackDuration: 0.2
 --- !u!114 &6166536739494580925
 MonoBehaviour:
   m_ObjectHideFlags: 0
