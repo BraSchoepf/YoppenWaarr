@@ -186,7 +186,7 @@ public class EnemyController : MonoBehaviour
         //For attack to trigger the function ApplyAttackDamage() 1 time x hit and take 1HP - YW-ES-006 BUG-ES-005 --> QA testing
         //Activate animation attack
         _animator.SetTrigger("Attack");
-        StartCoroutine(SimulateAttackApproach(_attackDirection, 1.5f, 0.3f)); // Ajustá velocidad/duración si querés
+        //StartCoroutine(SimulateAttackApproach(_attackDirection, 1.5f, 0.3f)); // Ajustá velocidad/duración si querés
 
 
         // We stop any previous coroutine before launching a new one.
@@ -264,15 +264,33 @@ public class EnemyController : MonoBehaviour
         _agent.isStopped = false; //  Resumes movement after the attack 
     }
 
-    IEnumerator SimulateAttackApproach(Vector2 direction, float speed, float duration)
+    public void StopAttack()
     {
-        float elapsed = 0f;
-        while (elapsed < duration)
+        if (_attackCoroutine != null)
         {
-            transform.position += (Vector3)(direction * speed * Time.deltaTime);
-            elapsed += Time.deltaTime;
-            yield return null;
+            StopCoroutine(_attackCoroutine);
+        }
+        _animator.SetBool("isAttacking", false);
+        _agent.enabled = true;
+    }
+
+    public void ResumeAttack()
+    {
+        if (Time.time - _lastAttackTime >= attackCooldown)
+        {
+            StartCoroutine(StopAttackAfterDelay(1.1f)); // duration of the attack
         }
     }
+
+    //IEnumerator SimulateAttackApproach(Vector2 direction, float speed, float duration)
+    //{
+    //    float elapsed = 0f;
+    //    while (elapsed < duration)
+    //    {
+    //        transform.position += (Vector3)(direction * speed * Time.deltaTime);
+    //        elapsed += Time.deltaTime;
+    //        yield return null;
+    //    }
+    //}
 
 }

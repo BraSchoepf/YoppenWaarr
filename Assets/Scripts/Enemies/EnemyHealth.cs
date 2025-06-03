@@ -52,6 +52,11 @@ public class EnemyHealth : MonoBehaviour
             _navAgent.enabled = false; // Evita conflicto de movimiento
         }
 
+        if (_controller != null)
+        {
+            _controller.StopAttack(); // Detener la animación de ataque
+        }
+
         float elapsed = 0f;
         while (elapsed < duration)
         {
@@ -68,10 +73,9 @@ public class EnemyHealth : MonoBehaviour
         if (_controller != null)
         {
             _controller.isMovementBlocked = false;
+            _controller.ResumeAttack(); // Reanudar la animación de ataque
         }
     }
-
-
     private void Die()
     {
         Debug.Log("ENEMY DOWN, COUNTER-TERRORIST WIN.");
