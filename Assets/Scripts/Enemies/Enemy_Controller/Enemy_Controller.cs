@@ -78,7 +78,10 @@ public class EnemyController : MonoBehaviour
             }
             else
             {
-                _agent.SetDestination(player.position);
+                if (_agent != null && _agent.enabled)
+                {
+                    _agent.SetDestination(player.position);
+                }
             }
         }
         else if (_isChasing)
@@ -134,7 +137,10 @@ public class EnemyController : MonoBehaviour
     {
         _isChasing = true;
         _agent.speed = chaseSpeed;
-        _agent.SetDestination(player.position);
+        if (_agent != null && _agent.enabled)
+        {
+            _agent.SetDestination(player.position); // Usá esto en lugar de llamadas directas
+        }
     }
 
     void ReturnToInitialPosition()

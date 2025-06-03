@@ -20,10 +20,9 @@ public class Sword_Collider : MonoBehaviour
         if (collision.CompareTag("Enemy"))
         {
             EnemyHealth enemy = collision.GetComponent<EnemyHealth>();
-            if (enemy != null)
+            if (enemy != null && !enemy.IsDead) // Evita dañar enemigos muertos
             {
                 Vector2 knockbackDirection = (collision.transform.position - _playerTransform.position).normalized;
-
                 enemy.TakeDamage(_attackDamage, knockbackDirection);
             }
         }

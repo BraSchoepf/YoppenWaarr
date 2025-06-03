@@ -101,35 +101,37 @@ public class EnemyHealth : MonoBehaviour
     }
     private void Die()
     {
-        if (isDead) return; // Ensure death animation only plays once
+        if (isDead) return;
 
         Debug.Log("Death animation triggered.");
+        isDead = true; // PRIMERO: detener toda lógica futura
 
-        isDead = true; // Set the flag to true
+        //if (_controller != null)
+        //{
+        //    _controller.StopAttack();
+        //    _controller.StopAllCoroutines();
+        //    _controller.enabled = false; // ESTA LÍNEA es la que soluciona TODO
+        //}
 
-        // Disable the NavMeshAgent
-        if (_navAgent != null)
-        {
-            _navAgent.enabled = false;
-        }
+        //if (_navAgent != null)
+        //    _navAgent.enabled = false;
 
-        //Set the direction for the death animation
-        float direction = _animator.GetFloat("Move_X");
-        _animator.SetFloat("Move_X", direction);
+        //_animator.ResetTrigger("Attack");
+        //_animator.SetBool("isAttacking", false);
+        //_animator.SetBool("isWalking", false);
 
-        //Trigger the death animation
         _animator.SetTrigger("Die");
 
-        // Destroy the enemy after the animation
         StartCoroutine(DestroyAfterAnimation());
     }
+
 
     private IEnumerator DestroyAfterAnimation()
     {
         Debug.Log("Waiting for animation to finish.");
 
         // Wait for the animation to finish (adjust the time as needed)
-        yield return new WaitForSeconds(2f); // Adjust the duration based on your animation length
+        yield return new WaitForSeconds(0.7f); // Adjust the duration based on your animation length
 
         Debug.Log("Destroying enemy.");
 
