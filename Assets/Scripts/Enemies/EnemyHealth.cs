@@ -20,6 +20,7 @@ public class EnemyHealth : MonoBehaviour
     // Reference to the damage particle prefab
     [SerializeField] private GameObject damageParticlePrefab;
 
+    private Animator _animator;
 
     private void Start()
     {
@@ -27,6 +28,7 @@ public class EnemyHealth : MonoBehaviour
         _originalColor  = spriteRenderer.color;
         _navAgent = GetComponent<NavMeshAgent>();
         _controller = GetComponent<EnemyController>();
+        _animator = GetComponent<Animator>();
     }
 
     public void TakeDamage(int amount, Vector2 knockbackDirection)
@@ -96,7 +98,23 @@ public class EnemyHealth : MonoBehaviour
     private void Die()
     {
         Debug.Log("ENEMY DOWN, COUNTER-TERRORIST WIN.");
-        // I leave this space to add animations at a later date
+
+        //Set the direction for the death animation
+        float direction = _animator.GetFloat("Move_X");
+        _animator.SetFloat("Move_X", direction);
+
+        //Trigger the death animation
+        _animator.SetTrigger("Die");
+
+        // Destroy the enemy after the animation
+        StartCoroutine(DestroyAfterAnimation());
+    }
+
+    private IEnumerator DestroyAfterAnimation()
+    {
+        // Wait for the animation to finish (adjust the time as needed)
+        yield return new WaitForSeconds(2f); // Adjust the duration based on your animation length
+
         Destroy(gameObject);
     }
 
