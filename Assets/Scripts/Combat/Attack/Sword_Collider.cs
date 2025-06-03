@@ -7,6 +7,14 @@ public class Sword_Collider : MonoBehaviour
     public GameObject attackPoint;  // Object containing the collider
     [SerializeField] private int _attackDamage = 1;
 
+    private Transform _playerTransform;
+
+    private void Start()
+    {
+        _playerTransform = transform.root; // Asume que la espada es hija del jugador
+    }
+
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Enemy"))
@@ -14,7 +22,9 @@ public class Sword_Collider : MonoBehaviour
             EnemyHealth enemy = collision.GetComponent<EnemyHealth>();
             if (enemy != null)
             {
-                enemy.TakeDamage(_attackDamage);
+                Vector2 knockbackDirection = (collision.transform.position - _playerTransform.position).normalized;
+
+                enemy.TakeDamage(_attackDamage, knockbackDirection);
             }
         }
     }

@@ -1,5 +1,6 @@
 using UnityEngine;
 using System.Collections;
+using UnityEngine.AI; // control NavMeshAgent
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -10,25 +11,66 @@ public class EnemyHealth : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     private Color _originalColor;
 
+    [SerializeField] private float _knockbackForce = 5f;
+    [SerializeField] private float _knockbackDuration = 0.15f;
+    private NavMeshAgent _navAgent;
+
+    private EnemyController _controller;
+
+
     private void Start()
     {
         _currentHealth = _maxHealth;
         _originalColor  = spriteRenderer.color;
+        _navAgent = GetComponent<NavMeshAgent>();
+        _controller = GetComponent<EnemyController>();
     }
 
-    public void TakeDamage(int amount)
+    public void TakeDamage(int amount, Vector2 knockbackDirection)
     {
+        if (_controller != null) _controller.isMovementBlocked = true;
+
         _currentHealth -= amount;
         Debug.Log("El enemigo recibe daño, vida restante:: " + _currentHealth);
 
         // Coroutina for flashDamage()
         StartCoroutine(FlashDamage());
 
+        // Aplicar knockback
+        StartCoroutine(SimulateKnockback(knockbackDirection.normalized, _knockbackDuration));
+
         if (_currentHealth <= 0)
         {
             Die();
         }
     }
+
+    private IEnumerator SimulateKnockback(Vector2 direction, float duration)
+    {
+        if (_navAgent != null)
+        {
+            _navAgent.enabled = false; // Evita conflicto de movimiento
+        }
+
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            transform.position += (Vector3)(direction * _knockbackForce * Time.deltaTime);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+
+        if (_navAgent != null)
+        {
+            _navAgent.enabled = true;
+        }
+
+        if (_controller != null)
+        {
+            _controller.isMovementBlocked = false;
+        }
+    }
+
 
     private void Die()
     {

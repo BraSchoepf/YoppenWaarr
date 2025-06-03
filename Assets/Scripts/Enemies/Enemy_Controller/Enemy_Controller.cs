@@ -35,6 +35,10 @@ public class EnemyController : MonoBehaviour
     // to block the direction of the attack
     private Vector2 _attackDirection;
 
+    public bool isMovementBlocked = false; // block enemy AI behavior momentarily
+
+
+
     private void Start()
     {
         _agent = GetComponent<NavMeshAgent>();
@@ -47,6 +51,8 @@ public class EnemyController : MonoBehaviour
 
     private void Update()
     {
+        if (isMovementBlocked) return; // We block AI while it is active
+
         HandleEnemyLogic();
 
         HandleAnimations();
@@ -168,9 +174,8 @@ public class EnemyController : MonoBehaviour
         //but he will be able to attack again when he finishes and the cooldown allows it.
         if (Time.time - _lastAttackTime < attackCooldown || _animator.GetBool("isAttacking")) return;
 
-        //Manually freeze NavMeshAgent speed during attack - YW-ES-005 BUG-ES-004 --> QA testing
-        _agent.velocity = Vector3.zero;
-        _agent.isStopped = true;
+        _agent.enabled = false; // desactivamos el NavMesh
+
 
         // to block the direction of the attack
         _attackDirection = (player.position - transform.position).normalized;
@@ -181,6 +186,8 @@ public class EnemyController : MonoBehaviour
         //For attack to trigger the function ApplyAttackDamage() 1 time x hit and take 1HP - YW-ES-006 BUG-ES-005 --> QA testing
         //Activate animation attack
         _animator.SetTrigger("Attack");
+        StartCoroutine(SimulateAttackApproach(_attackDirection, 1.5f, 0.3f)); // Ajustá velocidad/duración si querés
+
 
         // We stop any previous coroutine before launching a new one.
         if (_attackCoroutine != null)
@@ -253,6 +260,19 @@ public class EnemyController : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         _animator.SetBool("isAttacking", false);
+        _agent.enabled = true;
         _agent.isStopped = false; //  Resumes movement after the attack 
     }
+
+    IEnumerator SimulateAttackApproach(Vector2 direction, float speed, float duration)
+    {
+        float elapsed = 0f;
+        while (elapsed < duration)
+        {
+            transform.position += (Vector3)(direction * speed * Time.deltaTime);
+            elapsed += Time.deltaTime;
+            yield return null;
+        }
+    }
+
 }
