@@ -17,6 +17,9 @@ public class EnemyHealth : MonoBehaviour
 
     private EnemyController _controller;
 
+    // Reference to the damage particle prefab
+    [SerializeField] private GameObject damageParticlePrefab;
+
 
     private void Start()
     {
@@ -36,12 +39,26 @@ public class EnemyHealth : MonoBehaviour
         // Coroutina for flashDamage()
         StartCoroutine(FlashDamage());
 
+        // Spawn damage particles
+        SpawnDamageParticles();
+
         // Aplicar knockback
         StartCoroutine(SimulateKnockback(knockbackDirection.normalized, _knockbackDuration));
 
         if (_currentHealth <= 0)
         {
             Die();
+        }
+    }
+
+    private void SpawnDamageParticles()
+    {
+        if (damageParticlePrefab != null)
+        {
+            // Instantiate the particle prefab at the enemy's position
+            GameObject particles = Instantiate(damageParticlePrefab, transform.position, Quaternion.identity);
+            // Optionally, you can set the particles to be destroyed after a certain time
+            Destroy(particles, 1f); // Destroy after 1 second
         }
     }
 

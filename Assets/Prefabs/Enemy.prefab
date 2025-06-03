@@ -145,6 +145,7 @@ MonoBehaviour:
   spriteRenderer: {fileID: 3994617162317874866}
   _knockbackForce: 10
   _knockbackDuration: 0.2
+  damageParticlePrefab: {fileID: 4007705353941138147, guid: aaf5c4ec0cfd9e644b6cbdb0f7f4e35f, type: 3}
 --- !u!114 &6166536739494580925
 MonoBehaviour:
   m_ObjectHideFlags: 0
