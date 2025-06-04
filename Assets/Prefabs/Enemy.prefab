@@ -148,10 +148,10 @@ MonoBehaviour:
   damageParticlePrefab: {fileID: 4007705353941138147, guid: aaf5c4ec0cfd9e644b6cbdb0f7f4e35f, type: 3}
   _damageSFX:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
+      Data1: -1854403018
+      Data2: 1303288979
+      Data3: -189440111
+      Data4: -106187389
     Path: event:/sfx_hit
 --- !u!114 &6166536739494580925
 MonoBehaviour:

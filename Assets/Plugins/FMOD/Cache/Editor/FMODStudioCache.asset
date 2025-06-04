@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638845877834725684
+  lastModified: 638845897944749427
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -120,6 +120,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 313
+--- !u!114 &-3654143158548628617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx_sword
+  m_EditorClassIdentifier: 
+  Path: event:/sfx_sword
+  Guid:
+    Data1: 1847779374
+    Data2: 1125987196
+    Data3: 2000849033
+    Data4: -596763802
+  Banks:
+  - {fileID: 2985053418167631072}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 208
 --- !u!114 &-3651879851867278927
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -201,13 +228,14 @@ MonoBehaviour:
   - {fileID: 5147318112026502096}
   - {fileID: -4457992527085501293}
   - {fileID: 8531308940855754141}
+  - {fileID: -3654143158548628617}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7100521242570676380}
   StringsBanks:
   - {fileID: 7227359836322847528}
   cacheVersion: 131847
-  cacheTime: 638845877841270379
+  cacheTime: 638845897949679274
   SerializableEventsDict:
   - key: event:/music-menu
     index: 0
@@ -233,6 +261,12 @@ MonoBehaviour:
     index: 10
   - key: event:/sfx-dogBark_3D
     index: 11
+  - key: event:/sfx_hit
+    index: 12
+  - key: event:/sfx-canon
+    index: 13
+  - key: event:/sfx_sword
+    index: 14
 --- !u!114 &536483278494819800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -350,10 +384,10 @@ MonoBehaviour:
   Path: ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/sfx-scene_tutorial.bank
   Name: sfx-scene_tutorial
   StudioPath: bank:/sfx-scene_tutorial
-  lastModified: 638845877841270379
+  lastModified: 638845897949679274
   FileSizes:
   - Name: Desktop
-    Value: 473728
+    Value: 476576
   Exists: 1
 --- !u!114 &3925260100416323728
 MonoBehaviour:
@@ -505,10 +539,10 @@ MonoBehaviour:
   Path: ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638845877834745666
+  lastModified: 638845897944984426
   FileSizes:
   - Name: Desktop
-    Value: 1628
+    Value: 1676
   Exists: 1
 --- !u!114 &7935085004003758987
 MonoBehaviour:

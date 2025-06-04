@@ -9,6 +9,8 @@ public class Sword_Collider : MonoBehaviour
 
     private Transform _playerTransform;
 
+    [SerializeField] private FMODUnity.EventReference _swordSFX;
+
     private void Start()
     {
         _playerTransform = transform.root; // Asume que la espada es hija del jugador
@@ -30,6 +32,9 @@ public class Sword_Collider : MonoBehaviour
     public void EnableCollider()
     {
         attackPoint.GetComponent<Collider2D>().enabled = true;
+
+        // Reproducir sonido de espada al atacar
+        AudioManager.Instance.PlayOneShot(_swordSFX, transform.position);
     }
 
     public void DisableCollider()
