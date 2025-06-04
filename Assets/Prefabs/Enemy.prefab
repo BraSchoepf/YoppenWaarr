@@ -146,6 +146,13 @@ MonoBehaviour:
   _knockbackForce: 10
   _knockbackDuration: 0.2
   damageParticlePrefab: {fileID: 4007705353941138147, guid: aaf5c4ec0cfd9e644b6cbdb0f7f4e35f, type: 3}
+  _damageSFX:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    Path: event:/sfx_hit
 --- !u!114 &6166536739494580925
 MonoBehaviour:
   m_ObjectHideFlags: 0

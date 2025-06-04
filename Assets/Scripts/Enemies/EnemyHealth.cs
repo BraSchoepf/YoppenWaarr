@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using UnityEngine.AI; // control NavMeshAgent
+using FMODUnity;
 
 public class EnemyHealth : MonoBehaviour
 {
@@ -26,6 +27,8 @@ public class EnemyHealth : MonoBehaviour
 
     public bool IsDead => isDead; // Expose isDead as a public property
 
+    [SerializeField] private EventReference _damageSFX;
+
     private void Start()
     {
         _currentHealth = _maxHealth;
@@ -47,6 +50,9 @@ public class EnemyHealth : MonoBehaviour
 
         // Spawn damage particles
         SpawnDamageParticles();
+
+        // Sonido de daño
+        AudioManager.Instance.PlayOneShot(_damageSFX, transform.position);
 
         // Aplicar knockback
         StartCoroutine(SimulateKnockback(knockbackDirection.normalized, _knockbackDuration));
