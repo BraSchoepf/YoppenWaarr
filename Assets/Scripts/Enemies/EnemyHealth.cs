@@ -29,6 +29,10 @@ public class EnemyHealth : MonoBehaviour
 
     [SerializeField] private EventReference _damageSFX;
 
+    [SerializeField] private GameObject _healthBarPrefab;
+    private EnemyHealthBar _healthBarInstance;
+
+
     private void Start()
     {
         _currentHealth = _maxHealth;
@@ -36,6 +40,11 @@ public class EnemyHealth : MonoBehaviour
         _navAgent = GetComponent<NavMeshAgent>();
         _controller = GetComponent<EnemyController>();
         _animator = GetComponent<Animator>();
+
+        _healthBarInstance = Instantiate(_healthBarPrefab, transform.position, Quaternion.identity).GetComponent<EnemyHealthBar>();
+        _healthBarInstance.SetTarget(transform);
+        _healthBarInstance.SetHealth(_currentHealth, _maxHealth);
+
     }
 
     public void TakeDamage(int amount, Vector2 knockbackDirection)
@@ -43,6 +52,7 @@ public class EnemyHealth : MonoBehaviour
         if (_controller != null) _controller.isMovementBlocked = true;
 
         _currentHealth -= amount;
+        _healthBarInstance.SetHealth(_currentHealth, _maxHealth);
         Debug.Log("El enemigo recibe daño, vida restante:: " + _currentHealth);
 
         // Coroutina for flashDamage()
@@ -129,6 +139,10 @@ public class EnemyHealth : MonoBehaviour
         _animator.SetTrigger("Die");
 
         StartCoroutine(DestroyAfterAnimation());
+
+        if (_healthBarInstance != null)
+            Destroy(_healthBarInstance.gameObject);
+
     }
 
 

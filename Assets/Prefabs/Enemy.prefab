@@ -153,6 +153,7 @@ MonoBehaviour:
       Data3: -189440111
       Data4: -106187389
     Path: event:/sfx_hit
+  _healthBarPrefab: {fileID: 9084186433069171361, guid: 6925a59ef7ef925409dd9cd32d2ceb76, type: 3}
 --- !u!114 &6166536739494580925
 MonoBehaviour:
   m_ObjectHideFlags: 0
