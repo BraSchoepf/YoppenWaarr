@@ -1,5 +1,32 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7923160048937790525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music-scene_tutorial
+  m_EditorClassIdentifier: 
+  Path: event:/music-scene_tutorial
+  Guid:
+    Data1: -209523052
+    Data2: 1183512563
+    Data3: 1576101802
+    Data4: 987461155
+  Banks:
+  - {fileID: -2422726229330469388}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 67000
 --- !u!114 &-7100521242570676380
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,7 +42,7 @@ MonoBehaviour:
   Path: ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638845897944749427
+  lastModified: 638849159069562522
   FileSizes:
   - Name: Desktop
     Value: 1074
@@ -174,6 +201,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 1400
+--- !u!114 &-2623043737595742770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music-victory
+  m_EditorClassIdentifier: 
+  Path: event:/music-victory
+  Guid:
+    Data1: 2079061808
+    Data2: 1182900559
+    Data3: 118003126
+    Data4: -1905000419
+  Banks:
+  - {fileID: -2422726229330469388}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 5015
 --- !u!114 &-2422726229330469388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -189,10 +243,10 @@ MonoBehaviour:
   Path: ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-scene_tutorial.bank
   Name: music-scene_tutorial
   StudioPath: bank:/music-scene_tutorial
-  lastModified: 638838019533514619
+  lastModified: 638849159273528269
   FileSizes:
   - Name: Desktop
-    Value: 2809280
+    Value: 12944512
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -218,7 +272,6 @@ MonoBehaviour:
   - {fileID: 1819052999501919897}
   - {fileID: 2371842972990688585}
   - {fileID: 6605026092081214090}
-  - {fileID: 8327661707563380130}
   - {fileID: 4794065887674120702}
   - {fileID: 7935085004003758987}
   - {fileID: 3925260100416323728}
@@ -229,13 +282,17 @@ MonoBehaviour:
   - {fileID: -4457992527085501293}
   - {fileID: 8531308940855754141}
   - {fileID: -3654143158548628617}
+  - {fileID: 821220797299322143}
+  - {fileID: -2623043737595742770}
+  - {fileID: -7923160048937790525}
+  - {fileID: 6301564290747075959}
   EditorParameters: []
   MasterBanks:
   - {fileID: -7100521242570676380}
   StringsBanks:
   - {fileID: 7227359836322847528}
   cacheVersion: 131847
-  cacheTime: 638845897949679274
+  cacheTime: 638849161247478349
   SerializableEventsDict:
   - key: event:/music-menu
     index: 0
@@ -245,28 +302,26 @@ MonoBehaviour:
     index: 2
   - key: event:/music-intro_game
     index: 3
-  - key: event:/music-scene_tutorial
-    index: 4
   - key: event:/sfx-btn_echalePata
-    index: 5
+    index: 4
   - key: event:/sfx-btn-hover
-    index: 6
+    index: 5
   - key: event:/sfx-lowLife
-    index: 7
+    index: 6
   - key: event:/sfx-farm_3D
-    index: 8
+    index: 7
   - key: event:/sfx-steps
-    index: 9
+    index: 8
   - key: event:/sfx-powerUp
-    index: 10
+    index: 9
   - key: event:/sfx-dogBark_3D
-    index: 11
+    index: 10
   - key: event:/sfx_hit
-    index: 12
+    index: 11
   - key: event:/sfx-canon
-    index: 13
+    index: 12
   - key: event:/sfx_sword
-    index: 14
+    index: 13
 --- !u!114 &536483278494819800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,6 +350,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 550
+--- !u!114 &821220797299322143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music-boss
+  m_EditorClassIdentifier: 
+  Path: event:/music-boss
+  Guid:
+    Data1: -2018401785
+    Data2: 1257517278
+    Data3: -791292791
+    Data4: 1266908994
+  Banks:
+  - {fileID: -2422726229330469388}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 73846
 --- !u!114 &1819052999501919897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -364,10 +446,10 @@ MonoBehaviour:
   Path: ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-menu.bank
   Name: music-menu
   StudioPath: bank:/music-menu
-  lastModified: 638838019531968902
+  lastModified: 638849161247478349
   FileSizes:
   - Name: Desktop
-    Value: 5766368
+    Value: 5996064
   Exists: 1
 --- !u!114 &2985053418167631072
 MonoBehaviour:
@@ -384,10 +466,10 @@ MonoBehaviour:
   Path: ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/sfx-scene_tutorial.bank
   Name: sfx-scene_tutorial
   StudioPath: bank:/sfx-scene_tutorial
-  lastModified: 638845897949679274
+  lastModified: 638849159279290117
   FileSizes:
   - Name: Desktop
-    Value: 476576
+    Value: 578720
   Exists: 1
 --- !u!114 &3925260100416323728
 MonoBehaviour:
@@ -497,6 +579,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6264
+--- !u!114 &6301564290747075959
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/music-gameOver
+  m_EditorClassIdentifier: 
+  Path: event:/music-gameOver
+  Guid:
+    Data1: -1708024932
+    Data2: 1330214180
+    Data3: 1184641442
+    Data4: -1187355360
+  Banks:
+  - {fileID: -2422726229330469388}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 86595
 --- !u!114 &6605026092081214090
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -539,10 +648,10 @@ MonoBehaviour:
   Path: ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638845897944984426
+  lastModified: 638849159069582510
   FileSizes:
   - Name: Desktop
-    Value: 1676
+    Value: 1788
   Exists: 1
 --- !u!114 &7935085004003758987
 MonoBehaviour:
@@ -571,33 +680,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 250
---- !u!114 &8327661707563380130
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/music-scene_tutorial
-  m_EditorClassIdentifier: 
-  Path: event:/music-scene_tutorial
-  Guid:
-    Data1: -209523052
-    Data2: 1183512563
-    Data3: 1576101802
-    Data4: 987461155
-  Banks:
-  - {fileID: -2422726229330469388}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 67000
 --- !u!114 &8531308940855754141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -624,4 +706,4 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 2624
+  Length: 2874

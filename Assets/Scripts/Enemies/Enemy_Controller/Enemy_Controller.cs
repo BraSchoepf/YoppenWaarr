@@ -74,7 +74,10 @@ public class EnemyController : MonoBehaviour
             if (distanceToPlayer <= attackRange)
             {
                 Attack();
-                _agent.SetDestination(transform.position);
+                if (_agent != null && _agent.enabled)
+                {
+                    _agent.SetDestination(player.position);
+                }
             }
             else
             {
