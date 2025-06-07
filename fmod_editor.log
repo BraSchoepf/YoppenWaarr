@@ -969,3 +969,12 @@
 [LOG] SoundI::release                          :     Explosion-and-Rubble (000001FA72BA03F8)
 [LOG] SoundI::release                          :  (000001FA4B5E1ED8)
 [LOG] SoundI::release                          :     621003__samsterbirdies__cannon-explosion-sound-4 (000001FA718BE1E8)
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::closeInternal                   : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
