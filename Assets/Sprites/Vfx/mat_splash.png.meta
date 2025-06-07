@@ -1,0 +1,438 @@
+fileFormatVersion: 2
+guid: e2bb4ceaa68c02f478f9dffd8c384abf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7089222753586573030
+    second: splash_charquito_0
+  - first:
+      213: -9194602505292176206
+    second: splash_charquito_1
+  - first:
+      213: 4838747891612823083
+    second: splash_charquito_2
+  - first:
+      213: 8787255060556035253
+    second: splash_charquito_3
+  - first:
+      213: 3523708088249380551
+    second: splash_charquito_4
+  - first:
+      213: 6443833736281018103
+    second: splash_charquito_5
+  - first:
+      213: -3658713721030165271
+    second: splash_charquito_6
+  - first:
+      213: 5557395193489891956
+    second: splash_charquito_7
+  - first:
+      213: 5994671654735031572
+    second: splash_charquito_8
+  - first:
+      213: -4020227228744147218
+    second: splash_charquito_9
+  - first:
+      213: -7306848740577694421
+    second: splash_charquito_10
+  - first:
+      213: 539617458245461811
+    second: splash_charquito_11
+  - first:
+      213: -8132437987180545442
+    second: splash_charquito_12
+  - first:
+      213: -8538389462898797713
+    second: splash_charquito_13
+  - first:
+      213: 3022807020498056360
+    second: splash_charquito_14
+  - first:
+      213: 3256135989659750068
+    second: splash_charquito_15
+  - first:
+      213: -7976135277333618664
+    second: splash_charquito_16
+  - first:
+      213: -2001306769446478592
+    second: splash_charquito_17
+  - first:
+      213: 1121560603269459572
+    second: splash_charquito_18
+  - first:
+      213: 347681093324571287
+    second: splash_charquito_19
+  - first:
+      213: -4718581957430457032
+    second: splash_charquito_20
+  - first:
+      213: -3194314443272461346
+    second: splash_charquito_21
+  - first:
+      213: 3859303455166889732
+    second: splash_charquito_22
+  - first:
+      213: -4563533967146340016
+    second: splash_charquito_23
+  - first:
+      213: -4473209515797975823
+    second: splash_charquito_24
+  - first:
+      213: -3553946159514255180
+    second: splash_charquito_25
+  - first:
+      213: -3489097421195187739
+    second: splash_charquito_26
+  - first:
+      213: -3104173780535519478
+    second: splash_charquito_27
+  - first:
+      213: 6998228651083823452
+    second: splash_charquito_28
+  - first:
+      213: 4138136960234851098
+    second: splash_charquito_29
+  - first:
+      213: 7914741999290530139
+    second: splash_charquito_30
+  - first:
+      213: 6270970856418752923
+    second: splash_charquito_31
+  - first:
+      213: 9075321866556067362
+    second: splash_charquito_32
+  - first:
+      213: 2340278724543048426
+    second: splash_charquito_33
+  - first:
+      213: -1604276063661741501
+    second: splash_charquito_34
+  - first:
+      213: 7290137510157688418
+    second: splash_charquito_35
+  - first:
+      213: 8466359439184171142
+    second: splash_charquito_36
+  - first:
+      213: 2767663477011339897
+    second: splash_charquito_37
+  - first:
+      213: -7661254288734500208
+    second: splash_charquito_38
+  - first:
+      213: 1141324880445794577
+    second: splash_charquito_39
+  - first:
+      213: -964644189346169394
+    second: splash_charquito_40
+  - first:
+      213: -1113123828942065709
+    second: splash_charquito_41
+  - first:
+      213: -7035121492772100118
+    second: splash_charquito_42
+  - first:
+      213: -5088428274482292195
+    second: splash_charquito_43
+  - first:
+      213: -2762414584824074803
+    second: splash_charquito_44
+  - first:
+      213: 1089370506212130793
+    second: splash_charquito_45
+  - first:
+      213: 2217591665485824445
+    second: splash_charquito_46
+  - first:
+      213: 5106857756096066050
+    second: splash_charquito_47
+  - first:
+      213: -5683539616511197589
+    second: splash_charquito_48
+  - first:
+      213: -3835446308283221129
+    second: splash_charquito_49
+  - first:
+      213: -7998744398675393647
+    second: splash_charquito_50
+  - first:
+      213: -2539081291951789359
+    second: splash_charquito_51
+  - first:
+      213: 180886087002650191
+    second: splash_charquito_52
+  - first:
+      213: -2657500494819793313
+    second: splash_charquito_53
+  - first:
+      213: -6597896291438885401
+    second: splash_charquito_54
+  - first:
+      213: -8913839816201626125
+    second: splash_charquito_55
+  - first:
+      213: 6341525903351887156
+    second: splash_charquito_56
+  - first:
+      213: 4650736825720931231
+    second: splash_charquito_57
+  - first:
+      213: 4174808572817861379
+    second: splash_charquito_58
+  - first:
+      213: 4578582518961673202
+    second: splash_charquito_59
+  - first:
+      213: -8046617932621526515
+    second: splash_charquito_60
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: splash_charquito_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bcb8dd701236f24ea68019fd3aaa42b
+      internalID: -1472565312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash_charquito_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd0bd91a86cf7304790490ea424d589a
+      internalID: -1759846548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash_charquito_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 256
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad4072c13852b6d4c8a9551f7110e03e
+      internalID: -567011446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash_charquito_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae049f13400211549a63a585ec39ba84
+      internalID: 1348897045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash_charquito_4
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c3e55b0cebb0fe47bcebc0181f9c82c
+      internalID: -1156883457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: splash_charquito_5
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e70f9e9d4feda584fa3589dd3056b02a
+      internalID: -1184256894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b4f28985547d5df42882139482c4bfaf
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      splash_charquito_0: -1472565312
+      splash_charquito_1: -1759846548
+      splash_charquito_2: -567011446
+      splash_charquito_3: 1348897045
+      splash_charquito_4: -1156883457
+      splash_charquito_5: -1184256894
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
