@@ -66,7 +66,6 @@ public class PlayerHealth : MonoBehaviour
     }
 
     //Coroutina for effect damage recive
-
     IEnumerator FlashDamage()
     {
         int flashCount = 2;

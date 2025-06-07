@@ -35,18 +35,24 @@ public class EnemyController : MonoBehaviour
     // to block the direction of the attack
     private Vector2 _attackDirection;
 
+    public bool isMovementBlocked = false; // block enemy AI behavior momentarily
+
+    private EnemyHealth _enemyHealth; // Reference to EnemyHealth
+
     private void Start()
     {
         _agent = GetComponent<NavMeshAgent>();
         _agent.updateRotation = false;
         _agent.updateUpAxis = false;
         _initialPosition = transform.position;
-
+        _enemyHealth = GetComponent<EnemyHealth>(); // Get the EnemyHealth component
         _animator = GetComponent<Animator>();
     }
 
     private void Update()
     {
+        if (isMovementBlocked || _enemyHealth.IsDead) return; // We block AI while it is active or if the enemy is dead
+
         HandleEnemyLogic();
 
         HandleAnimations();
@@ -68,11 +74,17 @@ public class EnemyController : MonoBehaviour
             if (distanceToPlayer <= attackRange)
             {
                 Attack();
-                _agent.SetDestination(transform.position);
+                if (_agent != null && _agent.enabled)
+                {
+                    _agent.SetDestination(player.position);
+                }
             }
             else
             {
-                _agent.SetDestination(player.position);
+                if (_agent != null && _agent.enabled)
+                {
+                    _agent.SetDestination(player.position);
+                }
             }
         }
         else if (_isChasing)
@@ -128,7 +140,10 @@ public class EnemyController : MonoBehaviour
     {
         _isChasing = true;
         _agent.speed = chaseSpeed;
-        _agent.SetDestination(player.position);
+        if (_agent != null && _agent.enabled)
+        {
+            _agent.SetDestination(player.position); // Usá esto en lugar de llamadas directas
+        }
     }
 
     void ReturnToInitialPosition()
@@ -168,9 +183,8 @@ public class EnemyController : MonoBehaviour
         //but he will be able to attack again when he finishes and the cooldown allows it.
         if (Time.time - _lastAttackTime < attackCooldown || _animator.GetBool("isAttacking")) return;
 
-        //Manually freeze NavMeshAgent speed during attack - YW-ES-005 BUG-ES-004 --> QA testing
-        _agent.velocity = Vector3.zero;
-        _agent.isStopped = true;
+        _agent.enabled = false; // desactivamos el NavMesh
+
 
         // to block the direction of the attack
         _attackDirection = (player.position - transform.position).normalized;
@@ -181,6 +195,8 @@ public class EnemyController : MonoBehaviour
         //For attack to trigger the function ApplyAttackDamage() 1 time x hit and take 1HP - YW-ES-006 BUG-ES-005 --> QA testing
         //Activate animation attack
         _animator.SetTrigger("Attack");
+        //StartCoroutine(SimulateAttackApproach(_attackDirection, 1.5f, 0.3f)); // Ajustá velocidad/duración si querés
+
 
         // We stop any previous coroutine before launching a new one.
         if (_attackCoroutine != null)
@@ -253,6 +269,25 @@ public class EnemyController : MonoBehaviour
     {
         yield return new WaitForSeconds(delay);
         _animator.SetBool("isAttacking", false);
+        _agent.enabled = true;
         _agent.isStopped = false; //  Resumes movement after the attack 
+    }
+
+    public void StopAttack()
+    {
+        if (_attackCoroutine != null)
+        {
+            StopCoroutine(_attackCoroutine);
+        }
+        _animator.SetBool("isAttacking", false);
+        _agent.enabled = true;
+    }
+
+    public void ResumeAttack()
+    {
+        if (Time.time - _lastAttackTime >= attackCooldown)
+        {
+            StartCoroutine(StopAttackAfterDelay(1.1f)); // duration of the attack
+        }
     }
 }
