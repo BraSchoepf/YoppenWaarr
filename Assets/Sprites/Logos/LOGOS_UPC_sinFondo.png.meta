@@ -1,0 +1,2353 @@
+fileFormatVersion: 2
+guid: ef12457c71dc05a47a65ffc7ee88488f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 889827663176933079
+    second: LOGOS_UPC_sinFondo_0
+  - first:
+      213: -1685305200808523866
+    second: LOGOS_UPC_sinFondo_1
+  - first:
+      213: 5493131280022044156
+    second: LOGOS_UPC_sinFondo_2
+  - first:
+      213: 8475159425015253674
+    second: LOGOS_UPC_sinFondo_3
+  - first:
+      213: -5915140021533339128
+    second: LOGOS_UPC_sinFondo_4
+  - first:
+      213: -5367015545878570180
+    second: LOGOS_UPC_sinFondo_5
+  - first:
+      213: 7921366889833961669
+    second: LOGOS_UPC_sinFondo_6
+  - first:
+      213: -6753003900071647282
+    second: LOGOS_UPC_sinFondo_7
+  - first:
+      213: 1799993289903186521
+    second: LOGOS_UPC_sinFondo_8
+  - first:
+      213: 306886305456431180
+    second: LOGOS_UPC_sinFondo_9
+  - first:
+      213: 8515883847435047203
+    second: LOGOS_UPC_sinFondo_10
+  - first:
+      213: -8279105625633670031
+    second: LOGOS_UPC_sinFondo_11
+  - first:
+      213: -3560742434489517120
+    second: LOGOS_UPC_sinFondo_12
+  - first:
+      213: -2711906742743100603
+    second: LOGOS_UPC_sinFondo_13
+  - first:
+      213: 3440206237452215300
+    second: LOGOS_UPC_sinFondo_14
+  - first:
+      213: 5288263635872099055
+    second: LOGOS_UPC_sinFondo_15
+  - first:
+      213: 7063644858821614706
+    second: LOGOS_UPC_sinFondo_16
+  - first:
+      213: -4276228763899670181
+    second: LOGOS_UPC_sinFondo_17
+  - first:
+      213: -8859428220694125004
+    second: LOGOS_UPC_sinFondo_18
+  - first:
+      213: -8120970196452491069
+    second: LOGOS_UPC_sinFondo_19
+  - first:
+      213: 535370707739330840
+    second: LOGOS_UPC_sinFondo_20
+  - first:
+      213: 2675701531066760547
+    second: LOGOS_UPC_sinFondo_21
+  - first:
+      213: 1429076969232828142
+    second: LOGOS_UPC_sinFondo_22
+  - first:
+      213: 358971491865773053
+    second: LOGOS_UPC_sinFondo_23
+  - first:
+      213: 6683752733129883459
+    second: LOGOS_UPC_sinFondo_24
+  - first:
+      213: 6990789734589674465
+    second: LOGOS_UPC_sinFondo_25
+  - first:
+      213: 5569323173334943772
+    second: LOGOS_UPC_sinFondo_26
+  - first:
+      213: -1271013821660458493
+    second: LOGOS_UPC_sinFondo_27
+  - first:
+      213: 3912867503840658403
+    second: LOGOS_UPC_sinFondo_28
+  - first:
+      213: -4734730130636487316
+    second: LOGOS_UPC_sinFondo_29
+  - first:
+      213: 7177165102852179874
+    second: LOGOS_UPC_sinFondo_30
+  - first:
+      213: -8303797178151324171
+    second: LOGOS_UPC_sinFondo_31
+  - first:
+      213: 7255931131960339922
+    second: LOGOS_UPC_sinFondo_32
+  - first:
+      213: 5096465226734525149
+    second: LOGOS_UPC_sinFondo_33
+  - first:
+      213: -7082734626044098812
+    second: LOGOS_UPC_sinFondo_34
+  - first:
+      213: 9173421723418779302
+    second: LOGOS_UPC_sinFondo_35
+  - first:
+      213: 5223400284681665745
+    second: LOGOS_UPC_sinFondo_36
+  - first:
+      213: -9074969901067741731
+    second: LOGOS_UPC_sinFondo_37
+  - first:
+      213: -4905568155823490064
+    second: LOGOS_UPC_sinFondo_38
+  - first:
+      213: 8423140338442156275
+    second: LOGOS_UPC_sinFondo_39
+  - first:
+      213: -5360368911780001201
+    second: LOGOS_UPC_sinFondo_40
+  - first:
+      213: 3232209788412868555
+    second: LOGOS_UPC_sinFondo_41
+  - first:
+      213: -5848000557533784362
+    second: LOGOS_UPC_sinFondo_42
+  - first:
+      213: -6657962188162604949
+    second: LOGOS_UPC_sinFondo_43
+  - first:
+      213: 3166010888408552081
+    second: LOGOS_UPC_sinFondo_44
+  - first:
+      213: 789417839912523478
+    second: LOGOS_UPC_sinFondo_45
+  - first:
+      213: -4258071597785560303
+    second: LOGOS_UPC_sinFondo_46
+  - first:
+      213: 8736035505501786183
+    second: LOGOS_UPC_sinFondo_47
+  - first:
+      213: -2388714255614810516
+    second: LOGOS_UPC_sinFondo_48
+  - first:
+      213: 4499160807256540583
+    second: LOGOS_UPC_sinFondo_49
+  - first:
+      213: 8306025716073622706
+    second: LOGOS_UPC_sinFondo_50
+  - first:
+      213: -7500338554848964219
+    second: LOGOS_UPC_sinFondo_51
+  - first:
+      213: -8428655519108105135
+    second: LOGOS_UPC_sinFondo_52
+  - first:
+      213: -3172535497491808715
+    second: LOGOS_UPC_sinFondo_53
+  - first:
+      213: -5921180045953088917
+    second: LOGOS_UPC_sinFondo_54
+  - first:
+      213: -7079128425891729410
+    second: LOGOS_UPC_sinFondo_55
+  - first:
+      213: -159495364199651757
+    second: LOGOS_UPC_sinFondo_56
+  - first:
+      213: -8695955661081741474
+    second: LOGOS_UPC_sinFondo_57
+  - first:
+      213: 9031146863077407221
+    second: LOGOS_UPC_sinFondo_58
+  - first:
+      213: -3736096804166949806
+    second: LOGOS_UPC_sinFondo_59
+  - first:
+      213: -6582028826404935031
+    second: LOGOS_UPC_sinFondo_60
+  - first:
+      213: 4076174015166734892
+    second: LOGOS_UPC_sinFondo_61
+  - first:
+      213: 5643950806073501412
+    second: LOGOS_UPC_sinFondo_62
+  - first:
+      213: 7152022406597433140
+    second: LOGOS_UPC_sinFondo_63
+  - first:
+      213: 8963348658677656380
+    second: LOGOS_UPC_sinFondo_64
+  - first:
+      213: -6211356785034254768
+    second: LOGOS_UPC_sinFondo_65
+  - first:
+      213: 2683687832339440282
+    second: LOGOS_UPC_sinFondo_66
+  - first:
+      213: 8677013208400303411
+    second: LOGOS_UPC_sinFondo_67
+  - first:
+      213: 6973770457265453130
+    second: LOGOS_UPC_sinFondo_68
+  - first:
+      213: -3554066850640450380
+    second: LOGOS_UPC_sinFondo_69
+  - first:
+      213: -8236500144241752995
+    second: LOGOS_UPC_sinFondo_70
+  - first:
+      213: -7506240250737033485
+    second: LOGOS_UPC_sinFondo_71
+  - first:
+      213: -3159654892843426096
+    second: LOGOS_UPC_sinFondo_72
+  - first:
+      213: -5151546779930233054
+    second: LOGOS_UPC_sinFondo_73
+  - first:
+      213: -2096578895542269201
+    second: LOGOS_UPC_sinFondo_74
+  - first:
+      213: -1671234551999523252
+    second: LOGOS_UPC_sinFondo_75
+  - first:
+      213: 1446209692283824735
+    second: LOGOS_UPC_sinFondo_76
+  - first:
+      213: -8309629660670105103
+    second: LOGOS_UPC_sinFondo_77
+  - first:
+      213: -7780939396896717994
+    second: LOGOS_UPC_sinFondo_78
+  - first:
+      213: 8500443781848545765
+    second: LOGOS_UPC_sinFondo_79
+  - first:
+      213: 6290921847544582021
+    second: LOGOS_UPC_sinFondo_80
+  - first:
+      213: 1870269657667606109
+    second: LOGOS_UPC_sinFondo_81
+  - first:
+      213: 742050284545688790
+    second: LOGOS_UPC_sinFondo_82
+  - first:
+      213: -4247662456117560311
+    second: LOGOS_UPC_sinFondo_83
+  - first:
+      213: -8149515373888693538
+    second: LOGOS_UPC_sinFondo_84
+  - first:
+      213: 747885327668081358
+    second: LOGOS_UPC_sinFondo_85
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_0
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 72
+        width: 183
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de1afe8b8d495c00800000000000000
+      internalID: 889827663176933079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_1
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 185
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a780b759d79c98e0800000000000000
+      internalID: -1685305200808523866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_2
+      rect:
+        serializedVersion: 2
+        x: 414
+        y: 185
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdfc4a9bc58b3c40800000000000000
+      internalID: 5493131280022044156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_3
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 185
+        width: 28
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaa86def790dd9570800000000000000
+      internalID: 8475159425015253674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_4
+      rect:
+        serializedVersion: 2
+        x: 474
+        y: 185
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8021fcb7d7339eda0800000000000000
+      internalID: -5915140021533339128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_5
+      rect:
+        serializedVersion: 2
+        x: 495
+        y: 185
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3b98e3fbc78485b0800000000000000
+      internalID: -5367015545878570180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_6
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 185
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c8181497395eed60800000000000000
+      internalID: 7921366889833961669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_7
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 185
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec7e6695bb28842a0800000000000000
+      internalID: -6753003900071647282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_8
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 185
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95224c24c5cdaf810800000000000000
+      internalID: 1799993289903186521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_9
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 185
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c40a9270877424400800000000000000
+      internalID: 306886305456431180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_10
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 95
+        width: 238
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3215ada7d3f7e2670800000000000000
+      internalID: 8515883847435047203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_11
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 186
+        width: 7
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17cba2e4c45ba1d80800000000000000
+      internalID: -8279105625633670031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_12
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 186
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cbb7971f93b59ec0800000000000000
+      internalID: -3560742434489517120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_13
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 186
+        width: 31
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5439fce8f2f5d5ad0800000000000000
+      internalID: -2711906742743100603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_14
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 207
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4042c6198511ebf20800000000000000
+      internalID: 3440206237452215300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_15
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 186
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: feaa5c622cfa36940800000000000000
+      internalID: 5288263635872099055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_16
+      rect:
+        serializedVersion: 2
+        x: 993
+        y: 186
+        width: 16
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27c9395039b170260800000000000000
+      internalID: 7063644858821614706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_17
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 186
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b51d37d7898c7a4c0800000000000000
+      internalID: -4276228763899670181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_18
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 186
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436a478f8fcfc0580800000000000000
+      internalID: -8859428220694125004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_19
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 186
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c04ae012a48c4f80800000000000000
+      internalID: -8120970196452491069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_20
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 186
+        width: 20
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 819c3f972d40e6700800000000000000
+      internalID: 535370707739330840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_21
+      rect:
+        serializedVersion: 2
+        x: 1091
+        y: 186
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36df334bd50022520800000000000000
+      internalID: 2675701531066760547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_22
+      rect:
+        serializedVersion: 2
+        x: 1118
+        y: 186
+        width: 24
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee680d39ee915d310800000000000000
+      internalID: 1429076969232828142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_23
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 186
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df3c6218ba25bf400800000000000000
+      internalID: 358971491865773053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_24
+      rect:
+        serializedVersion: 2
+        x: 1161
+        y: 186
+        width: 30
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34fb0c0e2b571cc50800000000000000
+      internalID: 6683752733129883459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_25
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 207
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e33aad8936440160800000000000000
+      internalID: 6990789734589674465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_26
+      rect:
+        serializedVersion: 2
+        x: 1191
+        y: 186
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c180bf92be53a4d40800000000000000
+      internalID: 5569323173334943772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_27
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 186
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302115fc9a37c5ee0800000000000000
+      internalID: -1271013821660458493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_28
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 186
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e38793734c4d4630800000000000000
+      internalID: 3912867503840658403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_29
+      rect:
+        serializedVersion: 2
+        x: 1248
+        y: 186
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c65c218280cda4eb0800000000000000
+      internalID: -4734730130636487316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_30
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 149
+        width: 20
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a785d182a96a9360800000000000000
+      internalID: 7177165102852179874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_31
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 149
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f5366d367cf2cc80800000000000000
+      internalID: -8303797178151324171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_32
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 149
+        width: 25
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2dda133cbee32b460800000000000000
+      internalID: 7255931131960339922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_33
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 149
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dda54a91f184ab640800000000000000
+      internalID: 5096465226734525149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_34
+      rect:
+        serializedVersion: 2
+        x: 491
+        y: 149
+        width: 8
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4074840326215bd90800000000000000
+      internalID: -7082734626044098812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_35
+      rect:
+        serializedVersion: 2
+        x: 505
+        y: 149
+        width: 24
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ae5a3f547a8e4f70800000000000000
+      internalID: 9173421723418779302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_36
+      rect:
+        serializedVersion: 2
+        x: 533
+        y: 149
+        width: 21
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dcff1852ee3d7840800000000000000
+      internalID: 5223400284681665745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_37
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 149
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5de7bc4fa3f0280800000000000000
+      internalID: -9074969901067741731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_38
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 149
+        width: 26
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fb3caac0cbebebb0800000000000000
+      internalID: -4905568155823490064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_39
+      rect:
+        serializedVersion: 2
+        x: 598
+        y: 149
+        width: 17
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f8bb16928105e470800000000000000
+      internalID: 8423140338442156275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_40
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 145
+        width: 7
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4a4e4c00e42c95b0800000000000000
+      internalID: -5360368911780001201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_41
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 145
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7b3e57dad1bdc20800000000000000
+      internalID: 3232209788412868555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_42
+      rect:
+        serializedVersion: 2
+        x: 958
+        y: 145
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d699e91a7ab7dea0800000000000000
+      internalID: -5848000557533784362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_43
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 145
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b60e59e4aaa2a93a0800000000000000
+      internalID: -6657962188162604949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_44
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 145
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1925c96f02eefeb20800000000000000
+      internalID: 3166010888408552081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_45
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 145
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d69757c75394fa00800000000000000
+      internalID: 789417839912523478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_46
+      rect:
+        serializedVersion: 2
+        x: 1035
+        y: 145
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11bcfc9217a48e4c0800000000000000
+      internalID: -4258071597785560303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_47
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 166
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74052aab102ac3970800000000000000
+      internalID: 8736035505501786183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_48
+      rect:
+        serializedVersion: 2
+        x: 1052
+        y: 145
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c66ea2c5a0599ded0800000000000000
+      internalID: -2388714255614810516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_49
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 145
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a5c2e7aaea307e30800000000000000
+      internalID: 4499160807256540583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_50
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 166
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bce3dda16ee44370800000000000000
+      internalID: 8306025716073622706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_51
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 145
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5819f07a2d179e790800000000000000
+      internalID: -7500338554848964219
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_52
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 145
+        width: 22
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15cfc695676670b80800000000000000
+      internalID: -8428655519108105135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_53
+      rect:
+        serializedVersion: 2
+        x: 1128
+        y: 145
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53efeaa16c3e8f3d0800000000000000
+      internalID: -3172535497491808715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_54
+      rect:
+        serializedVersion: 2
+        x: 1147
+        y: 145
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b62c5d5be1eb3dda0800000000000000
+      internalID: -5921180045953088917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_55
+      rect:
+        serializedVersion: 2
+        x: 1164
+        y: 145
+        width: 20
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eff6a571432e1cd90800000000000000
+      internalID: -7079128425891729410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_56
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 145
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 356ee81bfcb59cdf0800000000000000
+      internalID: -159495364199651757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_57
+      rect:
+        serializedVersion: 2
+        x: 1205
+        y: 145
+        width: 8
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e57fcae3662c15780800000000000000
+      internalID: -8695955661081741474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_58
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 145
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f9bc101934155d70800000000000000
+      internalID: 9031146863077407221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_59
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 166
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254282550c7b62cc0800000000000000
+      internalID: -3736096804166949806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_60
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 137
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98aa0ccc7afe7a4a0800000000000000
+      internalID: -6582028826404935031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_61
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 166
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22e0b89baa719830800000000000000
+      internalID: 4076174015166734892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_62
+      rect:
+        serializedVersion: 2
+        x: 1253
+        y: 145
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e66acdea57535e40800000000000000
+      internalID: 5643950806073501412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_63
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 145
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 437dfda5c76114360800000000000000
+      internalID: 7152022406597433140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_64
+      rect:
+        serializedVersion: 2
+        x: 1277
+        y: 145
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ba47e7d16346c70800000000000000
+      internalID: 8963348658677656380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_65
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 115
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05622d6c9e3dcc9a0800000000000000
+      internalID: -6211356785034254768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_66
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 115
+        width: 14
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9261ae5ddf5e3520800000000000000
+      internalID: 2683687832339440282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_67
+      rect:
+        serializedVersion: 2
+        x: 447
+        y: 115
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 335921e4a81fa6870800000000000000
+      internalID: 8677013208400303411
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_68
+      rect:
+        serializedVersion: 2
+        x: 471
+        y: 115
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48bb62484fc7c060800000000000000
+      internalID: 6973770457265453130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_69
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 137
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4bca593970b6daec0800000000000000
+      internalID: -3554066850640450380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_70
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 115
+        width: 17
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d544406f1c212bd80800000000000000
+      internalID: -8236500144241752995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_71
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 115
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fe7410034a74d790800000000000000
+      internalID: -7506240250737033485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_72
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 115
+        width: 21
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0de1e339d96a624d0800000000000000
+      internalID: -3159654892843426096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_73
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 115
+        width: 16
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 227737a6f770288b0800000000000000
+      internalID: -5151546779930233054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_74
+      rect:
+        serializedVersion: 2
+        x: 597
+        y: 115
+        width: 20
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fea4f974a9477e2e0800000000000000
+      internalID: -2096578895542269201
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_75
+      rect:
+        serializedVersion: 2
+        x: 924
+        y: 96
+        width: 21
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4695bf87059ec8e0800000000000000
+      internalID: -1671234551999523252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_76
+      rect:
+        serializedVersion: 2
+        x: 953
+        y: 104
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5aed438d08f11410800000000000000
+      internalID: 1446209692283824735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_77
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 104
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f965b499d34eac80800000000000000
+      internalID: -8309629660670105103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_78
+      rect:
+        serializedVersion: 2
+        x: 986
+        y: 104
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 653012df7dc840490800000000000000
+      internalID: -7780939396896717994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_79
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 104
+        width: 21
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e9b2421594a7f570800000000000000
+      internalID: 8500443781848545765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_80
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 104
+        width: 19
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58f83a0f618dd4750800000000000000
+      internalID: 6290921847544582021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_81
+      rect:
+        serializedVersion: 2
+        x: 1048
+        y: 103
+        width: 31
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d561873385884f910800000000000000
+      internalID: 1870269657667606109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_82
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 125
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d4c2df5dca4c4a00800000000000000
+      internalID: 742050284545688790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_83
+      rect:
+        serializedVersion: 2
+        x: 1078
+        y: 104
+        width: 7
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90c795150854d05c0800000000000000
+      internalID: -4247662456117560311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_84
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 104
+        width: 21
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eda97c702fa17ee80800000000000000
+      internalID: -8149515373888693538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LOGOS_UPC_sinFondo_85
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 103
+        width: 19
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec2f1683eb5016a00800000000000000
+      internalID: 747885327668081358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      LOGOS_UPC_sinFondo_0: 889827663176933079
+      LOGOS_UPC_sinFondo_1: -1685305200808523866
+      LOGOS_UPC_sinFondo_10: 8515883847435047203
+      LOGOS_UPC_sinFondo_11: -8279105625633670031
+      LOGOS_UPC_sinFondo_12: -3560742434489517120
+      LOGOS_UPC_sinFondo_13: -2711906742743100603
+      LOGOS_UPC_sinFondo_14: 3440206237452215300
+      LOGOS_UPC_sinFondo_15: 5288263635872099055
+      LOGOS_UPC_sinFondo_16: 7063644858821614706
+      LOGOS_UPC_sinFondo_17: -4276228763899670181
+      LOGOS_UPC_sinFondo_18: -8859428220694125004
+      LOGOS_UPC_sinFondo_19: -8120970196452491069
+      LOGOS_UPC_sinFondo_2: 5493131280022044156
+      LOGOS_UPC_sinFondo_20: 535370707739330840
+      LOGOS_UPC_sinFondo_21: 2675701531066760547
+      LOGOS_UPC_sinFondo_22: 1429076969232828142
+      LOGOS_UPC_sinFondo_23: 358971491865773053
+      LOGOS_UPC_sinFondo_24: 6683752733129883459
+      LOGOS_UPC_sinFondo_25: 6990789734589674465
+      LOGOS_UPC_sinFondo_26: 5569323173334943772
+      LOGOS_UPC_sinFondo_27: -1271013821660458493
+      LOGOS_UPC_sinFondo_28: 3912867503840658403
+      LOGOS_UPC_sinFondo_29: -4734730130636487316
+      LOGOS_UPC_sinFondo_3: 8475159425015253674
+      LOGOS_UPC_sinFondo_30: 7177165102852179874
+      LOGOS_UPC_sinFondo_31: -8303797178151324171
+      LOGOS_UPC_sinFondo_32: 7255931131960339922
+      LOGOS_UPC_sinFondo_33: 5096465226734525149
+      LOGOS_UPC_sinFondo_34: -7082734626044098812
+      LOGOS_UPC_sinFondo_35: 9173421723418779302
+      LOGOS_UPC_sinFondo_36: 5223400284681665745
+      LOGOS_UPC_sinFondo_37: -9074969901067741731
+      LOGOS_UPC_sinFondo_38: -4905568155823490064
+      LOGOS_UPC_sinFondo_39: 8423140338442156275
+      LOGOS_UPC_sinFondo_4: -5915140021533339128
+      LOGOS_UPC_sinFondo_40: -5360368911780001201
+      LOGOS_UPC_sinFondo_41: 3232209788412868555
+      LOGOS_UPC_sinFondo_42: -5848000557533784362
+      LOGOS_UPC_sinFondo_43: -6657962188162604949
+      LOGOS_UPC_sinFondo_44: 3166010888408552081
+      LOGOS_UPC_sinFondo_45: 789417839912523478
+      LOGOS_UPC_sinFondo_46: -4258071597785560303
+      LOGOS_UPC_sinFondo_47: 8736035505501786183
+      LOGOS_UPC_sinFondo_48: -2388714255614810516
+      LOGOS_UPC_sinFondo_49: 4499160807256540583
+      LOGOS_UPC_sinFondo_5: -5367015545878570180
+      LOGOS_UPC_sinFondo_50: 8306025716073622706
+      LOGOS_UPC_sinFondo_51: -7500338554848964219
+      LOGOS_UPC_sinFondo_52: -8428655519108105135
+      LOGOS_UPC_sinFondo_53: -3172535497491808715
+      LOGOS_UPC_sinFondo_54: -5921180045953088917
+      LOGOS_UPC_sinFondo_55: -7079128425891729410
+      LOGOS_UPC_sinFondo_56: -159495364199651757
+      LOGOS_UPC_sinFondo_57: -8695955661081741474
+      LOGOS_UPC_sinFondo_58: 9031146863077407221
+      LOGOS_UPC_sinFondo_59: -3736096804166949806
+      LOGOS_UPC_sinFondo_6: 7921366889833961669
+      LOGOS_UPC_sinFondo_60: -6582028826404935031
+      LOGOS_UPC_sinFondo_61: 4076174015166734892
+      LOGOS_UPC_sinFondo_62: 5643950806073501412
+      LOGOS_UPC_sinFondo_63: 7152022406597433140
+      LOGOS_UPC_sinFondo_64: 8963348658677656380
+      LOGOS_UPC_sinFondo_65: -6211356785034254768
+      LOGOS_UPC_sinFondo_66: 2683687832339440282
+      LOGOS_UPC_sinFondo_67: 8677013208400303411
+      LOGOS_UPC_sinFondo_68: 6973770457265453130
+      LOGOS_UPC_sinFondo_69: -3554066850640450380
+      LOGOS_UPC_sinFondo_7: -6753003900071647282
+      LOGOS_UPC_sinFondo_70: -8236500144241752995
+      LOGOS_UPC_sinFondo_71: -7506240250737033485
+      LOGOS_UPC_sinFondo_72: -3159654892843426096
+      LOGOS_UPC_sinFondo_73: -5151546779930233054
+      LOGOS_UPC_sinFondo_74: -2096578895542269201
+      LOGOS_UPC_sinFondo_75: -1671234551999523252
+      LOGOS_UPC_sinFondo_76: 1446209692283824735
+      LOGOS_UPC_sinFondo_77: -8309629660670105103
+      LOGOS_UPC_sinFondo_78: -7780939396896717994
+      LOGOS_UPC_sinFondo_79: 8500443781848545765
+      LOGOS_UPC_sinFondo_8: 1799993289903186521
+      LOGOS_UPC_sinFondo_80: 6290921847544582021
+      LOGOS_UPC_sinFondo_81: 1870269657667606109
+      LOGOS_UPC_sinFondo_82: 742050284545688790
+      LOGOS_UPC_sinFondo_83: -4247662456117560311
+      LOGOS_UPC_sinFondo_84: -8149515373888693538
+      LOGOS_UPC_sinFondo_85: 747885327668081358
+      LOGOS_UPC_sinFondo_9: 306886305456431180
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
