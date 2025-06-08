@@ -1,6 +1,7 @@
 using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
+using System.Collections;
 
 
 public class AudioManager : MonoBehaviour
@@ -81,7 +82,37 @@ public class AudioManager : MonoBehaviour
         RuntimeManager.PlayOneShot(sfxEvent);
     }
 
+    public void PlaySFXAndWait(EventReference sfxEvent, System.Action onComplete)
+    {
+        StartCoroutine(SFXWaitCoroutine(sfxEvent, onComplete));
+    }
 
+    private IEnumerator SFXWaitCoroutine(EventReference sfxEvent, System.Action onComplete)
+    {
+        if (sfxEvent.IsNull)
+        {
+            Debug.LogWarning("SFX no asignado.");
+            onComplete?.Invoke();
+            yield break;
+        }
+
+        StopMusic();
+
+        EventInstance instance = RuntimeManager.CreateInstance(sfxEvent);
+        instance.start();
+
+        PLAYBACK_STATE state;
+        do
+        {
+            yield return null;
+            instance.getPlaybackState(out state);
+        } while (state == PLAYBACK_STATE.PLAYING);
+
+        instance.release();
+        instance.clearHandle();
+
+        onComplete?.Invoke();
+    }
 
     //
 
