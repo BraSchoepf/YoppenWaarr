@@ -1881,6 +1881,7 @@ GameObject:
   - component: {fileID: 739793149}
   - component: {fileID: 739793148}
   - component: {fileID: 739793147}
+  - component: {fileID: 739793150}
   m_Layer: 5
   m_Name: VolverButton
   m_TagString: Untagged
@@ -2002,6 +2003,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 739793145}
   m_CullTransparentMesh: 1
+--- !u!114 &739793150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 739793145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2c419ccdef62e47b4384bce206bb3c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &873392967
 GameObject:
   m_ObjectHideFlags: 0
