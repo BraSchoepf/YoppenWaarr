@@ -1,0 +1,592 @@
+fileFormatVersion: 2
+guid: 844738e7618279a42ba8bf8e21ac3a44
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -130432938482079375
+    second: LHG_canva3-SinFondo_0
+  - first:
+      213: -8809445392426651331
+    second: LHG_canva3-SinFondo_1
+  - first:
+      213: 8886412459402936246
+    second: LHG_canva3-SinFondo_2
+  - first:
+      213: -100014108975989505
+    second: LHG_canva3-SinFondo_3
+  - first:
+      213: -4940095421736174762
+    second: LHG_canva3-SinFondo_4
+  - first:
+      213: -5247231947070041344
+    second: LHG_canva3-SinFondo_5
+  - first:
+      213: -484485400983875856
+    second: LHG_canva3-SinFondo_6
+  - first:
+      213: -2427092683309428252
+    second: LHG_canva3-SinFondo_7
+  - first:
+      213: 9193984544574955140
+    second: LHG_canva3-SinFondo_8
+  - first:
+      213: -3068597250916319912
+    second: LHG_canva3-SinFondo_9
+  - first:
+      213: -3348231699334478677
+    second: LHG_canva3-SinFondo_10
+  - first:
+      213: -6782063138922996864
+    second: LHG_canva3-SinFondo_11
+  - first:
+      213: -1332444775965677930
+    second: LHG_canva3-SinFondo_12
+  - first:
+      213: 1573479576660588947
+    second: LHG_canva3-SinFondo_13
+  - first:
+      213: 3379553227097742250
+    second: LHG_canva3-SinFondo_14
+  - first:
+      213: -2307266840646627304
+    second: LHG_canva3-SinFondo_15
+  - first:
+      213: 6972008721486805279
+    second: LHG_canva3-SinFondo_16
+  - first:
+      213: 1974721541423338537
+    second: LHG_canva3-SinFondo_17
+  - first:
+      213: 4861026753813906947
+    second: LHG_canva3-SinFondo_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_0
+      rect:
+        serializedVersion: 2
+        x: 478
+        y: 517
+        width: 131
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 179e3cafeeb903ef0800000000000000
+      internalID: -130432938482079375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_1
+      rect:
+        serializedVersion: 2
+        x: 616
+        y: 507
+        width: 241
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d31353c07109eb580800000000000000
+      internalID: -8809445392426651331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_2
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 516
+        width: 141
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bf3152bc01e25b70800000000000000
+      internalID: 8886412459402936246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_3
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 360
+        width: 69
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc75f1a2bdac9ef0800000000000000
+      internalID: -100014108975989505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_4
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 376
+        width: 113
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65bb1ee3361417bb0800000000000000
+      internalID: -4940095421736174762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_5
+      rect:
+        serializedVersion: 2
+        x: 574
+        y: 380
+        width: 82
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0031fcc58561e27b0800000000000000
+      internalID: -5247231947070041344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_6
+      rect:
+        serializedVersion: 2
+        x: 662
+        y: 380
+        width: 98
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe4e7f3813c649f0800000000000000
+      internalID: -484485400983875856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_7
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 382
+        width: 83
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e15466501c315ed0800000000000000
+      internalID: -2427092683309428252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_8
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 379
+        width: 99
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48e52d14b38979f70800000000000000
+      internalID: 9193984544574955140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_9
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 376
+        width: 26
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85d7464fe072a65d0800000000000000
+      internalID: -3068597250916319912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_10
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 360
+        width: 96
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba447775201b881d0800000000000000
+      internalID: -3348231699334478677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_11
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 303
+        width: 127
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08b5930128541e1a0800000000000000
+      internalID: -6782063138922996864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_12
+      rect:
+        serializedVersion: 2
+        x: 553
+        y: 278
+        width: 73
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 696adbd2984328de0800000000000000
+      internalID: -1332444775965677930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_13
+      rect:
+        serializedVersion: 2
+        x: 629
+        y: 279
+        width: 78
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 399bf2c965f16d510800000000000000
+      internalID: 1573479576660588947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_14
+      rect:
+        serializedVersion: 2
+        x: 714
+        y: 279
+        width: 87
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aab9fa021c596ee20800000000000000
+      internalID: 3379553227097742250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_15
+      rect:
+        serializedVersion: 2
+        x: 816
+        y: 279
+        width: 48
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81058396801faffd0800000000000000
+      internalID: -2307266840646627304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_16
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 278
+        width: 54
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f19752f2efc81c060800000000000000
+      internalID: 6972008721486805279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_17
+      rect:
+        serializedVersion: 2
+        x: 951
+        y: 305
+        width: 119
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92499d687ce976b10800000000000000
+      internalID: 1974721541423338537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: LHG_canva3-SinFondo_18
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 194
+        width: 399
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3068fb8e316d57340800000000000000
+      internalID: 4861026753813906947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable: {}
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
