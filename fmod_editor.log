@@ -8,13 +8,20 @@
 [LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
 [LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 0
 [LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncManager::init                       : manager 000002390F29DD88 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : manager 000001BC65FB4798 isAsync 0 updatePeriod 0.02
 [LOG] AsyncManager::init                       : done
 [LOG] PlaybackSystem::init                     : 
 [LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] PlaybackSystem::init                     : done
 [LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
 [LOG] Manager::init                            : done.
+[ERR] RuntimeBankModel::openFile               : Failed to open file '../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/Master.strings.bank'
+[ERR] RuntimeBankModel::openFile               : Failed to open file '../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/Master.bank'
+[ERR] RuntimeBankModel::openFile               : Failed to open file '../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-menu.bank'
+[ERR] RuntimeBankModel::openFile               : Failed to open file '../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-scene_tutorial.bank'
+[ERR] RuntimeBankModel::openFile               : Failed to open file '../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/sfx-menu.bank'
+[ERR] RuntimeBankModel::openFile               : Failed to open file '../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/sfx-scene_tutorial.bank'
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
 [LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
 [LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
 [LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
@@ -22,221 +29,10 @@
 [LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
 [LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
 [LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
-[LOG] SystemI::createSound                     : filename = ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-scene_tutorial.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Affinity: 0x4000000000000003, Priority: 0xFFFF7FFC, Stack Size: 114688, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000002390EE8B7E8, queue head = 000002390EE8BAC8, queue count = 0
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002390EE8B7E8
-[LOG] SystemI::createSoundInternal             :     Create name='../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-scene_tutorial.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 12936512
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8000
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000236154445A8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='LgWestminsterClock PE688001', format=5, channels=2, frequency=48000, lengthbytes=654848, lengthpcm=4156604, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.726257.
-[LOG] Thread::initThread                       :     Init FMOD file thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFC, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002390EE8B7E8
-[LOG] SoundI::release                          : LgWestminsterClock PE688001 (000002390EE8B7E8)
-[LOG] SoundI::release                          :     LgWestminsterClock PE688001 (00000238748DE248)
-[LOG] SoundI::release                          :     LgWestminsterClock PE688001 (00000237C4FA5DA8)
-[LOG] SystemI::createSound                     : filename = ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-scene_tutorial.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 00000238725E38C8, queue head = 000002390EE8BAC8, queue count = 0
-[LOG] SystemI::createSound                     : filename = ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-scene_tutorial.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000238725E38C8
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 00000238725E3D78, queue head = 000002390EE8BAC8, queue count = 0
-[LOG] SystemI::createSoundInternal             :     Create name='../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-scene_tutorial.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 12936512
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8000
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002390EC1B5C8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Kiko Freitas - Bombo Legüero', format=5, channels=2, frequency=48000, lengthbytes=2563776, lengthpcm=10605296, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.973663.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000238725E38C8
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000238725E3D78
-[LOG] SystemI::createSoundInternal             :     Create name='../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-scene_tutorial.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 12936512
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8000
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000002390EC1B888
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='night_theme_2', format=5, channels=2, frequency=48000, lengthbytes=915744, lengthpcm=3544614, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.412140.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000238725E3D78
-[LOG] SystemI::createSound                     : filename = ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-scene_tutorial.bank : mode 02010082
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] AsyncThread::add                         : add sound to async queue : soundi = 00000238503DAF68, queue head = 000002390EE8BAC8, queue count = 0
-[LOG] SystemI::createSound                     : filename = ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-scene_tutorial.bank : mode 02010082
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000238503DAF68
-[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
-[LOG] SystemI::createSoundInternal             :     Create name='../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-scene_tutorial.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] AsyncThread::add                         :     add sound to async queue : soundi = 000002395E043398, queue head = 000002390EE8BAC8, queue count = 0
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 12936512
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8000
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 0000023615444B28
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Kiko Freitas - Bombo Legüero', format=5, channels=2, frequency=48000, lengthbytes=2563776, lengthpcm=10605296, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.973663.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000238503DAF68
-[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000002395E043398
-[LOG] SystemI::createSoundInternal             :     Create name='../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-scene_tutorial.bank', mode=0x02010082
-[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             :     exinfo->length             = 12936512
-[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8000
-[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000236154445A8
-[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
-[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='night_theme_2', format=5, channels=2, frequency=48000, lengthbytes=915744, lengthpcm=3544614, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.412140.
-[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000002395E043398
-[LOG] SoundI::release                          : night_theme_2 (00000238725E3D78)
-[LOG] SoundI::release                          :     night_theme_2 (00000238748DEB48)
-[LOG] SoundI::release                          :     night_theme_2 (000002387539D218)
-[LOG] SoundI::release                          : Kiko Freitas - Bombo Legüero (00000238725E38C8)
-[LOG] SoundI::release                          :     Kiko Freitas - Bombo Legüero (00000238748DE248)
-[LOG] SoundI::release                          :     Kiko Freitas - Bombo Legüero (00000238725E3BE8)
-[LOG] SoundI::release                          : night_theme_2 (000002395E043398)
-[LOG] SoundI::release                          :     night_theme_2 (000002390EDE1EB8)
-[LOG] SoundI::release                          :     night_theme_2 (000002387539D3A8)
-[LOG] SoundI::release                          : Kiko Freitas - Bombo Legüero (00000238503DAF68)
-[LOG] SoundI::release                          :     Kiko Freitas - Bombo Legüero (000002390EDE2AB8)
-[LOG] SoundI::release                          :     Kiko Freitas - Bombo Legüero (000002387539D538)
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 12936512
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 8000
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000FE083FF078
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF5736D3E0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF5736D3A0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF5736D4C0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF5736D580
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000238731EFD58
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='winning-218995', format=5, channels=2, frequency=48000, lengthbytes=72064, lengthpcm=240744, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 560896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 17824
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000FE083FF078
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF5736D3E0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF5736D3A0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF5736D4C0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF5736D580
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000238731F2ED8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='621003__samsterbirdies__cannon-explosion-sound-4', format=5, channels=2, frequency=48000, lengthbytes=38432, lengthpcm=148789, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 560896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 17824
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000FE083FF078
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF5736D3E0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF5736D3A0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF5736D4C0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF5736D580
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000238731F2ED8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='184649__isaac200000__cannon2', format=5, channels=2, frequency=48000, lengthbytes=21056, lengthpcm=71165, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 560896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 17824
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000FE083FF078
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF5736D3E0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF5736D3A0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF5736D4C0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF5736D580
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000238731F2ED8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='404166__drfx__background-cannon-shot', format=5, channels=2, frequency=48000, lengthbytes=5120, lengthpcm=215139, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.054240.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 560896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 17824
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000FE083FF078
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF5736D3E0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF5736D3A0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF5736D4C0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF5736D580
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 00000238731F2ED8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Explosion-and-Rubble', format=5, channels=2, frequency=48000, lengthbytes=100768, lengthpcm=364878, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 560896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 17824
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000FE083FF078
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF5736D3E0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF5736D3A0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF5736D4C0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF5736D580
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002390F8118B8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Heart Beat 001', format=5, channels=2, frequency=48000, lengthbytes=11168, lengthpcm=52364, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.853180.
-[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
-[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
-[LOG] SystemI::createSoundInternal             : exinfo->length             = 560896
-[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 17824
-[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 000000FE083FF078
-[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
-[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
-[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFF5736D3E0
-[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFF5736D3A0
-[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFF5736D4C0
-[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFF5736D580
-[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 000002390F8118B8
-[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
-[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
-[LOG] SystemI::createSoundInternal             : Sample 0/1: name='411460__inspectorj__power-up-bright-a', format=5, channels=2, frequency=48000, lengthbytes=52352, lengthpcm=240187, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.780154.
-[LOG] SoundI::release                          :  (0000023615444468)
-[LOG] SoundI::release                          :     winning-218995 (00000238748DE248)
-[LOG] SoundI::release                          :  (00000237C4E57978)
-[LOG] SoundI::release                          :     184649__isaac200000__cannon2 (00000238748DECC8)
-[LOG] SoundI::release                          :  (00000237C4E57818)
-[LOG] SoundI::release                          :     404166__drfx__background-cannon-shot (00000238748DEB48)
-[LOG] SoundI::release                          :  (000002390EC1CBE8)
-[LOG] SoundI::release                          :     Explosion-and-Rubble (000002390EDE2AB8)
-[LOG] SoundI::release                          :  (00000237C4E576B8)
-[LOG] SoundI::release                          :     621003__samsterbirdies__cannon-explosion-sound-4 (00000236A23ABED8)
-[LOG] SoundI::release                          :  (000002390EC1B488)
-[LOG] SoundI::release                          :     Heart Beat 001 (000002390EDE1EB8)
-[LOG] SoundI::release                          :  (000002390EC1B748)
-[LOG] SoundI::release                          :     411460__inspectorj__power-up-bright-a (000002395E043378)
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::closeInternal                   : Closed.

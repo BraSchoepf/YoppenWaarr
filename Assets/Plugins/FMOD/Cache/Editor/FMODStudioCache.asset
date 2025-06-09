@@ -19,7 +19,7 @@ MonoBehaviour:
     Data3: 1576101802
     Data4: 987461155
   Banks:
-  - {fileID: -2422726229330469388}
+  - {fileID: 8027819075591358919}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -27,26 +27,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 67000
---- !u!114 &-7100521242570676380
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/Master.bank
-  Name: Master
-  StudioPath: bank:/Master
-  lastModified: 638849159069562522
-  FileSizes:
-  - Name: Desktop
-    Value: 1074
-  Exists: 1
 --- !u!114 &-6573441387430544709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,7 +46,7 @@ MonoBehaviour:
     Data3: -783881052
     Data4: 2047532821
   Banks:
-  - {fileID: 2985053418167631072}
+  - {fileID: 5862242333651652086}
   IsStream: 1
   Is3D: 1
   IsOneShot: 1
@@ -100,26 +80,6 @@ MonoBehaviour:
   - sand
   - wood
   Exists: 1
---- !u!114 &-6060864107444609283
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx-menu.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/sfx-menu.bank
-  Name: sfx-menu
-  StudioPath: bank:/sfx-menu
-  lastModified: 638838019534079357
-  FileSizes:
-  - Name: Desktop
-    Value: 21120
-  Exists: 1
 --- !u!114 &-4457992527085501293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -139,7 +99,7 @@ MonoBehaviour:
     Data3: -189440111
     Data4: -106187389
   Banks:
-  - {fileID: 2985053418167631072}
+  - {fileID: 5862242333651652086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -166,7 +126,7 @@ MonoBehaviour:
     Data3: 2000849033
     Data4: -596763802
   Banks:
-  - {fileID: 2985053418167631072}
+  - {fileID: 5862242333651652086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -193,7 +153,7 @@ MonoBehaviour:
     Data3: 861056385
     Data4: 1130938481
   Banks:
-  - {fileID: 2985053418167631072}
+  - {fileID: 5862242333651652086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -220,7 +180,7 @@ MonoBehaviour:
     Data3: 118003126
     Data4: -1905000419
   Banks:
-  - {fileID: -2422726229330469388}
+  - {fileID: 8027819075591358919}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -228,26 +188,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 5015
---- !u!114 &-2422726229330469388
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/music-scene_tutorial.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-scene_tutorial.bank
-  Name: music-scene_tutorial
-  StudioPath: bank:/music-scene_tutorial
-  lastModified: 638849159273528269
-  FileSizes:
-  - Name: Desktop
-    Value: 12944512
-  Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -261,12 +201,12 @@ MonoBehaviour:
   m_Name: FMODStudioCache
   m_EditorClassIdentifier: 
   EditorBanks:
-  - {fileID: 7227359836322847528}
-  - {fileID: -7100521242570676380}
-  - {fileID: 2638442344589412681}
-  - {fileID: -2422726229330469388}
-  - {fileID: -6060864107444609283}
-  - {fileID: 2985053418167631072}
+  - {fileID: 4535919639110569105}
+  - {fileID: 2413509860956772576}
+  - {fileID: 7383899196034130583}
+  - {fileID: 8027819075591358919}
+  - {fileID: 1015303427645676897}
+  - {fileID: 5862242333651652086}
   EditorEvents:
   - {fileID: 5082719332114658100}
   - {fileID: 1819052999501919897}
@@ -288,11 +228,11 @@ MonoBehaviour:
   - {fileID: 6301564290747075959}
   EditorParameters: []
   MasterBanks:
-  - {fileID: -7100521242570676380}
+  - {fileID: 2413509860956772576}
   StringsBanks:
-  - {fileID: 7227359836322847528}
+  - {fileID: 4535919639110569105}
   cacheVersion: 131847
-  cacheTime: 638849161247478349
+  cacheTime: 638850789759606697
   SerializableEventsDict:
   - key: event:/music-menu
     index: 0
@@ -322,6 +262,14 @@ MonoBehaviour:
     index: 12
   - key: event:/sfx_sword
     index: 13
+  - key: event:/music-boss
+    index: 14
+  - key: event:/music-victory
+    index: 15
+  - key: event:/music-scene_tutorial
+    index: 16
+  - key: event:/music-gameOver
+    index: 17
 --- !u!114 &536483278494819800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -341,7 +289,7 @@ MonoBehaviour:
     Data3: 1282454148
     Data4: 297059509
   Banks:
-  - {fileID: 2985053418167631072}
+  - {fileID: 5862242333651652086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -369,7 +317,7 @@ MonoBehaviour:
     Data3: -791292791
     Data4: 1266908994
   Banks:
-  - {fileID: -2422726229330469388}
+  - {fileID: 8027819075591358919}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -377,6 +325,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 73846
+--- !u!114 &1015303427645676897
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx-menu.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/Desktop/sfx-menu.bank
+  Name: sfx-menu
+  StudioPath: bank:/sfx-menu
+  lastModified: 638850789759546709
+  FileSizes: []
+  Exists: 1
 --- !u!114 &1819052999501919897
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -396,7 +362,7 @@ MonoBehaviour:
     Data3: -1877592133
     Data4: 165090564
   Banks:
-  - {fileID: 2638442344589412681}
+  - {fileID: 7383899196034130583}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -423,7 +389,7 @@ MonoBehaviour:
     Data3: -1735282503
     Data4: 1340306473
   Banks:
-  - {fileID: 2638442344589412681}
+  - {fileID: 7383899196034130583}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -431,7 +397,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 100300
---- !u!114 &2638442344589412681
+--- !u!114 &2413509860956772576
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -441,35 +407,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/music-menu.bank
+  m_Name: bank:/Master.bank
   m_EditorClassIdentifier: 
-  Path: ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/music-menu.bank
-  Name: music-menu
-  StudioPath: bank:/music-menu
-  lastModified: 638849161247478349
-  FileSizes:
-  - Name: Desktop
-    Value: 5996064
-  Exists: 1
---- !u!114 &2985053418167631072
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/sfx-scene_tutorial.bank
-  m_EditorClassIdentifier: 
-  Path: ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/sfx-scene_tutorial.bank
-  Name: sfx-scene_tutorial
-  StudioPath: bank:/sfx-scene_tutorial
-  lastModified: 638849159279290117
-  FileSizes:
-  - Name: Desktop
-    Value: 578720
+  Path: Assets/StreamingAssets/Desktop/Master.bank
+  Name: Master
+  StudioPath: bank:/Master
+  lastModified: 638850789757426689
+  FileSizes: []
   Exists: 1
 --- !u!114 &3925260100416323728
 MonoBehaviour:
@@ -490,7 +434,7 @@ MonoBehaviour:
     Data3: -276501078
     Data4: 1115519290
   Banks:
-  - {fileID: 2985053418167631072}
+  - {fileID: 5862242333651652086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -498,6 +442,26 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 4363
+--- !u!114 &4535919639110569105
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.strings.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/Desktop/Master.strings.bank
+  Name: Master.strings
+  StudioPath: bank:/Master.strings
+  lastModified: 638850789757436698
+  FileSizes:
+  - Name: 
+    Value: 1788
+  Exists: 1
 --- !u!114 &4794065887674120702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -517,7 +481,7 @@ MonoBehaviour:
     Data3: 1638317699
     Data4: 1739459604
   Banks:
-  - {fileID: -6060864107444609283}
+  - {fileID: 1015303427645676897}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -544,7 +508,7 @@ MonoBehaviour:
     Data3: -1697985126
     Data4: 579324948
   Banks:
-  - {fileID: 2638442344589412681}
+  - {fileID: 7383899196034130583}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -571,7 +535,7 @@ MonoBehaviour:
     Data3: -1107850085
     Data4: 6162293
   Banks:
-  - {fileID: 2985053418167631072}
+  - {fileID: 5862242333651652086}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -579,6 +543,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 6264
+--- !u!114 &5862242333651652086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/sfx-scene_tutorial.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/Desktop/sfx-scene_tutorial.bank
+  Name: sfx-scene_tutorial
+  StudioPath: bank:/sfx-scene_tutorial
+  lastModified: 638850789759606697
+  FileSizes: []
+  Exists: 1
 --- !u!114 &6301564290747075959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -598,7 +580,7 @@ MonoBehaviour:
     Data3: 1184641442
     Data4: -1187355360
   Banks:
-  - {fileID: -2422726229330469388}
+  - {fileID: 8027819075591358919}
   IsStream: 1
   Is3D: 0
   IsOneShot: 1
@@ -625,7 +607,7 @@ MonoBehaviour:
     Data3: 1635604117
     Data4: -583249529
   Banks:
-  - {fileID: 2638442344589412681}
+  - {fileID: 7383899196034130583}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -633,7 +615,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 78483
---- !u!114 &7227359836322847528
+--- !u!114 &7383899196034130583
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -643,15 +625,13 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
-  m_Name: bank:/Master.strings.bank
+  m_Name: bank:/music-menu.bank
   m_EditorClassIdentifier: 
-  Path: ../../../B-TECNICATURA_2024/TecUniverEnDesarrolloYProduccionDeVideojuegos-UPC/2-Cuatrimestre/LongHairGame/Music/FMOD/ProyectoYoppenWaarr/YoppenWaarr/Build/Desktop/Master.strings.bank
-  Name: Master.strings
-  StudioPath: bank:/Master.strings
-  lastModified: 638849159069582510
-  FileSizes:
-  - Name: Desktop
-    Value: 1788
+  Path: Assets/StreamingAssets/Desktop/music-menu.bank
+  Name: music-menu
+  StudioPath: bank:/music-menu
+  lastModified: 638850789758217230
+  FileSizes: []
   Exists: 1
 --- !u!114 &7935085004003758987
 MonoBehaviour:
@@ -672,7 +652,7 @@ MonoBehaviour:
     Data3: -1614706018
     Data4: -2039109526
   Banks:
-  - {fileID: -6060864107444609283}
+  - {fileID: 1015303427645676897}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -680,6 +660,24 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 250
+--- !u!114 &8027819075591358919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/music-scene_tutorial.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/StreamingAssets/Desktop/music-scene_tutorial.bank
+  Name: music-scene_tutorial
+  StudioPath: bank:/music-scene_tutorial
+  lastModified: 638850789759517275
+  FileSizes: []
+  Exists: 1
 --- !u!114 &8531308940855754141
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -699,7 +697,7 @@ MonoBehaviour:
     Data3: -1378222925
     Data4: -702903951
   Banks:
-  - {fileID: 2985053418167631072}
+  - {fileID: 5862242333651652086}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1

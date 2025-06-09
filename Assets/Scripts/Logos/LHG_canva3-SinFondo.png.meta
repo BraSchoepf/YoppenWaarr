@@ -150,6 +150,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -584,7 +597,26 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      LHG_canva3-SinFondo_0: -130432938482079375
+      LHG_canva3-SinFondo_1: -8809445392426651331
+      LHG_canva3-SinFondo_10: -3348231699334478677
+      LHG_canva3-SinFondo_11: -6782063138922996864
+      LHG_canva3-SinFondo_12: -1332444775965677930
+      LHG_canva3-SinFondo_13: 1573479576660588947
+      LHG_canva3-SinFondo_14: 3379553227097742250
+      LHG_canva3-SinFondo_15: -2307266840646627304
+      LHG_canva3-SinFondo_16: 6972008721486805279
+      LHG_canva3-SinFondo_17: 1974721541423338537
+      LHG_canva3-SinFondo_18: 4861026753813906947
+      LHG_canva3-SinFondo_2: 8886412459402936246
+      LHG_canva3-SinFondo_3: -100014108975989505
+      LHG_canva3-SinFondo_4: -4940095421736174762
+      LHG_canva3-SinFondo_5: -5247231947070041344
+      LHG_canva3-SinFondo_6: -484485400983875856
+      LHG_canva3-SinFondo_7: -2427092683309428252
+      LHG_canva3-SinFondo_8: 9193984544574955140
+      LHG_canva3-SinFondo_9: -3068597250916319912
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
