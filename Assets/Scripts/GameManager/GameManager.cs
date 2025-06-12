@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     // States of the game
     public enum GameState { Playing, Paused, GameOver }
     public GameState currentState;
+    public bool IsInDialogue { get; private set; } = false;
 
     [Header("UI Panels")]
     public GameObject gameOverPanel;
@@ -91,4 +92,9 @@ public class GameManager : MonoBehaviour
         Application.Quit();
         Debug.Log("Saliendo del juego...");
     }
+
+    public void SetDialogueState(bool isInDialogue)
+        {
+            IsInDialogue = isInDialogue;    
+        }
 }

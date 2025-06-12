@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b5824fa4907b11943baa018632682b84, type: 3}
   m_Name: Dialogue_0
   m_EditorClassIdentifier: 
-  npcName: La Capsula Blanca
+  npcName: Ricardo
   lines:
-  - Linea de texto de prueba 1
-  - Linea de texto de prueba 2
-  - Linea de texto de prueba 3
+  - Que tal, soy Ricardo. White Pillman.
+  - Algun dia espero que me asciendan y me pongan mi propio sprite y codigo.
+  - En fin, buen viaje amigo.

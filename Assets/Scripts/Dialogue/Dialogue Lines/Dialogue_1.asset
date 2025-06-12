@@ -14,5 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: Rodolfo
   lines:
-  - Dialogo nuevo
-  - Y su segunda linea
+  - Hola soy Rodolfo y trabajo de White Pillman.
+  - Por lo general es un trabajo tranquilo, no como el de los Red Pillman.
+  - Por todos los scripts! esos Red Pillman siempre sufren todo tipo de ataque y
+    golpes.
+  - En fin amigo, buen viaje y que "El Programador" te guarde en tu camino.

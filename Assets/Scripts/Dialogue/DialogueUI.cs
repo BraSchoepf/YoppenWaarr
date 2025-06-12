@@ -8,7 +8,6 @@ public class DialogueUI : MonoBehaviour
     [SerializeField] private TMP_Text nameText;
     [SerializeField] private TMP_Text dialogueText;
     [SerializeField] private Button nextButton;
-    [SerializeField] private Button skipButton;
     [SerializeField] private Button exitButton;
 
     private Dialogue currentDialogue;
@@ -17,8 +16,8 @@ public class DialogueUI : MonoBehaviour
     private void Awake()
     {
         nextButton.onClick.AddListener(NextLine);
-        skipButton.onClick.AddListener(SkipDialogue);
-        exitButton.onClick.AddListener(HideDialogue);
+        exitButton.onClick.AddListener(() => DialogueSystem.Instance.EndDialogue());
+
     }
 
     public void ShowDialogue(Dialogue dialogue)
@@ -39,17 +38,12 @@ public class DialogueUI : MonoBehaviour
         }
         else
         {
-            HideDialogue();
+            DialogueSystem.Instance.EndDialogue(); // 👈 Esta es la línea clave
         }
     }
 
-    private void SkipDialogue()
-    {
-        dialogueText.text = currentDialogue.lines[^1]; // Última línea
-        dialogueIndex = currentDialogue.lines.Length - 1;
-    }
 
-    private void HideDialogue()
+    public void HideDialogue()
     {
         dialoguePanel.SetActive(false);
         currentDialogue = null;

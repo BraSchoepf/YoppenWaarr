@@ -83,6 +83,9 @@ public class Player_Movement : MonoBehaviour
 
     public Vector2 ReadInput()
     {
+        if (GameManager.Instance != null && GameManager.Instance.IsInDialogue)
+        return Vector2.zero; // if is in dialogue do not read the inputs
+        
         // Read input and assign address
         float _move_X = Input.GetAxisRaw("Horizontal");
         float _move_Y = Input.GetAxisRaw("Vertical");
