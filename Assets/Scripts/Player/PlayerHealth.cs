@@ -18,6 +18,7 @@ public class PlayerHealth : MonoBehaviour
     
     [Header("UI")]
     public TextMeshProUGUI healthText;
+    public HUDVida hudVida; // Asignalo en Inspector
 
     void Start()
     {
@@ -47,6 +48,11 @@ public class PlayerHealth : MonoBehaviour
         if (healthText != null)
         {
             healthText.text = "Vida: " + _currentHealth;
+        }
+
+        if (hudVida != null)
+        {
+            hudVida.ActualizarVida(_currentHealth);
         }
     }
 
