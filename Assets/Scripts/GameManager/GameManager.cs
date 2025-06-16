@@ -14,6 +14,10 @@ public class GameManager : MonoBehaviour
     public GameObject gameOverPanel;
     public GameObject pausePanel;
 
+    [Header("HUD UI")]
+    [SerializeField] private int cantidadBoleadoras = 0;
+    public HUDManager hudManager;
+
     private void Awake()
     {
         // make sure theres no two gamemanager
@@ -44,6 +48,39 @@ public class GameManager : MonoBehaviour
         {
             TogglePause();
         }
+
+        //TEST boleadoras
+        if (Input.GetKeyDown(KeyCode.B))
+        {
+            AddBoleadora();
+        }
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+            RemoveBoleadora();
+        }
+    }
+
+    public void AddBoleadora()
+    {
+        if (cantidadBoleadoras < 3)
+        {
+            cantidadBoleadoras++;
+            hudManager.ActualizarBoleadoras(cantidadBoleadoras);
+        }
+    }
+
+    public void RemoveBoleadora()
+    {
+        if (cantidadBoleadoras > 0)
+        {
+            cantidadBoleadoras--;
+            hudManager.ActualizarBoleadoras(cantidadBoleadoras);
+        }
+    }
+
+    public int GetAmountBoleadoras()
+    {
+        return cantidadBoleadoras;
     }
 
     public void TogglePause()
