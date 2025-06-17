@@ -26,4 +26,3 @@ public class Ground_Finisher_State : Melee_Base_State
         _animator.ResetTrigger("Attack3");
     }
 }
-
