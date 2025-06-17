@@ -1,0 +1,1318 @@
+fileFormatVersion: 2
+guid: af36f75caaa6bd8488293598721f0a03
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -9062097590423194804
+    second: spr_artDeco_combatZone_shadow_300%_0
+  - first:
+      213: -3238020721229110502
+    second: spr_artDeco_combatZone_shadow_300%_1
+  - first:
+      213: 6412860233109776039
+    second: spr_artDeco_combatZone_shadow_300%_2
+  - first:
+      213: -3795747746848990454
+    second: spr_artDeco_combatZone_shadow_300%_3
+  - first:
+      213: 6219068442557045568
+    second: spr_artDeco_combatZone_shadow_300%_4
+  - first:
+      213: -5240343311897839008
+    second: spr_artDeco_combatZone_shadow_300%_5
+  - first:
+      213: 1444972603273851236
+    second: spr_artDeco_combatZone_shadow_300%_6
+  - first:
+      213: -7394296213447539516
+    second: spr_artDeco_combatZone_shadow_300%_7
+  - first:
+      213: 3733283451416515075
+    second: spr_artDeco_combatZone_shadow_300%_8
+  - first:
+      213: -4655722420285013993
+    second: spr_artDeco_combatZone_shadow_300%_9
+  - first:
+      213: -397674576809229247
+    second: spr_artDeco_combatZone_shadow_300%_10
+  - first:
+      213: 1761246873222738590
+    second: spr_artDeco_combatZone_shadow_300%_11
+  - first:
+      213: -7090571667658788346
+    second: spr_artDeco_combatZone_shadow_300%_12
+  - first:
+      213: -7431303298270350072
+    second: spr_artDeco_combatZone_shadow_300%_13
+  - first:
+      213: 420426530369165578
+    second: spr_artDeco_combatZone_shadow_300%_14
+  - first:
+      213: -6763484549354745541
+    second: spr_artDeco_combatZone_shadow_300%_15
+  - first:
+      213: -626629541215868822
+    second: spr_artDeco_combatZone_shadow_300%_16
+  - first:
+      213: 8877996406484734349
+    second: spr_artDeco_combatZone_shadow_300%_17
+  - first:
+      213: 8600034188721523638
+    second: spr_artDeco_combatZone_shadow_300%_18
+  - first:
+      213: 2627223928409673944
+    second: spr_artDeco_combatZone_shadow_300%_19
+  - first:
+      213: 3005923001776695153
+    second: spr_artDeco_combatZone_shadow_300%_20
+  - first:
+      213: 9205375507992734315
+    second: spr_artDeco_combatZone_shadow_300%_21
+  - first:
+      213: 4478221277690636341
+    second: spr_artDeco_combatZone_shadow_300%_22
+  - first:
+      213: -3110184648111750055
+    second: spr_artDeco_combatZone_shadow_300%_23
+  - first:
+      213: 6311802357593040266
+    second: spr_artDeco_combatZone_shadow_300%_24
+  - first:
+      213: 5364871063453998598
+    second: spr_artDeco_combatZone_shadow_300%_25
+  - first:
+      213: 7777594216477283195
+    second: spr_artDeco_combatZone_shadow_300%_26
+  - first:
+      213: 8104435398338032364
+    second: spr_artDeco_combatZone_shadow_300%_27
+  - first:
+      213: 44517295771785599
+    second: spr_artDeco_combatZone_shadow_300%_28
+  - first:
+      213: 6837897527904167005
+    second: spr_artDeco_combatZone_shadow_300%_29
+  - first:
+      213: -3013072223974160905
+    second: spr_artDeco_combatZone_shadow_300%_30
+  - first:
+      213: 7042302945194695548
+    second: spr_artDeco_combatZone_shadow_300%_31
+  - first:
+      213: 6213758356344500624
+    second: spr_artDeco_combatZone_shadow_300%_32
+  - first:
+      213: 6208367047926343667
+    second: spr_artDeco_combatZone_shadow_300%_33
+  - first:
+      213: -6365403524876470839
+    second: spr_artDeco_combatZone_shadow_300%_34
+  - first:
+      213: 1128973729504903629
+    second: spr_artDeco_combatZone_shadow_300%_35
+  - first:
+      213: -841656847623681179
+    second: spr_artDeco_combatZone_shadow_300%_36
+  - first:
+      213: 1917836280439428919
+    second: spr_artDeco_combatZone_shadow_300%_37
+  - first:
+      213: 9218906509066486428
+    second: spr_artDeco_combatZone_shadow_300%_38
+  - first:
+      213: -3238106110679247029
+    second: spr_artDeco_combatZone_shadow_300%_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 96
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c43f6ea2146fc3280800000000000000
+      internalID: -9062097590423194804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a13e8cf4f4d3013d0800000000000000
+      internalID: -3238020721229110502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_2
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a6acbcb76e0ff850800000000000000
+      internalID: 6412860233109776039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_3
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b9314f88bc25bc0800000000000000
+      internalID: -3795747746848990454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_4
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b54786cc19e4650800000000000000
+      internalID: 6219068442557045568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_5
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06a3c39b58f8647b0800000000000000
+      internalID: -5240343311897839008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_6
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 672
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4613f484de29d0410800000000000000
+      internalID: 1444972603273851236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c4817145ce226990800000000000000
+      internalID: -7394296213447539516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 302968fe4894fc330800000000000000
+      internalID: 3733283451416515075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7100716302d836fb0800000000000000
+      internalID: -4655722420285013993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_10
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1440511541d2b7af0800000000000000
+      internalID: -397674576809229247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_11
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e92753023b4317810800000000000000
+      internalID: 1761246873222738590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_12
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 602bfbeb2aa399d90800000000000000
+      internalID: -7090571667658788346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_13
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 576
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8053860e505bed890800000000000000
+      internalID: -7431303298270350072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a09ddcca3b7a5d500800000000000000
+      internalID: 420426530369165578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b311ed703a64322a0800000000000000
+      internalID: -6763484549354745541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a68ef0690c3cd47f0800000000000000
+      internalID: -626629541215868822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_17
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8197bda1baf43b70800000000000000
+      internalID: 8877996406484734349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_18
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6bb06fa9785795770800000000000000
+      internalID: 8600034188721523638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_19
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d0d3464e36c57420800000000000000
+      internalID: 2627223928409673944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_20
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 480
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17763174b0f27b920800000000000000
+      internalID: 3005923001776695153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6aecf9904010cf70800000000000000
+      internalID: 9205375507992734315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_22
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 538a8528686d52e30800000000000000
+      internalID: 4478221277690636341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_23
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9540d6f7a8766d4d0800000000000000
+      internalID: -3110184648111750055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_24
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a856ec88dc6089750800000000000000
+      internalID: 6311802357593040266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_25
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60e92f2dec9d37a40800000000000000
+      internalID: 5364871063453998598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_26
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b73d2408bb09feb60800000000000000
+      internalID: 7777594216477283195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 384
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce23a0f3e0db87070800000000000000
+      internalID: 8104435398338032364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7996d0ae382e9000800000000000000
+      internalID: 44517295771785599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_29
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d54ef39a29715ee50800000000000000
+      internalID: 6837897527904167005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_30
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f58c67b6ca6f26d0800000000000000
+      internalID: -3013072223974160905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_31
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 288
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b540987394bb160800000000000000
+      internalID: 7042302945194695548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 091770e9d44bb3650800000000000000
+      internalID: 6213758356344500624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_33
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f7e3eecfec882650800000000000000
+      internalID: 6208367047926343667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_34
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5f7bf283b89a7a0800000000000000
+      internalID: -6365403524876470839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_35
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc143eb10abeaaf00800000000000000
+      internalID: 1128973729504903629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_36
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 192
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b8d9e6e85d154f0800000000000000
+      internalID: -841656847623681179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_37
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 737d2f89fe58d9a10800000000000000
+      internalID: 1917836280439428919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92c17a40a220ff70800000000000000
+      internalID: 9218906509066486428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_39
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 96
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4711f706afef03d0800000000000000
+      internalID: -3238106110679247029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca66b140b34c240409e9e61ff3024f43
+      internalID: 766165488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_41
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 867faec076cc42945b6a52be2fd5239a
+      internalID: -465443156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_42
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9cc6d72b8cb1304f90143922242b79c
+      internalID: 2068396022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_43
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3cf5cd922c3e1d74b85c8e31bca36118
+      internalID: 1547733673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e09efe8dfde707d49af9f738d71d766c
+      internalID: 1933243441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_45
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c28a9ae03c9c9f4594d3beb92702e66
+      internalID: -246108738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_artDeco_combatZone_shadow_300%_46
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 96
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a9b731c1265304ca35f6ccd465e901
+      internalID: -689971601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 64ee7c67845a935439d2311df5389d59
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_artDeco_combatZone_shadow_300%_0: -9062097590423194804
+      spr_artDeco_combatZone_shadow_300%_1: -3238020721229110502
+      spr_artDeco_combatZone_shadow_300%_10: -397674576809229247
+      spr_artDeco_combatZone_shadow_300%_11: 1761246873222738590
+      spr_artDeco_combatZone_shadow_300%_12: -7090571667658788346
+      spr_artDeco_combatZone_shadow_300%_13: -7431303298270350072
+      spr_artDeco_combatZone_shadow_300%_14: 420426530369165578
+      spr_artDeco_combatZone_shadow_300%_15: -6763484549354745541
+      spr_artDeco_combatZone_shadow_300%_16: -626629541215868822
+      spr_artDeco_combatZone_shadow_300%_17: 8877996406484734349
+      spr_artDeco_combatZone_shadow_300%_18: 8600034188721523638
+      spr_artDeco_combatZone_shadow_300%_19: 2627223928409673944
+      spr_artDeco_combatZone_shadow_300%_2: 6412860233109776039
+      spr_artDeco_combatZone_shadow_300%_20: 3005923001776695153
+      spr_artDeco_combatZone_shadow_300%_21: 9205375507992734315
+      spr_artDeco_combatZone_shadow_300%_22: 4478221277690636341
+      spr_artDeco_combatZone_shadow_300%_23: -3110184648111750055
+      spr_artDeco_combatZone_shadow_300%_24: 6311802357593040266
+      spr_artDeco_combatZone_shadow_300%_25: 5364871063453998598
+      spr_artDeco_combatZone_shadow_300%_26: 7777594216477283195
+      spr_artDeco_combatZone_shadow_300%_27: 8104435398338032364
+      spr_artDeco_combatZone_shadow_300%_28: 44517295771785599
+      spr_artDeco_combatZone_shadow_300%_29: 6837897527904167005
+      spr_artDeco_combatZone_shadow_300%_3: -3795747746848990454
+      spr_artDeco_combatZone_shadow_300%_30: -3013072223974160905
+      spr_artDeco_combatZone_shadow_300%_31: 7042302945194695548
+      spr_artDeco_combatZone_shadow_300%_32: 6213758356344500624
+      spr_artDeco_combatZone_shadow_300%_33: 6208367047926343667
+      spr_artDeco_combatZone_shadow_300%_34: -6365403524876470839
+      spr_artDeco_combatZone_shadow_300%_35: 1128973729504903629
+      spr_artDeco_combatZone_shadow_300%_36: -841656847623681179
+      spr_artDeco_combatZone_shadow_300%_37: 1917836280439428919
+      spr_artDeco_combatZone_shadow_300%_38: 9218906509066486428
+      spr_artDeco_combatZone_shadow_300%_39: -3238106110679247029
+      spr_artDeco_combatZone_shadow_300%_4: 6219068442557045568
+      spr_artDeco_combatZone_shadow_300%_40: 766165488
+      spr_artDeco_combatZone_shadow_300%_41: -465443156
+      spr_artDeco_combatZone_shadow_300%_42: 2068396022
+      spr_artDeco_combatZone_shadow_300%_43: 1547733673
+      spr_artDeco_combatZone_shadow_300%_44: 1933243441
+      spr_artDeco_combatZone_shadow_300%_45: -246108738
+      spr_artDeco_combatZone_shadow_300%_46: -689971601
+      spr_artDeco_combatZone_shadow_300%_5: -5240343311897839008
+      spr_artDeco_combatZone_shadow_300%_6: 1444972603273851236
+      spr_artDeco_combatZone_shadow_300%_7: -7394296213447539516
+      spr_artDeco_combatZone_shadow_300%_8: 3733283451416515075
+      spr_artDeco_combatZone_shadow_300%_9: -4655722420285013993
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
