@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 243e67382ecb7f643a652a1c5aee5231, type: 3}
+  m_Name: Npc_001
+  m_EditorClassIdentifier: 
+  npcName: Arturo
+  portrait: {fileID: -2918104523722711374, guid: 9211d305d13720643aee80097982a6f1, type: 3}
+  baseController: {fileID: 9100000, guid: a0c1711850b7add46836f1bcaf0c3839, type: 2}
+  idleClip: {fileID: 7400000, guid: 6b3228aed7a24574ca4eb1e7af97ff1e, type: 2}

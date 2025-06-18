@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   npcName: Ricardo
   lines:
-  - Que tal, soy Ricardo. White Pillman.
-  - Algun dia espero que me asciendan y me pongan mi propio sprite y codigo.
+  - "Que tal, soy Ricardo. Sol\xEDa ser un White Pillman."
+  - "Al fin el d\xEDa lleg\xF3!! Me ascendieron! Aunque me hayan hecho calvo... ahora
+    puedo sentir un poco mejor el viento"
   - En fin, buen viaje amigo.
