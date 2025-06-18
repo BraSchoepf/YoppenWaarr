@@ -28,6 +28,13 @@ public class Sword_Collider : MonoBehaviour
                 enemy.TakeDamage(_attackDamage, knockbackDirection);
             }
         }
+
+        if (collision.CompareTag("Boss"))
+        {
+            Vector2 knockback = (collision.transform.position - _playerTransform.position).normalized;
+            BossManager.Instance?.RecibirDaño(_attackDamage, knockback);
+        }
+
     }
     public void EnableCollider()
     {

@@ -34,7 +34,7 @@ public class PlayerHealth : MonoBehaviour
     public void TakeDamage(int amount)
     {
         _currentHealth -= amount;
-        Debug.Log("El player recibe daño, vida restante: " + _currentHealth);
+        //Debug.Log("El player recibe daño, vida restante: " + _currentHealth);
         UpdateHealthUI();
 
         // Coroutina for flashDamage()

@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5365f9cd47e9ad47b94d1d2790b6b1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHealth: 6
+  _maxHealth: 10
   spriteRenderer: {fileID: 3994617162317874866}
   _knockbackForce: 10
   _knockbackDuration: 0.2
