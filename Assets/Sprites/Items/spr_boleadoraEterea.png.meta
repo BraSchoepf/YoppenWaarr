@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_boleadoraEterea_0: 2100118543512212432
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
