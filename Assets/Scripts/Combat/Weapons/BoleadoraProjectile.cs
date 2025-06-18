@@ -7,13 +7,16 @@ public class BoleadoraProjectile : MonoBehaviour
     private float fuerzaComba;
     private float tiempo = 0f;
     private Vector3 posicionInicial;
+    private float direccionComba;
 
-    public void Inicializar(Transform objetivo, float velocidad, float fuerzaComba)
+    public void Inicializar(Transform objetivo, float velocidad, float fuerzaCombaBase)
     {
         this.objetivo = objetivo;
         this.velocidad = velocidad;
-        this.fuerzaComba = fuerzaComba;
         posicionInicial = transform.position;
+
+        direccionComba = Random.Range(0, 2) == 0 ? 1f : -1f;
+        fuerzaComba = fuerzaCombaBase * Random.Range(0.5f, 1.5f);
     }
 
     private void Update()
@@ -28,7 +31,7 @@ public class BoleadoraProjectile : MonoBehaviour
 
         Vector3 trayectoriaRecta = Vector3.Lerp(posicionInicial, objetivo.position, tiempo);
         Vector3 perpendicular = Vector3.Cross((objetivo.position - posicionInicial).normalized, Vector3.forward);
-        Vector3 trayectoriaCurva = trayectoriaRecta + perpendicular * Mathf.Sin(tiempo * Mathf.PI) * fuerzaComba;
+        Vector3 trayectoriaCurva = trayectoriaRecta + perpendicular * Mathf.Sin(tiempo * Mathf.PI) * fuerzaComba * direccionComba;
 
         transform.position = trayectoriaCurva;
 
@@ -40,6 +43,14 @@ public class BoleadoraProjectile : MonoBehaviour
 
     void Impacto()
     {
+        ParticleSystem particulas = GetComponentInChildren<ParticleSystem>();
+        if (particulas != null)
+        {
+            particulas.transform.parent = null;
+            particulas.Stop(true, ParticleSystemStopBehavior.StopEmitting);
+            Destroy(particulas.gameObject, particulas.main.startLifetime.constantMax);
+        }
+
         EnemyHealth enemyHealth = objetivo.GetComponent<EnemyHealth>();
         if (enemyHealth != null)
         {
@@ -47,4 +58,5 @@ public class BoleadoraProjectile : MonoBehaviour
         }
         Destroy(gameObject);
     }
+
 }
