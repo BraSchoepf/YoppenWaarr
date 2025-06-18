@@ -198,6 +198,27 @@ MonoBehaviour:
       Data3: -1877592133
       Data4: 165090564
     Path: event:/music-menu_fogon
+  musica_boss:
+    Guid:
+      Data1: -2018401785
+      Data2: 1257517278
+      Data3: -791292791
+      Data4: 1266908994
+    Path: event:/music-boss
+  musica_gameOver:
+    Guid:
+      Data1: -1708024932
+      Data2: 1330214180
+      Data3: 1184641442
+      Data4: -1187355360
+    Path: event:/music-gameOver
+  musica_victory:
+    Guid:
+      Data1: 2079061808
+      Data2: 1182900559
+      Data3: 118003126
+      Data4: -1905000419
+    Path: event:/music-victory
   sfx_botonHover:
     Guid:
       Data1: -36230301
@@ -214,18 +235,18 @@ MonoBehaviour:
     Path: event:/sfx-btn_echalePata
   sfx_dog:
     Guid:
-      Data1: -1467003659
-      Data2: 1197652856
-      Data3: -1107850085
-      Data4: 6162293
-    Path: event:/sfx-dogBark_3D
+      Data1: -21003772
+      Data2: 1223368291
+      Data3: 2132627870
+      Data4: 1356921645
+    Path: event:/sfx-dogBark
   sfx_farm:
     Guid:
-      Data1: 926096164
-      Data2: 1130740221
-      Data3: -783881052
-      Data4: 2047532821
-    Path: event:/sfx-farm_3D
+      Data1: -1270835460
+      Data2: 1241176983
+      Data3: -421884229
+      Data4: 1030310685
+    Path: event:/sfx-farm
   sfx_lowLife:
     Guid:
       Data1: -1752153839
@@ -240,6 +261,13 @@ MonoBehaviour:
       Data3: 861056385
       Data4: 1130938481
     Path: event:/sfx-powerUp
+  sfx_canon:
+    Guid:
+      Data1: -1242503497
+      Data2: 1137675326
+      Data3: -1378222925
+      Data4: -702903951
+    Path: event:/sfx-canon
 --- !u!1 &125421360
 GameObject:
   m_ObjectHideFlags: 0

@@ -259,7 +259,13 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      spr_GauchoNpcs_008-Sheet_0: -7067195487920099889
+      spr_GauchoNpcs_008-Sheet_1: 1518141597435904244
+      spr_GauchoNpcs_008-Sheet_2: 7112508990244942436
+      spr_GauchoNpcs_008-Sheet_3: 5498060467111408583
+      spr_GauchoNpcs_008-Sheet_4: 1316460731186565149
+      spr_GauchoNpcs_008-Sheet_5: -8110126538777871652
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

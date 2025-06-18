@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/music-scene_tutorial.bank
   Name: music-scene_tutorial
   StudioPath: bank:/music-scene_tutorial
-  lastModified: 638857045604852858
+  lastModified: 638853436927751713
   FileSizes: []
   Exists: 1
 --- !u!114 &-7923160048937790525
@@ -45,33 +45,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 67000
---- !u!114 &-6573441387430544709
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/sfx-farm_3D
-  m_EditorClassIdentifier: 
-  Path: event:/sfx-farm_3D
-  Guid:
-    Data1: 926096164
-    Data2: 1130740221
-    Data3: -783881052
-    Data4: 2047532821
-  Banks:
-  - {fileID: 4034528612899243058}
-  IsStream: 1
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 16920
 --- !u!114 &-6071568293067334602
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -113,7 +86,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/sfx-menu.bank
   Name: sfx-menu
   StudioPath: bank:/sfx-menu
-  lastModified: 638857045604862857
+  lastModified: 638853436934550286
   FileSizes: []
   Exists: 1
 --- !u!114 &-4457992527085501293
@@ -239,10 +212,10 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638857045603545520
+  lastModified: 638857715781318653
   FileSizes:
   - Name: 
-    Value: 1788
+    Value: 1852
   Exists: 1
 --- !u!114 &-2412746906617704279
 MonoBehaviour:
@@ -259,7 +232,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638857045603535518
+  lastModified: 638857715781298670
   FileSizes: []
   Exists: 1
 --- !u!114 &11400000
@@ -289,10 +262,8 @@ MonoBehaviour:
   - {fileID: 4794065887674120702}
   - {fileID: 7935085004003758987}
   - {fileID: 3925260100416323728}
-  - {fileID: -6573441387430544709}
   - {fileID: 536483278494819800}
   - {fileID: -3651879851867278927}
-  - {fileID: 5147318112026502096}
   - {fileID: -4457992527085501293}
   - {fileID: 8531308940855754141}
   - {fileID: -3654143158548628617}
@@ -300,13 +271,15 @@ MonoBehaviour:
   - {fileID: -2623043737595742770}
   - {fileID: -7923160048937790525}
   - {fileID: 6301564290747075959}
+  - {fileID: 300529850258404356}
+  - {fileID: 336255245748476523}
   EditorParameters: []
   MasterBanks:
   - {fileID: -2412746906617704279}
   StringsBanks:
   - {fileID: -2444485858399843084}
   cacheVersion: 131847
-  cacheTime: 638857045604902862
+  cacheTime: 638857715785861603
   SerializableEventsDict:
   - key: event:/music-menu
     index: 0
@@ -322,28 +295,82 @@ MonoBehaviour:
     index: 5
   - key: event:/sfx-lowLife
     index: 6
-  - key: event:/sfx-farm_3D
-    index: 7
   - key: event:/sfx-steps
-    index: 8
+    index: 7
   - key: event:/sfx-powerUp
-    index: 9
-  - key: event:/sfx-dogBark_3D
-    index: 10
+    index: 8
   - key: event:/sfx_hit
-    index: 11
+    index: 9
   - key: event:/sfx-canon
-    index: 12
+    index: 10
   - key: event:/sfx_sword
-    index: 13
+    index: 11
   - key: event:/music-boss
-    index: 14
+    index: 12
   - key: event:/music-victory
-    index: 15
+    index: 13
   - key: event:/music-scene_tutorial
-    index: 16
+    index: 14
   - key: event:/music-gameOver
+    index: 15
+  - key: event:/sfx-dogBark
+    index: 16
+  - key: event:/sfx-farm
     index: 17
+--- !u!114 &300529850258404356
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx-dogBark
+  m_EditorClassIdentifier: 
+  Path: event:/sfx-dogBark
+  Guid:
+    Data1: -21003772
+    Data2: 1223368291
+    Data3: 2132627870
+    Data4: 1356921645
+  Banks:
+  - {fileID: 4034528612899243058}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 6264
+--- !u!114 &336255245748476523
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/sfx-farm
+  m_EditorClassIdentifier: 
+  Path: event:/sfx-farm
+  Guid:
+    Data1: -1270835460
+    Data2: 1241176983
+    Data3: -421884229
+    Data4: 1030310685
+  Banks:
+  - {fileID: 4034528612899243058}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 16920
 --- !u!114 &536483278494819800
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -468,7 +495,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/music-menu.bank
   Name: music-menu
   StudioPath: bank:/music-menu
-  lastModified: 638857045604030643
+  lastModified: 638853436899760214
   FileSizes: []
   Exists: 1
 --- !u!114 &3925260100416323728
@@ -513,7 +540,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/sfx-scene_tutorial.bank
   Name: sfx-scene_tutorial
   StudioPath: bank:/sfx-scene_tutorial
-  lastModified: 638857045604902862
+  lastModified: 638857715785861603
   FileSizes: []
   Exists: 1
 --- !u!114 &4794065887674120702
@@ -570,33 +597,6 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 140000
---- !u!114 &5147318112026502096
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/sfx-dogBark_3D
-  m_EditorClassIdentifier: 
-  Path: event:/sfx-dogBark_3D
-  Guid:
-    Data1: -1467003659
-    Data2: 1197652856
-    Data3: -1107850085
-    Data4: 6162293
-  Banks:
-  - {fileID: 4034528612899243058}
-  IsStream: 0
-  Is3D: 1
-  IsOneShot: 1
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 6264
 --- !u!114 &6301564290747075959
 MonoBehaviour:
   m_ObjectHideFlags: 0

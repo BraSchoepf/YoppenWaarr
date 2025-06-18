@@ -19,9 +19,9 @@ public class AudioManager : MonoBehaviour
     public EventReference musica_escenaTutorial;
     public EventReference musica_escenaCreditos;
     public EventReference musica_escenaOpciones;
-    //public EventReference musica_boss;
-    //public EventReference musica_gameOver;
-    //public EventReference musica_victory;
+    public EventReference musica_boss;
+    public EventReference musica_gameOver;
+    public EventReference musica_victory;
 
     [Header("SFX")]
     public EventReference sfx_botonHover;
@@ -30,11 +30,12 @@ public class AudioManager : MonoBehaviour
     public EventReference sfx_farm;
     public EventReference sfx_lowLife;
     public EventReference sfx_powerUp;
+    public EventReference sfx_canon;
 
     private void Awake()
     {
-        if(Instance != null) 
-        { 
+        if (Instance != null)
+        {
             Destroy(gameObject);
             return;
         }
@@ -120,7 +121,7 @@ public class AudioManager : MonoBehaviour
     {
         if (soundEvent.IsNull)
         {
-            Debug.LogWarning("El EventReference es nulo."); 
+            Debug.LogWarning("El EventReference es nulo.");
             return;
         }
         RuntimeManager.PlayOneShot(soundEvent, position);
