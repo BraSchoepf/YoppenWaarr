@@ -1,0 +1,789 @@
+fileFormatVersion: 2
+guid: ee929a73d0e4e1e4db8a0e71c9898daa
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8625436920886342554
+    second: spr_XalpenVanish-Sheet_0
+  - first:
+      213: 8107740602126812581
+    second: spr_XalpenVanish-Sheet_1
+  - first:
+      213: -3708147313519326708
+    second: spr_XalpenVanish-Sheet_2
+  - first:
+      213: 2952025885577471795
+    second: spr_XalpenVanish-Sheet_3
+  - first:
+      213: 7004866488019498957
+    second: spr_XalpenVanish-Sheet_4
+  - first:
+      213: 8394944484872095454
+    second: spr_XalpenVanish-Sheet_5
+  - first:
+      213: -6525216222565686379
+    second: spr_XalpenVanish-Sheet_6
+  - first:
+      213: 7962354508094859706
+    second: spr_XalpenVanish-Sheet_7
+  - first:
+      213: -4932278737772208919
+    second: spr_XalpenVanish-Sheet_8
+  - first:
+      213: 5307815711894813712
+    second: spr_XalpenVanish-Sheet_9
+  - first:
+      213: 7082885821941502863
+    second: spr_XalpenVanish-Sheet_10
+  - first:
+      213: 5367832480251102718
+    second: spr_XalpenVanish-Sheet_11
+  - first:
+      213: 5225379773251709109
+    second: spr_XalpenVanish-Sheet_12
+  - first:
+      213: 4723337295025673388
+    second: spr_XalpenVanish-Sheet_13
+  - first:
+      213: -1591948262729171284
+    second: spr_XalpenVanish-Sheet_14
+  - first:
+      213: 2417927478240359118
+    second: spr_XalpenVanish-Sheet_15
+  - first:
+      213: 5983137089730870479
+    second: spr_XalpenVanish-Sheet_16
+  - first:
+      213: -5736096932454645169
+    second: spr_XalpenVanish-Sheet_17
+  - first:
+      213: 1406463006802662421
+    second: spr_XalpenVanish-Sheet_18
+  - first:
+      213: -5640274644881518749
+    second: spr_XalpenVanish-Sheet_19
+  - first:
+      213: 7806659059650654691
+    second: spr_XalpenVanish-Sheet_20
+  - first:
+      213: -3656383273704188959
+    second: spr_XalpenVanish-Sheet_21
+  - first:
+      213: 1661025555847682709
+    second: spr_XalpenVanish-Sheet_22
+  - first:
+      213: 9117301544426568651
+    second: spr_XalpenVanish-Sheet_23
+  - first:
+      213: -4867807631148222012
+    second: spr_XalpenVanish-Sheet_24
+  - first:
+      213: -3152374399918976701
+    second: spr_XalpenVanish-Sheet_25
+  - first:
+      213: 524943486938743627
+    second: spr_XalpenVanish-Sheet_26
+  - first:
+      213: 6012078026134615289
+    second: spr_XalpenVanish-Sheet_27
+  - first:
+      213: 8695749015255675050
+    second: spr_XalpenVanish-Sheet_28
+  - first:
+      213: -6784300938148164180
+    second: spr_XalpenVanish-Sheet_29
+  - first:
+      213: 5710084112757313297
+    second: spr_XalpenVanish-Sheet_30
+  - first:
+      213: 7399125952207228592
+    second: spr_XalpenVanish-Sheet_31
+  - first:
+      213: -1231350677862956729
+    second: spr_XalpenVanish-Sheet_32
+  - first:
+      213: -2886966766933321137
+    second: spr_XalpenVanish-Sheet_33
+  - first:
+      213: 8330478460657189959
+    second: spr_XalpenVanish-Sheet_34
+  - first:
+      213: 8796686520031185868
+    second: spr_XalpenVanish-Sheet_35
+  - first:
+      213: -8775302093335134583
+    second: spr_XalpenVanish-Sheet_36
+  - first:
+      213: 5764583386292543727
+    second: spr_XalpenVanish-Sheet_37
+  - first:
+      213: -4876154193665620036
+    second: spr_XalpenVanish-Sheet_38
+  - first:
+      213: 7726393741543758049
+    second: spr_XalpenVanish-Sheet_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66cc70ae1da4c4880800000000000000
+      internalID: -8625436920886342554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a5c7c8fe1b748070800000000000000
+      internalID: 8107740602126812581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0a8cda3aa30a8cc0800000000000000
+      internalID: -3708147313519326708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3376a9507e3b7f820800000000000000
+      internalID: 2952025885577471795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc7b07d15f8463160800000000000000
+      internalID: 7004866488019498957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed60de9d785d08470800000000000000
+      internalID: 8394944484872095454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5932b5bea66c175a0800000000000000
+      internalID: -6525216222565686379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab969be1d37ff7e60800000000000000
+      internalID: 7962354508094859706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ec10edce960d8bb0800000000000000
+      internalID: -4932278737772208919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c3ab8944629a940800000000000000
+      internalID: 5307815711894813712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f835979d0277b4260800000000000000
+      internalID: 7082885821941502863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef5cb27633f5e7a40800000000000000
+      internalID: 5367832480251102718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8ed21f737448840800000000000000
+      internalID: 5225379773251709109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca41c589e3aac8140800000000000000
+      internalID: 4723337295025673388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cae3a335d7348e9e0800000000000000
+      internalID: -1591948262729171284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec23c211b343e8120800000000000000
+      internalID: 2417927478240359118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcc7fdbab7f580350800000000000000
+      internalID: 5983137089730870479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4245d72b3a4560b0800000000000000
+      internalID: -5736096932454645169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 514533627a2c48310800000000000000
+      internalID: 1406463006802662421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36fc13c0818b9b1b0800000000000000
+      internalID: -5640274644881518749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 3000
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e1ff05ad03d65c60800000000000000
+      internalID: 7806659059650654691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 3150
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e39e20f8cae14dc0800000000000000
+      internalID: -3656383273704188959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 3300
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59a952b41f52d0710800000000000000
+      internalID: 1661025555847682709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenVanish-Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 3450
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcb7aa9f279278e70800000000000000
+      internalID: 9117301544426568651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: eb254447abb32bd4388d7c37ca0a8889
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_XalpenVanish-Sheet_0: -8625436920886342554
+      spr_XalpenVanish-Sheet_1: 8107740602126812581
+      spr_XalpenVanish-Sheet_10: 7082885821941502863
+      spr_XalpenVanish-Sheet_11: 5367832480251102718
+      spr_XalpenVanish-Sheet_12: 5225379773251709109
+      spr_XalpenVanish-Sheet_13: 4723337295025673388
+      spr_XalpenVanish-Sheet_14: -1591948262729171284
+      spr_XalpenVanish-Sheet_15: 2417927478240359118
+      spr_XalpenVanish-Sheet_16: 5983137089730870479
+      spr_XalpenVanish-Sheet_17: -5736096932454645169
+      spr_XalpenVanish-Sheet_18: 1406463006802662421
+      spr_XalpenVanish-Sheet_19: -5640274644881518749
+      spr_XalpenVanish-Sheet_2: -3708147313519326708
+      spr_XalpenVanish-Sheet_20: 7806659059650654691
+      spr_XalpenVanish-Sheet_21: -3656383273704188959
+      spr_XalpenVanish-Sheet_22: 1661025555847682709
+      spr_XalpenVanish-Sheet_23: 9117301544426568651
+      spr_XalpenVanish-Sheet_3: 2952025885577471795
+      spr_XalpenVanish-Sheet_4: 7004866488019498957
+      spr_XalpenVanish-Sheet_5: 8394944484872095454
+      spr_XalpenVanish-Sheet_6: -6525216222565686379
+      spr_XalpenVanish-Sheet_7: 7962354508094859706
+      spr_XalpenVanish-Sheet_8: -4932278737772208919
+      spr_XalpenVanish-Sheet_9: 5307815711894813712
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

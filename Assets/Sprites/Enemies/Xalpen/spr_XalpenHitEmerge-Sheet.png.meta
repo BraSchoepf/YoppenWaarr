@@ -1,0 +1,721 @@
+fileFormatVersion: 2
+guid: b1483c6f8f9a1df4f8c4b5c07d8c6131
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8008701746584923812
+    second: spr_XalpenHitEmerge-Sheet_0
+  - first:
+      213: -767150539783061600
+    second: spr_XalpenHitEmerge-Sheet_1
+  - first:
+      213: -8092731569121926919
+    second: spr_XalpenHitEmerge-Sheet_2
+  - first:
+      213: 5036094594985583758
+    second: spr_XalpenHitEmerge-Sheet_3
+  - first:
+      213: 185900744012178473
+    second: spr_XalpenHitEmerge-Sheet_4
+  - first:
+      213: -4597726186200588945
+    second: spr_XalpenHitEmerge-Sheet_5
+  - first:
+      213: 1772526067808410348
+    second: spr_XalpenHitEmerge-Sheet_6
+  - first:
+      213: 3385010501651170963
+    second: spr_XalpenHitEmerge-Sheet_7
+  - first:
+      213: -5324393926527332742
+    second: spr_XalpenHitEmerge-Sheet_8
+  - first:
+      213: 1802464152948138354
+    second: spr_XalpenHitEmerge-Sheet_9
+  - first:
+      213: -8564340617707762880
+    second: spr_XalpenHitEmerge-Sheet_10
+  - first:
+      213: 3197432263756517422
+    second: spr_XalpenHitEmerge-Sheet_11
+  - first:
+      213: 7880220249410691367
+    second: spr_XalpenHitEmerge-Sheet_12
+  - first:
+      213: 4961327252582962262
+    second: spr_XalpenHitEmerge-Sheet_13
+  - first:
+      213: -3286829658925203721
+    second: spr_XalpenHitEmerge-Sheet_14
+  - first:
+      213: -7592487438027558710
+    second: spr_XalpenHitEmerge-Sheet_15
+  - first:
+      213: -307558206167677112
+    second: spr_XalpenHitEmerge-Sheet_16
+  - first:
+      213: 2965685012587958860
+    second: spr_XalpenHitEmerge-Sheet_17
+  - first:
+      213: -2937037185550655215
+    second: spr_XalpenHitEmerge-Sheet_18
+  - first:
+      213: -4645811174049421789
+    second: spr_XalpenHitEmerge-Sheet_19
+  - first:
+      213: -6856526393232728547
+    second: spr_XalpenHitEmerge-Sheet_20
+  - first:
+      213: 4270442440085609064
+    second: spr_XalpenHitEmerge-Sheet_21
+  - first:
+      213: 2285245331309271904
+    second: spr_XalpenHitEmerge-Sheet_22
+  - first:
+      213: 8906536829849790219
+    second: spr_XalpenHitEmerge-Sheet_23
+  - first:
+      213: -911544434346925016
+    second: spr_XalpenHitEmerge-Sheet_24
+  - first:
+      213: 286282222947186471
+    second: spr_XalpenHitEmerge-Sheet_25
+  - first:
+      213: 861514879236512798
+    second: spr_XalpenHitEmerge-Sheet_26
+  - first:
+      213: -2072811749577010337
+    second: spr_XalpenHitEmerge-Sheet_27
+  - first:
+      213: 6437291099324743875
+    second: spr_XalpenHitEmerge-Sheet_28
+  - first:
+      213: 6513924464505391861
+    second: spr_XalpenHitEmerge-Sheet_29
+  - first:
+      213: -5423099619851632837
+    second: spr_XalpenHitEmerge-Sheet_30
+  - first:
+      213: -4334205258137078471
+    second: spr_XalpenHitEmerge-Sheet_31
+  - first:
+      213: 4976036894260915364
+    second: spr_XalpenHitEmerge-Sheet_32
+  - first:
+      213: -7275196714001843882
+    second: spr_XalpenHitEmerge-Sheet_33
+  - first:
+      213: -4168147259486341549
+    second: spr_XalpenHitEmerge-Sheet_34
+  - first:
+      213: 6338975276802675277
+    second: spr_XalpenHitEmerge-Sheet_35
+  - first:
+      213: 3197824594736807871
+    second: spr_XalpenHitEmerge-Sheet_36
+  - first:
+      213: -4270146347282937979
+    second: spr_XalpenHitEmerge-Sheet_37
+  - first:
+      213: -1174909842080522978
+    second: spr_XalpenHitEmerge-Sheet_38
+  - first:
+      213: -2094621554707067646
+    second: spr_XalpenHitEmerge-Sheet_39
+  - first:
+      213: 7568341684757376003
+    second: spr_XalpenHitEmerge-Sheet_40
+  - first:
+      213: -1484273637909124997
+    second: spr_XalpenHitEmerge-Sheet_41
+  - first:
+      213: 2603588826748078251
+    second: spr_XalpenHitEmerge-Sheet_42
+  - first:
+      213: 7516367233018064734
+    second: spr_XalpenHitEmerge-Sheet_43
+  - first:
+      213: 2968242298741603914
+    second: spr_XalpenHitEmerge-Sheet_44
+  - first:
+      213: -4785241202960258594
+    second: spr_XalpenHitEmerge-Sheet_45
+  - first:
+      213: 1772683176144508369
+    second: spr_XalpenHitEmerge-Sheet_46
+  - first:
+      213: -5319158473452858055
+    second: spr_XalpenHitEmerge-Sheet_47
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5151c281306bd090800000000000000
+      internalID: -8008701746584923812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0af3bfa06a88a55f0800000000000000
+      internalID: -767150539783061600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f0e5e7d387d0bf80800000000000000
+      internalID: -8092731569121926919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e84616d0a5dc3e540800000000000000
+      internalID: 5036094594985583758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 924a352edb3749200800000000000000
+      internalID: 185900744012178473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d9009b4689130c0800000000000000
+      internalID: -4597726186200588945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea17d24117499810800000000000000
+      internalID: 1772526067808410348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39682efdd19f9fe20800000000000000
+      internalID: 3385010501651170963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e47150fe3fb16b0800000000000000
+      internalID: -5324393926527332742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27169d4e893a30910800000000000000
+      internalID: 1802464152948138354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04b44128599552980800000000000000
+      internalID: -8564340617707762880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e20949204bf8f5c20800000000000000
+      internalID: 3197432263756517422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 721e6fdc09a2c5d60800000000000000
+      internalID: 7880220249410691367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 1950
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6541ca899dc2ad440800000000000000
+      internalID: 4961327252582962262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7fe7b8ee6d5d262d0800000000000000
+      internalID: -3286829658925203721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac070ced6e012a690800000000000000
+      internalID: -7592487438027558710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8478e95e0755bbbf0800000000000000
+      internalID: -307558206167677112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 2550
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c42510b5eca382920800000000000000
+      internalID: 2965685012587958860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 2700
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 111e327ad3c8d37d0800000000000000
+      internalID: -2937037185550655215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHitEmerge-Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 2850
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3266e3d0a53c68fb0800000000000000
+      internalID: -4645811174049421789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 86a7d986a51e30447891c5895d77d4da
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_XalpenHitEmerge-Sheet_0: -8008701746584923812
+      spr_XalpenHitEmerge-Sheet_1: -767150539783061600
+      spr_XalpenHitEmerge-Sheet_10: -8564340617707762880
+      spr_XalpenHitEmerge-Sheet_11: 3197432263756517422
+      spr_XalpenHitEmerge-Sheet_12: 7880220249410691367
+      spr_XalpenHitEmerge-Sheet_13: 4961327252582962262
+      spr_XalpenHitEmerge-Sheet_14: -3286829658925203721
+      spr_XalpenHitEmerge-Sheet_15: -7592487438027558710
+      spr_XalpenHitEmerge-Sheet_16: -307558206167677112
+      spr_XalpenHitEmerge-Sheet_17: 2965685012587958860
+      spr_XalpenHitEmerge-Sheet_18: -2937037185550655215
+      spr_XalpenHitEmerge-Sheet_19: -4645811174049421789
+      spr_XalpenHitEmerge-Sheet_2: -8092731569121926919
+      spr_XalpenHitEmerge-Sheet_3: 5036094594985583758
+      spr_XalpenHitEmerge-Sheet_4: 185900744012178473
+      spr_XalpenHitEmerge-Sheet_5: -4597726186200588945
+      spr_XalpenHitEmerge-Sheet_6: 1772526067808410348
+      spr_XalpenHitEmerge-Sheet_7: 3385010501651170963
+      spr_XalpenHitEmerge-Sheet_8: -5324393926527332742
+      spr_XalpenHitEmerge-Sheet_9: 1802464152948138354
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

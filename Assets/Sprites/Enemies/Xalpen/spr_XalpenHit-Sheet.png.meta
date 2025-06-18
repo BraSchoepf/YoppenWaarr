@@ -1,0 +1,465 @@
+fileFormatVersion: 2
+guid: 98c867400b9d68f4ca5b8ccf5dc2dd2e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -780865921340377587
+    second: spr_XalpenHit-Sheet_0
+  - first:
+      213: -2697822633807612422
+    second: spr_XalpenHit-Sheet_1
+  - first:
+      213: 5418035288654524524
+    second: spr_XalpenHit-Sheet_2
+  - first:
+      213: -6060543672323338555
+    second: spr_XalpenHit-Sheet_3
+  - first:
+      213: 5309938908937706550
+    second: spr_XalpenHit-Sheet_4
+  - first:
+      213: -2523881454682216886
+    second: spr_XalpenHit-Sheet_5
+  - first:
+      213: -7622905956686438505
+    second: spr_XalpenHit-Sheet_6
+  - first:
+      213: -2214028015212809844
+    second: spr_XalpenHit-Sheet_7
+  - first:
+      213: -8343892850400007469
+    second: spr_XalpenHit-Sheet_8
+  - first:
+      213: 7903361727942976135
+    second: spr_XalpenHit-Sheet_9
+  - first:
+      213: 6643196456921434027
+    second: spr_XalpenHit-Sheet_10
+  - first:
+      213: 2746703323905578927
+    second: spr_XalpenHit-Sheet_11
+  - first:
+      213: 2228651174039897565
+    second: spr_XalpenHit-Sheet_12
+  - first:
+      213: -3482978017559249685
+    second: spr_XalpenHit-Sheet_13
+  - first:
+      213: -4589472043018955134
+    second: spr_XalpenHit-Sheet_14
+  - first:
+      213: 6528862794351319316
+    second: spr_XalpenHit-Sheet_15
+  - first:
+      213: 777136773859015560
+    second: spr_XalpenHit-Sheet_16
+  - first:
+      213: -7753868651693358809
+    second: spr_XalpenHit-Sheet_17
+  - first:
+      213: 399033916365928052
+    second: spr_XalpenHit-Sheet_18
+  - first:
+      213: -8698067851165758081
+    second: spr_XalpenHit-Sheet_19
+  - first:
+      213: -3254689956731612714
+    second: spr_XalpenHit-Sheet_20
+  - first:
+      213: 3850726752913290384
+    second: spr_XalpenHit-Sheet_21
+  - first:
+      213: 1223051254764747829
+    second: spr_XalpenHit-Sheet_22
+  - first:
+      213: 4127546993854311304
+    second: spr_XalpenHit-Sheet_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 32
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_XalpenHit-Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d067c4de49ec925f0800000000000000
+      internalID: -780865921340377587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHit-Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af573e4bb986f8ad0800000000000000
+      internalID: -2697822633807612422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHit-Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c60b8c8936ab03b40800000000000000
+      internalID: 5418035288654524524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHit-Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ce0d61e3af94eba0800000000000000
+      internalID: -6060543672323338555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHit-Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63cd14eed41b0b940800000000000000
+      internalID: 5309938908937706550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHit-Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 750
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a466876603f59fcd0800000000000000
+      internalID: -2523881454682216886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHit-Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 900
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79fde779b6ff53690800000000000000
+      internalID: -7622905956686438505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHit-Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c813a7620413641e0800000000000000
+      internalID: -2214028015212809844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHit-Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da6cff09a9843c80800000000000000
+      internalID: -8343892850400007469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHit-Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1350
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78265752e916ead60800000000000000
+      internalID: 7903361727942976135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHit-Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 1500
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba78febfaff513c50800000000000000
+      internalID: 6643196456921434027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_XalpenHit-Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 0
+        width: 150
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa7d6c4de104e1620800000000000000
+      internalID: 2746703323905578927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: aa80dec122bef3c4496e4d0cbc4b1716
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_XalpenHit-Sheet_0: -780865921340377587
+      spr_XalpenHit-Sheet_1: -2697822633807612422
+      spr_XalpenHit-Sheet_10: 6643196456921434027
+      spr_XalpenHit-Sheet_11: 2746703323905578927
+      spr_XalpenHit-Sheet_2: 5418035288654524524
+      spr_XalpenHit-Sheet_3: -6060543672323338555
+      spr_XalpenHit-Sheet_4: 5309938908937706550
+      spr_XalpenHit-Sheet_5: -2523881454682216886
+      spr_XalpenHit-Sheet_6: -7622905956686438505
+      spr_XalpenHit-Sheet_7: -2214028015212809844
+      spr_XalpenHit-Sheet_8: -8343892850400007469
+      spr_XalpenHit-Sheet_9: 7903361727942976135
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
