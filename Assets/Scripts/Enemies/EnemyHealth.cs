@@ -53,7 +53,7 @@ public class EnemyHealth : MonoBehaviour
 
         _currentHealth -= amount;
         _healthBarInstance.SetHealth(_currentHealth, _maxHealth);
-        Debug.Log("El enemigo recibe daño, vida restante:: " + _currentHealth);
+        //Debug.Log("El enemigo recibe daño, vida restante:: " + _currentHealth);
 
         // Coroutina for flashDamage()
         StartCoroutine(FlashDamage());
@@ -122,27 +122,15 @@ public class EnemyHealth : MonoBehaviour
         Debug.Log("Death animation triggered.");
         isDead = true; // PRIMERO: detener toda lógica futura
 
-        //if (_controller != null)
-        //{
-        //    _controller.StopAttack();
-        //    _controller.StopAllCoroutines();
-        //    _controller.enabled = false; // ESTA LÍNEA es la que soluciona TODO
-        //}
-
-        //if (_navAgent != null)
-        //    _navAgent.enabled = false;
-
-        //_animator.ResetTrigger("Attack");
-        //_animator.SetBool("isAttacking", false);
-        //_animator.SetBool("isWalking", false);
-
-        _animator.SetTrigger("Die");
+       _animator.SetTrigger("Die");
 
         StartCoroutine(DestroyAfterAnimation());
-
+        
         if (_healthBarInstance != null)
             Destroy(_healthBarInstance.gameObject);
 
+        Debug.Log("Buscando EnemyGroup..."); // DEBUG CLAVE
+        transform.parent.GetComponent<EnemyGroup>()?.NotificarMuerte();
     }
 
 

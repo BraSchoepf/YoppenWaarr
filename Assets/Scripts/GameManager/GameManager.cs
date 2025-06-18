@@ -6,13 +6,14 @@ public class GameManager : MonoBehaviour
     public static GameManager Instance;
 
     // States of the game
-    public enum GameState { Playing, Paused, GameOver }
+    public enum GameState { Playing, Paused, GameOver , Victory}
     public GameState currentState;
     public bool IsInDialogue { get; private set; } = false;
 
     [Header("UI Panels")]
     public GameObject gameOverPanel;
     public GameObject pausePanel;
+    public GameObject victoryPanel;
 
     [Header("HUD UI")]
     [SerializeField] private int cantidadBoleadoras = 0;
@@ -39,6 +40,7 @@ public class GameManager : MonoBehaviour
         // make sure both panels are hidden at start
         if (gameOverPanel != null) gameOverPanel.SetActive(false);
         if (pausePanel != null) pausePanel.SetActive(false);
+        if (victoryPanel != null) victoryPanel.SetActive(false);
     }
 
     private void Update()
@@ -49,7 +51,7 @@ public class GameManager : MonoBehaviour
             TogglePause();
         }
 
-        //TEST boleadoras
+        //TEST boleadoras UI
         if (Input.GetKeyDown(KeyCode.B))
         {
             AddBoleadora();
@@ -107,6 +109,16 @@ public class GameManager : MonoBehaviour
 
         // show game over panel
         if (gameOverPanel != null) gameOverPanel.SetActive(true);
+    }
+
+    public void Victory()
+    {
+        currentState = GameState.Victory;
+        Time.timeScale = 0f; // this pause the game
+        Debug.Log("Fin del juego.");
+
+        // show game over panel
+        if (victoryPanel != null) victoryPanel.SetActive(true);
     }
 
     // this called by retry button
