@@ -1,0 +1,352 @@
+[LOG] system_create                            : Header version = 2.03.07. Current version = 2.03.07.
+[LOG] Manager::init                            : maxchannels = 256 studioflags = 00000006 flags 00000000 extradriverdata 0000000000000000.
+[LOG] SystemI::init                            : Initialize version=20307 (150747), maxchannels=256, flags=0x00020000
+[LOG] SystemI::setOutputInternal               : Setting output to 'FMOD WASAPI Output'
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=48000, nAvgBytesPerSec=384000, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
+[LOG] OutputWASAPI::init                       : Output buffer size: 2048 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 512 * 4
+[LOG] Thread::initThread                       : Init FMOD stream thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFB, Stack Size: 98304, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 0
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncManager::init                       : manager 000001692474D7D8 isAsync 0 updatePeriod 0.02
+[LOG] AsyncManager::init                       : done
+[LOG] PlaybackSystem::init                     : 
+[LOG] Thread::initThread                       : Init FMOD Studio sample load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] PlaybackSystem::init                     : done
+[LOG] Thread::initThread                       : Init FMOD Studio bank load thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFD, Stack Size: 98304, Semaphore: No, Sleep Time: 1, Looping: No.
+[LOG] Manager::init                            : done.
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] PlaybackSystem::acquireMasterBus         : Setting master channel group format to 6
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] BankLoader::serializeBank                : fileversion = 146, compatVersion = 146 (oldest = 44, newest = 146)
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 12936512
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 8000
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000000C0E7FF018
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFBD83ED3E0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFBD83ED3A0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFBD83ED4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFBD83ED580
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000016829F47388
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='winning-218995', format=5, channels=2, frequency=48000, lengthbytes=72064, lengthpcm=240744, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[WRN] EventInstance::updateForStart            : Event {7bebf730-a14f-4681-b695-08071d00748e} waited 50 milliseconds for sample data to load.  Preload sample data to avoid this delay.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 560896
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 17216
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000000C0E7FF018
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFBD83ED3E0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFBD83ED3A0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFBD83ED4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFBD83ED580
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000016829F45498
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='621003__samsterbirdies__cannon-explosion-sound-4', format=5, channels=2, frequency=48000, lengthbytes=38432, lengthpcm=148789, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 560896
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 17216
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000000C0E7FF018
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFBD83ED3E0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFBD83ED3A0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFBD83ED4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFBD83ED580
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000016829F45498
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='184649__isaac200000__cannon2', format=5, channels=2, frequency=48000, lengthbytes=21056, lengthpcm=71165, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 560896
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 17216
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000000C0E7FF018
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFBD83ED3E0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFBD83ED3A0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFBD83ED4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFBD83ED580
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000016829F45498
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='404166__drfx__background-cannon-shot', format=5, channels=2, frequency=48000, lengthbytes=5120, lengthpcm=215139, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=1.054240.
+[LOG] SystemI::createSoundInternal             : Create name='', mode=0x02000202
+[LOG] SystemI::createSoundInternal             : exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             : exinfo->length             = 560896
+[LOG] SystemI::createSoundInternal             : exinfo->fileoffset         = 17216
+[LOG] SystemI::createSoundInternal             : exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlist      = 0000000C0E7FF018
+[LOG] SystemI::createSoundInternal             : exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             : exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             : exinfo->useropen           = 00007FFBD83ED3E0
+[LOG] SystemI::createSoundInternal             : exinfo->userclose          = 00007FFBD83ED3A0
+[LOG] SystemI::createSoundInternal             : exinfo->userread           = 00007FFBD83ED4C0
+[LOG] SystemI::createSoundInternal             : exinfo->userseek           = 00007FFBD83ED580
+[LOG] SystemI::createSoundInternal             : exinfo->fileuserdata       = 0000016829F45498
+[LOG] SystemI::createSoundInternal             : exinfo->initialseekpostype = 1
+[LOG] SystemI::DSPCodecPoolRegister            : register codec pool for pool type 4
+[LOG] SystemI::createSoundInternal             : Sample 0/1: name='Explosion-and-Rubble', format=5, channels=2, frequency=48000, lengthbytes=100768, lengthpcm=364878, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] SystemI::createSound                     : filename = Assets/StreamingAssets/Desktop/music-scene_tutorial.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] Thread::initThread                       : Init FMOD nonblocking thread (0). Affinity: 0x4000000000000003, Priority: 0xFFFF7FFC, Stack Size: 114688, Semaphore: Yes, Sleep Time: 0, Looping: Yes.
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 0000016924717B88, queue head = 0000016924717508, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016924717B88
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/StreamingAssets/Desktop/music-scene_tutorial.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 12936512
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 8000
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000169244FCD98
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='LgWestminsterClock PE688001', format=5, channels=2, frequency=48000, lengthbytes=654848, lengthpcm=4156604, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.726257.
+[LOG] Thread::initThread                       :     Init FMOD file thread. Affinity: 0x4000000000000003, Priority: 0xFFFF7FFC, Stack Size: 65536, Semaphore: No, Sleep Time: 10, Looping: Yes.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016924717B88
+[LOG] SoundI::release                          : LgWestminsterClock PE688001 (0000016924717B88)
+[LOG] SoundI::release                          :     LgWestminsterClock PE688001 (0000016924233088)
+[LOG] SoundI::release                          :     LgWestminsterClock PE688001 (00000168D64E1E88)
+[LOG] SystemI::createSound                     : filename = Assets/StreamingAssets/Desktop/music-menu.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 000001669FDEF468, queue head = 0000016924717508, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 000001669FDEF468
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/StreamingAssets/Desktop/music-menu.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5990336
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5728
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 000001682CDD6FE8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='La Humilde_cortado', format=5, channels=2, frequency=48000, lengthbytes=1056032, lengthpcm=3863196, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.984985.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 000001669FDEF468
+[LOG] SystemI::createSound                     : filename = Assets/StreamingAssets/Desktop/music-menu.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 00000168B0756F68, queue head = 0000016924717508, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000168B0756F68
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/StreamingAssets/Desktop/music-menu.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5990336
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5728
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000168D60EC308
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='La Humilde_cortado', format=5, channels=2, frequency=48000, lengthbytes=1056032, lengthpcm=3863196, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.984985.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000168B0756F68
+[LOG] SoundI::release                          : La Humilde_cortado (000001669FDEF468)
+[LOG] SoundI::release                          :     La Humilde_cortado (0000016924233688)
+[LOG] SoundI::release                          :     La Humilde_cortado (00000168D64E1CF8)
+[LOG] SoundI::release                          : La Humilde_cortado (00000168B0756F68)
+[LOG] SoundI::release                          :     La Humilde_cortado (000001682D4EC8E8)
+[LOG] SoundI::release                          :     La Humilde_cortado (000001669FDEE7E8)
+[LOG] SystemI::createSound                     : filename = Assets/StreamingAssets/Desktop/music-menu.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 00000168B0757D78, queue head = 0000016924717508, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000168B0757D78
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/StreamingAssets/Desktop/music-menu.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5990336
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5728
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000168D60EC308
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='La tocadita', format=5, channels=2, frequency=48000, lengthbytes=2168416, lengthpcm=7826703, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.999969.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000168B0757D78
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 0000016924717EA8
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 0000016924717EA8
+[LOG] SoundI::release                          : La tocadita (00000168B0757D78)
+[LOG] SoundI::release                          :     La tocadita (000001685BDA5078)
+[LOG] SoundI::release                          :     La tocadita (0000016924717EA8)
+[LOG] SystemI::createSound                     : filename = Assets/StreamingAssets/Desktop/music-menu.bank : mode 02010082
+[LOG] SystemI::createSound                     : FMOD_NONBLOCKING specified.  Putting into queue to be opened asynchronously!
+[LOG] AsyncThread::add                         : add sound to async queue : soundi = 00000169247179F8, queue head = 0000016924717508, queue count = 0
+[LOG] AsyncThread::threadFunc                  : Starting Asynchronous operation on sound 00000169247179F8
+[LOG] SystemI::createSoundInternal             :     Create name='Assets/StreamingAssets/Desktop/music-menu.bank', mode=0x02010082
+[LOG] SystemI::createSoundInternal             :     exinfo->cbsize             = 224
+[LOG] SystemI::createSoundInternal             :     exinfo->length             = 5990336
+[LOG] SystemI::createSoundInternal             :     exinfo->fileoffset         = 5728
+[LOG] SystemI::createSoundInternal             :     exinfo->numsubsounds       = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlist      = 00000169244FC6B8
+[LOG] SystemI::createSoundInternal             :     exinfo->inclusionlistnum   = 1
+[LOG] SystemI::createSoundInternal             :     exinfo->suggestedsoundtype = 5
+[LOG] SystemI::createSoundInternal             :     exinfo->initialseekpostype = 1
+[LOG] SystemI::createSoundInternal             :     Stream 0/1: name='Relembranças  Milonga Arrabalera', format=5, channels=2, frequency=48000, lengthbytes=1431456, lengthpcm=4972878, pcmblocksize=0, loopstart=0, loopend=0, mode=0x00000000, channelmask=0x00000000, channelorder=0, peakvolume=0.986969.
+[LOG] AsyncThread::threadFunc                  : Finished Asynchronous operation on sound 00000169247179F8
+[LOG] SoundI::release                          : Relembranças  Milonga Arrabalera (00000169247179F8)
+[LOG] SoundI::release                          :     Relembranças  Milonga Arrabalera (0000016924233388)
+[LOG] SoundI::release                          :     Relembranças  Milonga Arrabalera (00000168D64E2018)
+[LOG] SoundI::release                          :  (000001682CDD5CC8)
+[LOG] SoundI::release                          :     winning-218995 (000001682D4ECEE8)
+[LOG] SoundI::release                          :  (000001682CDD67C8)
+[LOG] SoundI::release                          :     184649__isaac200000__cannon2 (000001682D4EC768)
+[LOG] SoundI::release                          :  (000001682CDD6928)
+[LOG] SoundI::release                          :     404166__drfx__background-cannon-shot (000001682D4EBFE8)
+[LOG] SoundI::release                          :  (000001682CDD6D48)
+[LOG] SoundI::release                          :     Explosion-and-Rubble (000001682D4ED068)
+[LOG] SoundI::release                          :  (000001682CDD6668)
+[LOG] SoundI::release                          :     621003__samsterbirdies__cannon-explosion-sound-4 (000001682D4EC468)
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[WRN] OutputWASAPI::mixerThread                : GetCurrentPadding returned 0x88890004. Device was unplugged.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEX): wFormatTag=0xFFFE, nChannels=2, nSamplesPerSec=48000, nAvgBytesPerSec=384000, nBlockAlign=8, wBitsPerSample=32, cbSize=22.
+[LOG] OutputWASAPI::init                       : Mix Format (WAVEFORMATEXTENSIBLE): wValidBitsPerSample=32, dwChannelMask=0x00000003, SubFormat=00000003-0000-0010-8000-00AA00389B71.
+[LOG] OutputWASAPI::init                       : Output buffer size: 2048 samples, latency: 0.00ms, period: 10.00ms, DSP buffer: 512 * 4
+[LOG] Thread::initThread                       : Init FMOD mixer thread. Affinity: 0x4000000000000001, Priority: 0xFFFF7FFA, Stack Size: 81920, Semaphore: No, Sleep Time: 0, Looping: Yes.
+[WRN] OutputWASAPI::mixerThread                : Starvation detected in WASAPI output buffer!
+[LOG] Thread::callback                         : FMOD Studio bank load thread finished.
+[LOG] Thread::callback                         : FMOD Studio sample load thread finished.
+[LOG] LiveUpdate::release                      : 
+[LOG] LiveUpdate::reset                        : Reset connection (reason Disconnected)
+[LOG] Thread::callback                         : FMOD stream thread finished.
+[LOG] Thread::callback                         : FMOD mixer thread finished.
+[LOG] SystemI::closeInternal                   : Closed.
+[LOG] Thread::callback                         : FMOD nonblocking thread (0) finished.
+[LOG] Thread::callback                         : FMOD file thread finished.
