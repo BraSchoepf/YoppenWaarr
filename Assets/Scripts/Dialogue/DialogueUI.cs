@@ -38,9 +38,25 @@ public class DialogueUI : MonoBehaviour
         }
         else
         {
-            DialogueSystem.Instance.EndDialogue(); // 👈 Esta es la línea clave
+            //  NUEVO BLOQUE ANTES de cerrar el diálogo
+            DialogueTrigger trigger = DialogueSystem.Instance.npcActual;
+            if (trigger != null)
+            {
+                var quest = FindFirstObjectByType<ConditionNPC>();
+                if (quest != null)
+                {
+                    quest.NPCVisitado(trigger.npcID);
+                    if (trigger.entregaLlave)
+                    {
+                        quest.RecibirLlave();
+                    }
+                }
+            }
+
+            DialogueSystem.Instance.EndDialogue(); // cierre original
         }
     }
+
 
 
     public void HideDialogue()
