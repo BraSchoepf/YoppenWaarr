@@ -15,7 +15,11 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/music-scene_tutorial.bank
   Name: music-scene_tutorial
   StudioPath: bank:/music-scene_tutorial
+<<<<<<< HEAD
   lastModified: 638858494486713129
+=======
+  lastModified: 638858605959522923
+>>>>>>> bf4a499a6412f1f425d445320f1358d9eb700605
   FileSizes: []
   Exists: 1
 --- !u!114 &-7923160048937790525
@@ -86,7 +90,11 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/sfx-menu.bank
   Name: sfx-menu
   StudioPath: bank:/sfx-menu
+<<<<<<< HEAD
   lastModified: 638858494486713129
+=======
+  lastModified: 638858605959542912
+>>>>>>> bf4a499a6412f1f425d445320f1358d9eb700605
   FileSizes: []
   Exists: 1
 --- !u!114 &-4457992527085501293
@@ -212,7 +220,11 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
+<<<<<<< HEAD
   lastModified: 638858494484525116
+=======
+  lastModified: 638858605958298303
+>>>>>>> bf4a499a6412f1f425d445320f1358d9eb700605
   FileSizes:
   - Name: 
     Value: 1852
@@ -232,7 +244,11 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
+<<<<<<< HEAD
   lastModified: 638858494484525116
+=======
+  lastModified: 638858605958288273
+>>>>>>> bf4a499a6412f1f425d445320f1358d9eb700605
   FileSizes: []
   Exists: 1
 --- !u!114 &11400000
@@ -279,7 +295,11 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -2444485858399843084}
   cacheVersion: 131847
+<<<<<<< HEAD
   cacheTime: 638858494486869361
+=======
+  cacheTime: 638858605959562891
+>>>>>>> bf4a499a6412f1f425d445320f1358d9eb700605
   SerializableEventsDict:
   - key: event:/music-menu
     index: 0
@@ -495,7 +515,11 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/music-menu.bank
   Name: music-menu
   StudioPath: bank:/music-menu
+<<<<<<< HEAD
   lastModified: 638858494485306327
+=======
+  lastModified: 638858605958584011
+>>>>>>> bf4a499a6412f1f425d445320f1358d9eb700605
   FileSizes: []
   Exists: 1
 --- !u!114 &3925260100416323728
@@ -540,7 +564,11 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/sfx-scene_tutorial.bank
   Name: sfx-scene_tutorial
   StudioPath: bank:/sfx-scene_tutorial
+<<<<<<< HEAD
   lastModified: 638858494486869361
+=======
+  lastModified: 638858605959562891
+>>>>>>> bf4a499a6412f1f425d445320f1358d9eb700605
   FileSizes: []
   Exists: 1
 --- !u!114 &4794065887674120702

@@ -76,6 +76,7 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("El player murio");
+        lowLifeSonando = false;
 
         if (GameManager.Instance != null)
         {
