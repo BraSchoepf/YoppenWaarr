@@ -14,20 +14,24 @@ public class Interactable : MonoBehaviour
 
     private void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E) && !DialogueSystem.Instance.IsDialogueActive())
+        // Si el jugador esta en rango no hay diálogo activo NO está bloqueado entonces puede interactuar
+        if (playerInRange && Input.GetKeyDown(KeyCode.E) && !DialogueSystem.Instance.IsDialogueActive() && DialogueSystem.Instance.CanStartNewDialogue())
         {
             dialogueTrigger.TriggerDialogue();
             interactPrompt.SetActive(false);
+        }
+
+        // Cuando ssuelta E se habilita de nuevo las interacciones
+        if (Input.GetKeyUp(KeyCode.E))
+        {
+            DialogueSystem.Instance.ResetInteractionBlock();
         }
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log($"Entró {other.name} al trigger");
-
         if (other.CompareTag("Player"))
         {
-            Debug.Log("Es el jugador!");
             interactPrompt.SetActive(true);
             playerInRange = true;
         }
@@ -39,6 +43,7 @@ public class Interactable : MonoBehaviour
         {
             interactPrompt.SetActive(false);
             playerInRange = false;
+            DialogueSystem.Instance.ResetInteractionBlock(); // Seguridad extra por si el jugador se va del área
         }
     }
 }

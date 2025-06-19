@@ -13,17 +13,14 @@ public class DialogueUI : MonoBehaviour
     private Dialogue currentDialogue;
     private int dialogueIndex;
 
-
     private void Awake()
     {
         nextButton.onClick.AddListener(NextLine);
         exitButton.onClick.AddListener(() => DialogueSystem.Instance.EndDialogue());
-
     }
 
     private void Update()
     {
-        // ahora con la E pasamos el dialogo
         if (IsActive() && Input.GetKeyDown(KeyCode.E))
         {
             NextLine();
@@ -48,7 +45,6 @@ public class DialogueUI : MonoBehaviour
         }
         else
         {
-            //  NUEVO BLOQUE ANTES de cerrar el diálogo
             DialogueTrigger trigger = DialogueSystem.Instance.npcActual;
             if (trigger != null)
             {
@@ -63,11 +59,10 @@ public class DialogueUI : MonoBehaviour
                 }
             }
 
-            DialogueSystem.Instance.EndDialogue(); // cierre original
+            DialogueSystem.Instance.EndDialogue();
+            DialogueSystem.Instance.BlockNextInteractionUntilKeyReleased();
         }
     }
-
-
 
     public void HideDialogue()
     {
