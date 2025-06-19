@@ -1,8 +1,6 @@
 using UnityEditor.Experimental.GraphView;
 using UnityEngine;
 
-using UnityEngine;
-
 public class BossAI : MonoBehaviour
 {
     [HideInInspector] public BossManager bossManager;

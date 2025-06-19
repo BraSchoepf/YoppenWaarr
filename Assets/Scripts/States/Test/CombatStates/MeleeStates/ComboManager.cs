@@ -13,6 +13,10 @@ public class ComboManager : MonoBehaviour
 
     private void Update()
     {
+        
+        if (GameManager.Instance != null && GameManager.Instance.IsInDialogue) // cancelacion de input durante dialogo
+            return;
+
         if (Time.time - _lastClickTime > _comboResetDelay)
         {
             _comboIndex = 0;

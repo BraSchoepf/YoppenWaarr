@@ -24,6 +24,9 @@ public class BoleadoraAttackSystem : MonoBehaviour
 
     private void Update()
     {
+        if (GameManager.Instance != null && GameManager.Instance.IsInDialogue) //cancelacion de input durante el dialgou
+            return;
+
         if (Input.GetMouseButtonDown(1) && cargasActuales > 0)
         {
             LanzarBoleadoras();

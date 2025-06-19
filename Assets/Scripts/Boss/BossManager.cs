@@ -13,7 +13,7 @@ public class BossManager : MonoBehaviour
     private int vidaActual;
     public Image barraEnergia;
 
-    [Header("IA y daño visual")]
+    [Header("IA y daï¿½o visual")]
     public BossAI bossAI;
     public SpriteRenderer spriteRenderer;
     public GameObject damageParticlePrefab;
@@ -45,7 +45,7 @@ public class BossManager : MonoBehaviour
         _originalColor = spriteRenderer.color;
     }
 
-    // Reducido por eliminación de grupos
+    // Reducido por eliminaciï¿½n de grupos
     public void ReducirVida(int cantidad)
     {
         vidaActual = Mathf.Max(vidaActual - cantidad, 0);
@@ -62,8 +62,8 @@ public class BossManager : MonoBehaviour
         }
     }
 
-    // Daño directo (espada, proyectil)
-    public void RecibirDaño(int cantidad, Vector2 knockbackDir)
+    // DaÃ±o directo (espada, proyectil)
+    public void RecibirDaÃ±o(int cantidad, Vector2 knockbackDir)
     {
         if (vidaActual <= 0 || esInvulnerable) return;
 
@@ -94,7 +94,7 @@ public class BossManager : MonoBehaviour
     {
         bossActivado = true;
         bossAI?.MoveTowardsPlayer();
-        Debug.Log("¡Boss activado!");
+        Debug.Log("ï¿½Boss activado!");
     }
 
     private void ActualizarBarra()
@@ -105,9 +105,9 @@ public class BossManager : MonoBehaviour
 
     private void Muerte()
     {
-        Debug.Log("¡Boss derrotado!");
+        Debug.Log("ï¿½Boss derrotado!");
         GameManager.Instance?.Victory();
-        Destroy(gameObject); // o animación previa
+        Destroy(gameObject); // o animaciï¿½n previa
     }
 
     private void SpawnDamageParticles()

@@ -38,7 +38,7 @@ public class BossHealth : MonoBehaviour
         SpawnDamageParticles();
 
         vidaActual = Mathf.Max(vidaActual - cantidad, 0);
-       // bossManager?.ActualizarBarraConValor(vidaActual, vidaMaxima);
+        //bossManager?.ActualizarBarraConValor(vidaActual, vidaMaxima);
 
         // Sonido
         AudioManager.Instance.PlayOneShot(_damageSFX, transform.position);

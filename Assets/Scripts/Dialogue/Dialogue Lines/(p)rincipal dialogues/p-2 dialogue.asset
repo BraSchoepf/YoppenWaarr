@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5824fa4907b11943baa018632682b84, type: 3}
+  m_Name: p-2 dialogue
+  m_EditorClassIdentifier: 
+  npcName: El Sombra
+  lines:
+  - ...
+  - Con verte la cara me doy cuenta que el coronel debe estar peor. Un caso perdido
+    si me preguntan.
+  - Como sea, vengo de la puerta sur. Los muchachos estan un poco nerviosos, parece
+    que hay mucho movimiento de los "Marcados" en el campo sur.
+  - Hace tiempo ya que se llevaron a todos los militares del puesto y que arrasaron
+    con las poblaciones nativas locales.
+  - Asi que desconozco de donde consiguen tantos "Marcados". Ahora quedamos los gauchos
+    que algunos ni experiencia en la frotera tienen.
+  - Cuando estes listo, ve a la puerta a hablar con los muchachos. Estoy seguro que
+    te necesitan por tus habilidades en el campo.
+  - 'Nos vemos y cuidate. '

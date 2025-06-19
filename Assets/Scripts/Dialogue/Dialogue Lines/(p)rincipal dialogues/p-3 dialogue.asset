@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b5824fa4907b11943baa018632682b84, type: 3}
+  m_Name: p-3 dialogue
+  m_EditorClassIdentifier: 
+  npcName: El Tranca
+  lines:
+  - ...
+  - Hola compadre. Finalmente te mandaron para aca.
+  - La verdad que tu habilidad para golpear -click izquierdo- y lanzar esas boleadoras
+    -click derecho- combinado con tu agilidad -w,a,s,d movimiento- nos viene al pelo.
+  - Los "Marcados" andan a full, identificamos cinco grupos bien organizados encabezados
+    por algunos que parecen ser lideres o jefes.
+  - Seria ideal que les demos una buena tundra. Ellos acabaron con las poblaciones
+    nativas y se llevaron a los milicos del puesto.
+  - Hace rato dan vueltas por la zona mas sur del campo. El Cara y yo vinos algunas
+    luces y sombras raras.
+  - Lo mas probable es que esten resguardando algo o alguien en aquel hueco entre
+    las piedras.
+  - Te toca ir solo compadre. El resto vamos a resguardar la zona y mantener el perimetro.
+  - No te olvides de hablar con el cara que esta a tu derecha para que te de la llave
+    de la puerta. Buena suerte.

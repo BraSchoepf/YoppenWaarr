@@ -14,7 +14,7 @@ public class Interactable : MonoBehaviour
 
     private void Update()
     {
-        if (playerInRange && Input.GetKeyDown(KeyCode.E))
+        if (playerInRange && Input.GetKeyDown(KeyCode.E) && !DialogueSystem.Instance.IsDialogueActive())
         {
             dialogueTrigger.TriggerDialogue();
             interactPrompt.SetActive(false);
