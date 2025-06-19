@@ -20,7 +20,12 @@ public class BossManager : MonoBehaviour
     public float knockbackForce = 5f;
     public float knockbackDuration = 0.15f;
     private NavMeshAgent navAgent;
+    private Coroutine _flashCoroutine;
+    private Color _originalColor;
+
     private bool bossActivado = false;
+    public bool esInvulnerable = false;
+
 
     [Header("FMOD")]
     [SerializeField] private EventReference damageSFX;
@@ -33,9 +38,11 @@ public class BossManager : MonoBehaviour
 
     private void Start()
     {
+
         vidaActual = vidaMaxima;
         navAgent = GetComponent<NavMeshAgent>();
         ActualizarBarra();
+        _originalColor = spriteRenderer.color;
     }
 
     // Reducido por eliminación de grupos
@@ -58,9 +65,12 @@ public class BossManager : MonoBehaviour
     // Daño directo (espada, proyectil)
     public void RecibirDaño(int cantidad, Vector2 knockbackDir)
     {
-        if (vidaActual <= 0) return;
+        if (vidaActual <= 0 || esInvulnerable) return;
 
-        StartCoroutine(FlashDamage());
+         if (_flashCoroutine != null)
+            StopCoroutine(_flashCoroutine);
+
+        _flashCoroutine = StartCoroutine(FlashDamage());
         SpawnDamageParticles();
 
         RuntimeManager.PlayOneShot(damageSFX, transform.position);
@@ -83,7 +93,7 @@ public class BossManager : MonoBehaviour
     private void ActivarBoss()
     {
         bossActivado = true;
-        bossAI?.ActivarAtaque();
+        bossAI?.MoveTowardsPlayer();
         Debug.Log("¡Boss activado!");
     }
 
@@ -111,14 +121,11 @@ public class BossManager : MonoBehaviour
 
     private IEnumerator FlashDamage()
     {
-        Color originalColor = spriteRenderer.color;
-        for (int i = 0; i < 2; i++)
-        {
-            spriteRenderer.color = Color.red;
-            yield return new WaitForSeconds(0.1f);
-            spriteRenderer.color = originalColor;
-            yield return new WaitForSeconds(0.1f);
-        }
+        
+        spriteRenderer.color = Color.red;
+        yield return new WaitForSeconds(0.1f);
+        spriteRenderer.color = _originalColor;
+        
     }
 
     private IEnumerator SimulateKnockback(Vector2 direction, float duration)
@@ -135,6 +142,19 @@ public class BossManager : MonoBehaviour
 
         if (navAgent != null) navAgent.enabled = true;
     }
+
+    public void EnableDamage()
+    {
+        esInvulnerable = false;
+        Debug.Log("Xalpen ahora es vulnerable");
+    }
+
+    public void DisableDamage()
+    {
+        esInvulnerable = true;
+        Debug.Log("Xalpen ahora es invulnerable");
+    }
+
 }
 
 
