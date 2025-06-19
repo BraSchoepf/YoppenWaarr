@@ -74,5 +74,7 @@ crashlytics-build.properties
 /[Aa]ssets/[Ss]treamingAssets/aa/*
 
 FMODUnityEditor.csproj
+# Logs
+*.log
 fmod_editor.log
 /Assets/Plugins/FMOD/FMOD_editor.log
