@@ -15,7 +15,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/music-scene_tutorial.bank
   Name: music-scene_tutorial
   StudioPath: bank:/music-scene_tutorial
-  lastModified: 638853436927751713
+  lastModified: 638858494486713129
   FileSizes: []
   Exists: 1
 --- !u!114 &-7923160048937790525
@@ -86,7 +86,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/sfx-menu.bank
   Name: sfx-menu
   StudioPath: bank:/sfx-menu
-  lastModified: 638853436934550286
+  lastModified: 638858494486713129
   FileSizes: []
   Exists: 1
 --- !u!114 &-4457992527085501293
@@ -212,7 +212,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 638857715781318653
+  lastModified: 638858494484525116
   FileSizes:
   - Name: 
     Value: 1852
@@ -232,7 +232,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 638857715781298670
+  lastModified: 638858494484525116
   FileSizes: []
   Exists: 1
 --- !u!114 &11400000
@@ -279,7 +279,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: -2444485858399843084}
   cacheVersion: 131847
-  cacheTime: 638857715785861603
+  cacheTime: 638858494486869361
   SerializableEventsDict:
   - key: event:/music-menu
     index: 0
@@ -495,7 +495,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/music-menu.bank
   Name: music-menu
   StudioPath: bank:/music-menu
-  lastModified: 638853436899760214
+  lastModified: 638858494485306327
   FileSizes: []
   Exists: 1
 --- !u!114 &3925260100416323728
@@ -540,7 +540,7 @@ MonoBehaviour:
   Path: Assets/StreamingAssets/Desktop/sfx-scene_tutorial.bank
   Name: sfx-scene_tutorial
   StudioPath: bank:/sfx-scene_tutorial
-  lastModified: 638857715785861603
+  lastModified: 638858494486869361
   FileSizes: []
   Exists: 1
 --- !u!114 &4794065887674120702
