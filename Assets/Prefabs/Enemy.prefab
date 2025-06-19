@@ -141,7 +141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5365f9cd47e9ad47b94d1d2790b6b1c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _maxHealth: 10
+  _maxHealth: 100
   spriteRenderer: {fileID: 3994617162317874866}
   _knockbackForce: 10
   _knockbackDuration: 0.2
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e15e3206ab70e1b4c9156a6587b66865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visionRange: 20
+  visionRange: 30
   obstacleMask:
     serializedVersion: 2
     m_Bits: 8
@@ -177,8 +177,8 @@ MonoBehaviour:
   _wanderCooldown: 2.5
   _wanderTimer: 0.5
   attackRange: 3
-  attackCooldown: 1
-  attackDamage: 5
+  attackCooldown: 0.7
+  attackDamage: 10
   isMovementBlocked: 0
 --- !u!195 &9145073027863312851
 NavMeshAgent:
@@ -190,7 +190,7 @@ NavMeshAgent:
   m_Enabled: 1
   m_AgentTypeID: 0
   m_Radius: 2
-  m_Speed: 3.5
+  m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
   m_AngularSpeed: 120

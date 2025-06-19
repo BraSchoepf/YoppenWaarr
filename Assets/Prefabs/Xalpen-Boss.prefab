@@ -173,12 +173,12 @@ MonoBehaviour:
   Animator: {fileID: 0}
   velocidadMovimiento: 20
   distanciaMinima: 2
-  radiusAttack: 5
+  radiusAttack: 5.5
   pointAttack: {fileID: 1420218681251118137}
   playerLayer:
     serializedVersion: 2
     m_Bits: 128
-  MeleeDamage: 20
+  MeleeDamage: 25
 --- !u!114 &3961461460501049228
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,7 +191,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614101fb5e25f73498f38dde353bd702, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaMaxima: 100
+  vidaMaxima: 300
   barraEnergia: {fileID: 0}
   bossAI: {fileID: 753640175123352777}
   spriteRenderer: {fileID: 7896817682876087922}

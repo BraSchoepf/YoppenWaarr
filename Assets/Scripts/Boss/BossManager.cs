@@ -51,7 +51,7 @@ public class BossManager : MonoBehaviour
         vidaActual = Mathf.Max(vidaActual - cantidad, 0);
         ActualizarBarra();
 
-        if (!bossActivado && vidaActual <= vidaMaxima / 2)
+        if (!bossActivado && vidaActual <= 200f)
         {
             ActivarBoss();
         }
