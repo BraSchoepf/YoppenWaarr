@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 243e67382ecb7f643a652a1c5aee5231, type: 3}
   m_Name: Npc_007
   m_EditorClassIdentifier: 
-  npcName: 
-  portrait: {fileID: 0}
-  baseController: {fileID: 0}
-  idleClip: {fileID: 0}
+  npcName: "Benjam\xEDn \u201CCacho Malo\u201D Andrada"
+  portrait: {fileID: -6804095410256669865, guid: 7e134d7a6112367409e3bad75c0f8b91, type: 3}
+  baseController: {fileID: 9100000, guid: a0c1711850b7add46836f1bcaf0c3839, type: 2}
+  idleClip: {fileID: 7400000, guid: d3008371052995b44b79e764898d0928, type: 2}

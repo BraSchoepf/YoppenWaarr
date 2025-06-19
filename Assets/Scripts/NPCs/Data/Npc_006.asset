@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 243e67382ecb7f643a652a1c5aee5231, type: 3}
   m_Name: Npc_006
   m_EditorClassIdentifier: 
-  npcName: 
-  portrait: {fileID: 0}
-  baseController: {fileID: 0}
-  idleClip: {fileID: 0}
+  npcName: "Anacleto \u201CSombra Larga\u201D Quiroga"
+  portrait: {fileID: 6719698742588181597, guid: 37bb3bb045465174fa29afc67cc22570, type: 3}
+  baseController: {fileID: 9100000, guid: a0c1711850b7add46836f1bcaf0c3839, type: 2}
+  idleClip: {fileID: 7400000, guid: 7f734887c747ba84891beba08b72f1da, type: 2}

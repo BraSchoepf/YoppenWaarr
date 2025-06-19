@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 243e67382ecb7f643a652a1c5aee5231, type: 3}
   m_Name: Npc_005
   m_EditorClassIdentifier: 
-  npcName: 
-  portrait: {fileID: 0}
-  baseController: {fileID: 0}
-  idleClip: {fileID: 0}
+  npcName: "Isidro \u201CPata \u2019e Llama\u201D Cardozo"
+  portrait: {fileID: 3571512428141775106, guid: d3bec6c8a028b4049a4f6fd13e3bd4e1, type: 3}
+  baseController: {fileID: 9100000, guid: a0c1711850b7add46836f1bcaf0c3839, type: 2}
+  idleClip: {fileID: 7400000, guid: 64238f4a049dfb24e98b3048624f1fca, type: 2}
