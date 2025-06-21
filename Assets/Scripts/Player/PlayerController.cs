@@ -34,6 +34,7 @@ public class PlayerController : MonoBehaviour
         attackState = new PlayerAttackState(this);
         stateMachine = GetComponent<Player_State_Machine>();
         stateMachine.Initialize(_animator, this);
+        
     }
 
     private void Start()
@@ -120,4 +121,5 @@ public class PlayerController : MonoBehaviour
 
         _rbPlayer.linearVelocity = Vector2.zero; 
     }
+
 }
