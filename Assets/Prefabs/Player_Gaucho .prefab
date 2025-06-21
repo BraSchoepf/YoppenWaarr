@@ -19,6 +19,7 @@ GameObject:
   - component: {fileID: 7042070367715052784}
   - component: {fileID: 5682085570176981761}
   - component: {fileID: 3125615225878000044}
+  - component: {fileID: 8449005272271226904}
   m_Layer: 7
   m_Name: 'Player_Gaucho '
   m_TagString: Player
@@ -296,6 +297,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _player: {fileID: 5711564221279662849}
+--- !u!114 &8449005272271226904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4056388399023633032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7cb72a1cc5348c4d9370a35d4e2e86e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 20
+  hitboxCollider: {fileID: 9209624174589804875}
+  _swordSFX:
+    Guid:
+      Data1: 1847779374
+      Data2: 1125987196
+      Data3: 2000849033
+      Data4: -596763802
+    Path: event:/sfx_sword
 --- !u!1 &4888084992174682510
 GameObject:
   m_ObjectHideFlags: 0
@@ -305,7 +327,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6802360368928101126}
-  - component: {fileID: 7419356344634831234}
   - component: {fileID: 9209624174589804875}
   m_Layer: 7
   m_Name: Sword
@@ -329,28 +350,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 6551807353164238202}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7419356344634831234
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4888084992174682510}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c7cb72a1cc5348c4d9370a35d4e2e86e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
-  hitboxCollider: {fileID: 0}
-  hitboxTransform: {fileID: 0}
-  _swordSFX:
-    Guid:
-      Data1: 1847779374
-      Data2: 1125987196
-      Data3: 2000849033
-      Data4: -596763802
-    Path: event:/sfx_sword
 --- !u!60 &9209624174589804875
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -358,7 +357,7 @@ PolygonCollider2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4888084992174682510}
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
   m_Material: {fileID: 0}
@@ -381,7 +380,7 @@ PolygonCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
