@@ -29,6 +29,7 @@ public class PlayerAttackState : IPlayer_State
         // Mantenemos el combo actual (no reiniciar)
         _attackDuration = _attackDurations[_comboIndex];
         PlayCurrentComboAnimation();
+       
     }
 
     public void Exit()

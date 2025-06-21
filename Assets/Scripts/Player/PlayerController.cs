@@ -12,6 +12,7 @@ public class PlayerController : MonoBehaviour
 
     private Rigidbody2D _rbPlayer;
     private Animator _animator;
+    [SerializeField] public PlayerSlashHitbox slashHitbox;
     public Animator animator => _animator;
     public Vector2 FacingDirection => _lastMoveDirection;
 
@@ -23,6 +24,7 @@ public class PlayerController : MonoBehaviour
     public PlayerIdleState idleState;
     public PlayerMoveState moveState;
     public PlayerAttackState attackState;
+
 
     private void Awake()
     {
