@@ -227,7 +227,7 @@ public class EnemyController : MonoBehaviour
             }
 
             // Knockback
-            Player_Movement playerMovement = player.GetComponent<Player_Movement>();
+            PlayerController playerMovement = player.GetComponent<PlayerController>();
             if (playerMovement != null)
             {
                 Vector2 knockbackDir = (player.position - transform.position).normalized;
