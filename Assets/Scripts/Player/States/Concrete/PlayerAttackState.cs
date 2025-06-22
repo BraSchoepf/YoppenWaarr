@@ -8,12 +8,18 @@ public class PlayerAttackState : IPlayer_State
     private float _attackTimer = 0f;
     private float _attackDuration = 0f;
 
+
+    [Header("Inpulso")]
+    private Vector2 _initialAttackDirection;
+    private bool _wasMovingAtAttackStart;
+    private float _extraImpulseMultiplicar = 1.5f;
     // Duraciones por combo, ajustá según tu animación
     private readonly float[] _attackDurations = { 1.6f, 2f };
     private const int _totalCombos = 2;
 
     private bool _inputBuffered = false;
     private bool _inputWindowOpen = false;
+
 
     public PlayerAttackState(PlayerController player)
     {
@@ -29,7 +35,10 @@ public class PlayerAttackState : IPlayer_State
         // Mantenemos el combo actual (no reiniciar)
         _attackDuration = _attackDurations[_comboIndex];
         PlayCurrentComboAnimation();
-       
+
+        _initialAttackDirection = _player.FacingDirection.normalized;
+        _wasMovingAtAttackStart = _player.ReadInput().magnitude > 0.5f;
+
     }
 
     public void Exit()
@@ -70,7 +79,22 @@ public class PlayerAttackState : IPlayer_State
 
     public void FixedUpdate()
     {
-        _player.ApplyMovement(Vector2.zero); // Detener al atacar
+
+        float pushStrength = 1f;
+
+        if (_attackTimer <= 0.2f) // Empuje solo al principio del ataque
+        {
+            if (_wasMovingAtAttackStart)
+            {
+                pushStrength *= _extraImpulseMultiplicar;
+            }
+           
+            _player.ApplyMovement(_initialAttackDirection * pushStrength);
+        }
+        else
+        {
+            _player.ApplyMovement(Vector2.zero);
+        }
     }
 
     private void PlayCurrentComboAnimation()
