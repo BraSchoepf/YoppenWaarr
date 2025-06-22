@@ -38,11 +38,16 @@ public class BossManager : MonoBehaviour
 
     private void Start()
     {
-
+        ActivarBoss();
         vidaActual = vidaMaxima;
         navAgent = GetComponent<NavMeshAgent>();
         ActualizarBarra();
-        _originalColor = spriteRenderer.color;
+        if(spriteRenderer != null)
+        {
+            _originalColor = spriteRenderer.color;
+            _originalColor.a = 1f;
+        }
+        
     }
 
     // Reducido por eliminaci�n de grupos
@@ -79,10 +84,10 @@ public class BossManager : MonoBehaviour
         vidaActual = Mathf.Max(vidaActual - cantidad, 0);
         ActualizarBarra();
 
-        if (!bossActivado && vidaActual <= vidaMaxima / 2)
+        /*if (!bossActivado && vidaActual <= vidaMaxima / 2)
         {
             ActivarBoss();
-        }
+        }*/
 
         if (vidaActual <= 0)
         {
@@ -121,11 +126,17 @@ public class BossManager : MonoBehaviour
 
     private IEnumerator FlashDamage()
     {
-        
-        spriteRenderer.color = Color.red;
-        yield return new WaitForSeconds(0.1f);
-        spriteRenderer.color = _originalColor;
-        
+        int flashCount = 2;
+        float flashDuration = 0.1f;
+
+        for (int i = 0; i < flashCount; i++)
+        {
+            spriteRenderer.color = Color.red;
+            yield return new WaitForSeconds(flashDuration);
+
+            spriteRenderer.color = _originalColor;
+            yield return new WaitForSeconds(flashDuration);
+        }
     }
 
     private IEnumerator SimulateKnockback(Vector2 direction, float duration)

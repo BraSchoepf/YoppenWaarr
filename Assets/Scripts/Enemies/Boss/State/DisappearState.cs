@@ -14,6 +14,7 @@ public class DisappearState : BossState
         timer = 0f;
         boss.OrientTowardsPlayer();
         boss.bossManager.esInvulnerable = false;
+        
     }
 
     public override void Update()

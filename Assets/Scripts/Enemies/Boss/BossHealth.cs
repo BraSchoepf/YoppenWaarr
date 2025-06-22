@@ -28,6 +28,20 @@ public class BossHealth : MonoBehaviour, IHittable
         vidaActual = vidaMaxima;
         bossManager = GetComponent<BossManager>();
         //bossManager?.ActualizarBarraConValor(vidaActual, vidaMaxima);
+        if (spriteRenderer != null)
+        {
+            spriteRenderer.color = Color.white; // Valor seguro inicial
+
+            // Guardamos color original en BossAI
+            BossAI bossAI = GetComponent<BossAI>();
+            if (bossAI != null)
+            {
+                bossAI.spriteRenderer = spriteRenderer;
+                bossAI.originalColor = spriteRenderer.color;
+            }
+
+            _originalColor = spriteRenderer.color;
+        }
     }
 
     public void TakeDamage(int amount, Vector2 knockbackDirection)

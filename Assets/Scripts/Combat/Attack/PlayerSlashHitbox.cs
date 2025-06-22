@@ -22,7 +22,7 @@ public class PlayerSlashHitbox : MonoBehaviour
     {
         if (hitboxCollider == null || !hitboxCollider.enabled) return;
 
-        if (((1 << other.gameObject.layer) & LayerMask.GetMask("Enemys")) != 0)
+        if (other.CompareTag("Boss") || ((1 << other.gameObject.layer) & LayerMask.GetMask("Enemys")) != 0)
         {
             Vector2 knockbackDir = ((Vector2)other.transform.position - (Vector2)transform.position).normalized;
 
