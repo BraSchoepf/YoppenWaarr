@@ -27,7 +27,7 @@ public class BossHealth : MonoBehaviour, IHittable
     {
         vidaActual = vidaMaxima;
         bossManager = GetComponent<BossManager>();
-        //bossManager?.ActualizarBarraConValor(vidaActual, vidaMaxima);
+        BossManager.Instance?.ActualizarBarra(vidaActual, vidaMaxima);
         if (spriteRenderer != null)
         {
             spriteRenderer.color = Color.white; // Valor seguro inicial
@@ -57,7 +57,7 @@ public class BossHealth : MonoBehaviour, IHittable
         SpawnDamageParticles();
 
         vidaActual = Mathf.Max(vidaActual - cantidad, 0);
-        //bossManager?.ActualizarBarraConValor(vidaActual, vidaMaxima);
+        BossManager.Instance?.ActualizarBarra(vidaActual, vidaMaxima);
 
         // Sonido
         AudioManager.Instance.PlayOneShot(_damageSFX, transform.position);

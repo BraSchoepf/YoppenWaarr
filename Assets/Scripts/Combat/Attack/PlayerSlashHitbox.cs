@@ -16,6 +16,7 @@ public class PlayerSlashHitbox : MonoBehaviour
         if (hitboxCollider != null)
             hitboxCollider.enabled = false;
 
+
     }
 
     private void OnTriggerEnter2D(Collider2D other)

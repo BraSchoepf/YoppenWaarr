@@ -8,6 +8,7 @@ public class BossAI : MonoBehaviour
     public Animator Animator;
     public SpriteRenderer spriteRenderer;
     public Color originalColor;
+
     public float velocidadMovimiento = 2f;
     public float distanciaMinima = 1.5f;
 

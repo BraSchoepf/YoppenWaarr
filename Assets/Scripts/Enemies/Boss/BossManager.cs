@@ -38,10 +38,10 @@ public class BossManager : MonoBehaviour
 
     private void Start()
     {
-        ActivarBoss();
+        
         vidaActual = vidaMaxima;
         navAgent = GetComponent<NavMeshAgent>();
-        ActualizarBarra();
+        ActualizarBarra(vidaActual, vidaMaxima);
         if(spriteRenderer != null)
         {
             _originalColor = spriteRenderer.color;
@@ -54,7 +54,7 @@ public class BossManager : MonoBehaviour
     public void ReducirVida(int cantidad)
     {
         vidaActual = Mathf.Max(vidaActual - cantidad, 0);
-        ActualizarBarra();
+        ActualizarBarra(vidaActual,vidaMaxima);
 
         if (!bossActivado && vidaActual <= 200f)
         {
@@ -82,12 +82,12 @@ public class BossManager : MonoBehaviour
         StartCoroutine(SimulateKnockback(knockbackDir, knockbackDuration));
 
         vidaActual = Mathf.Max(vidaActual - cantidad, 0);
-        ActualizarBarra();
+        ActualizarBarra(vidaActual, vidaMaxima);
 
-        /*if (!bossActivado && vidaActual <= vidaMaxima / 2)
+        if (!bossActivado && vidaActual <= vidaMaxima / 2)
         {
             ActivarBoss();
-        }*/
+        }
 
         if (vidaActual <= 0)
         {
@@ -102,7 +102,7 @@ public class BossManager : MonoBehaviour
         Debug.Log("�Boss activado!");
     }
 
-    private void ActualizarBarra()
+    public void ActualizarBarra(int vidaActual, int vidaMaxima)
     {
         if (barraEnergia != null)
             barraEnergia.fillAmount = (float)vidaActual / vidaMaxima;
@@ -153,6 +153,8 @@ public class BossManager : MonoBehaviour
 
         if (navAgent != null) navAgent.enabled = true;
     }
+
+   
 
     public void EnableDamage()
     {
