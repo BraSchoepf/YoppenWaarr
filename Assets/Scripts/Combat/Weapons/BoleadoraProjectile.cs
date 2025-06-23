@@ -9,10 +9,14 @@ public class BoleadoraProjectile : MonoBehaviour
     private Vector3 posicionInicial;
     private float direccionComba;
 
-    public void Inicializar(Transform objetivo, float velocidad, float fuerzaCombaBase)
+    private int daño; // daño que viene desde el attacksystem
+
+    // iniciador recibe el parametro de daño
+    public void Inicializar(Transform objetivo, float velocidad, float fuerzaCombaBase, int daño)
     {
         this.objetivo = objetivo;
         this.velocidad = velocidad;
+        this.daño = daño; // aca mismo
         posicionInicial = transform.position;
 
         direccionComba = Random.Range(0, 2) == 0 ? 1f : -1f;
@@ -54,9 +58,8 @@ public class BoleadoraProjectile : MonoBehaviour
         EnemyHealth enemyHealth = objetivo.GetComponent<EnemyHealth>();
         if (enemyHealth != null)
         {
-            enemyHealth.TakeDamage(2, (objetivo.position - transform.position).normalized);
+            enemyHealth.TakeDamage(daño, (objetivo.position - transform.position).normalized);
         }
         Destroy(gameObject);
     }
-
 }

@@ -11,6 +11,7 @@ public class BoleadoraAttackSystem : MonoBehaviour
     [SerializeField] private float rangoDeteccion = 20f;
     [SerializeField] private LayerMask layerEnemigos;
     [SerializeField] private float tiempoEntreBoleadoras = 0.1f;
+    [SerializeField] private int daño = 2; // configuracion desde el inspector ;)
 
     [Header("Recarga")]
     [SerializeField] private int maxCargas = 3;
@@ -24,7 +25,7 @@ public class BoleadoraAttackSystem : MonoBehaviour
 
     private void Update()
     {
-        if (GameManager.Instance != null && GameManager.Instance.IsInDialogue) //cancelacion de input durante el dialgou
+        if (GameManager.Instance != null && GameManager.Instance.IsInDialogue)
             return;
 
         if (Input.GetKeyDown(KeyCode.K) && cargasActuales > 0)
@@ -46,7 +47,7 @@ public class BoleadoraAttackSystem : MonoBehaviour
 
         int boleadorasAInstanciar = Mathf.Min(cantidadBoleadoras, enemigos.Length);
 
-            StartCoroutine(DispararSecuencialmente(enemigos, boleadorasAInstanciar));
+        StartCoroutine(DispararSecuencialmente(enemigos, boleadorasAInstanciar));
     }
 
     private IEnumerator DispararSecuencialmente(Collider2D[] enemigos, int cantidad)
@@ -57,12 +58,11 @@ public class BoleadoraAttackSystem : MonoBehaviour
 
             GameObject boleadora = Instantiate(boleadoraPrefab, transform.position, Quaternion.identity);
             BoleadoraProjectile proj = boleadora.GetComponent<BoleadoraProjectile>();
-            proj.Inicializar(objetivo, velocidad, fuerzaComba);
+            proj.Inicializar(objetivo, velocidad, fuerzaComba, daño); // aca recibe el daño pero se cambia desde el inspector, Brian n.n
 
             yield return new WaitForSeconds(tiempoEntreBoleadoras);
         }
     }
-
 
     Transform ObtenerEnemigoMasCercano(Collider2D[] enemigos)
     {
