@@ -13,7 +13,7 @@ public class DisappearState : BossState
         boss.Animator.Play("Disappear");
         timer = 0f;
         boss.OrientTowardsPlayer();
-        boss.bossManager.esInvulnerable = false;
+        boss.bossManager.EnableDamage();
         
     }
 

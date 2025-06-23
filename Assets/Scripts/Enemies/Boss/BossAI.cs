@@ -115,12 +115,12 @@ public class BossAI : MonoBehaviour
 
     public void EnableDamage()
     {
-        BossManager.Instance?.EnableDamage();
+        GetComponent<BossHealth>().EnableDamage();
     }
 
     public void DisableDamage()
     {
-        BossManager.Instance?.DisableDamage();
+        GetComponent<BossHealth>().DisableDamage();
     }
 
 }

@@ -14,7 +14,7 @@ public class AttackState : BossState
         timer = 0f;
         boss.AllowDamage();
         boss.OrientTowardsPlayer();
-        boss.bossManager.esInvulnerable = false;
+        boss.bossManager.EnableDamage();
     }
 
     public override void Update()

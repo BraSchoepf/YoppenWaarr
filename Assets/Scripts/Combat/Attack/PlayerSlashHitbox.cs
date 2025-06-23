@@ -33,7 +33,7 @@ public class PlayerSlashHitbox : MonoBehaviour
             }
             else if (other.TryGetComponent<BossHealth>(out var boss))
             {
-                boss.RecibirDaño(damage, knockbackDir);
+                boss.TakeDamage(damage, knockbackDir);
             }
         }
     }

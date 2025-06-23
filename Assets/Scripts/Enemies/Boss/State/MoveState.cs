@@ -8,7 +8,7 @@ public class MoveState : BossState
     {
         boss.Animator.Play("Move");
         boss.OrientTowardsPlayer();
-        boss.bossManager.esInvulnerable = true;
+        boss.bossManager.DisableDamage();
 
 
     }

@@ -7,26 +7,24 @@ public class BossHealth : MonoBehaviour, IHittable
 {
     public int vidaMaxima = 100;
     private int vidaActual;
-
-    private BossManager bossManager;
+    public bool esInvulnerable = false;
 
     [SerializeField] private EventReference _damageSFX;
-
-    // Reference to the damage particle prefab
     [SerializeField] private GameObject damageParticlePrefab;
-    
-    //effect for damage recive - for flashDamage()
-    public SpriteRenderer spriteRenderer;
-    private Color _originalColor;
-
     [SerializeField] private float _knockbackForce = 5f;
     [SerializeField] private float _knockbackDuration = 0.15f;
+
+    public SpriteRenderer spriteRenderer;
+    private Color _originalColor;
     private NavMeshAgent _navAgent;
 
+    //private BossManager bossManager;
+    //private BossAI bossAI;
+    //private bool bossActivado = false;
     void Start()
     {
         vidaActual = vidaMaxima;
-        bossManager = GetComponent<BossManager>();
+        _navAgent = GetComponent<NavMeshAgent>();
         BossManager.Instance?.ActualizarBarra(vidaActual, vidaMaxima);
         if (spriteRenderer != null)
         {
@@ -46,30 +44,31 @@ public class BossHealth : MonoBehaviour, IHittable
 
     public void TakeDamage(int amount, Vector2 knockbackDirection)
     {
-        RecibirDaño(amount, knockbackDirection);
-    }
-
-    public void RecibirDaño(int cantidad, Vector2 knockbackDirection)
-    {
-        if (vidaActual <= 0) return;
+       if (vidaActual <= 0 || esInvulnerable) return;
 
         StartCoroutine(FlashDamage());
         SpawnDamageParticles();
-
-        vidaActual = Mathf.Max(vidaActual - cantidad, 0);
-        BossManager.Instance?.ActualizarBarra(vidaActual, vidaMaxima);
-
-        // Sonido
         AudioManager.Instance.PlayOneShot(_damageSFX, transform.position);
-
-        // Knockback
         StartCoroutine(SimulateKnockback(knockbackDirection, _knockbackDuration));
 
-        Debug.Log("Boss recibe daño: " + cantidad + " → Vida actual: " + vidaActual);
+        vidaActual = Mathf.Max(vidaActual - amount, 0);
+        BossManager.Instance?.ActualizarBarra(vidaActual, vidaMaxima);
 
         if (vidaActual <= 0)
         {
-            Debug.Log("Llamando a Muerte() del boss");
+            Muerte();
+        }
+    }
+
+    public void TakePureDamage(int amount)
+    {
+        if (vidaActual <= 0 || esInvulnerable) return;
+
+        vidaActual = Mathf.Max(vidaActual - amount, 0);
+        BossManager.Instance?.ActualizarBarra(vidaActual, vidaMaxima);
+
+        if (vidaActual <= 0)
+        {
             Muerte();
         }
     }
@@ -99,7 +98,7 @@ public class BossHealth : MonoBehaviour, IHittable
             GameManager.Instance.Victory();
         }
 
-        StartCoroutine(DestruirDespuesDe(2f)); // Esperar 2 segundos
+        StartCoroutine(DestruirDespuesDe(0.2f)); // Esperar 2 segundos
     }
 
     private IEnumerator DestruirDespuesDe(float tiempo)
@@ -123,7 +122,6 @@ public class BossHealth : MonoBehaviour, IHittable
             yield return new WaitForSeconds(flashDuration);
         }
     }
-
     private void SpawnDamageParticles()
     {
         if (damageParticlePrefab != null)
@@ -134,5 +132,8 @@ public class BossHealth : MonoBehaviour, IHittable
             Destroy(particles, 1f); // Destroy after 1 second
         }
     }
+
+    public void EnableDamage() => esInvulnerable = false;
+    public void DisableDamage() => esInvulnerable = true;
 }
 
