@@ -22,7 +22,7 @@ public class Interactable : MonoBehaviour
         }
 
         // Cuando ssuelta E se habilita de nuevo las interacciones
-        if (Input.GetKeyUp(KeyCode.E))
+        if (Input.GetKeyUp(KeyCode.E) || Input.GetKeyDown("joystick button 3"))
         {
             DialogueSystem.Instance.ResetInteractionBlock();
         }
