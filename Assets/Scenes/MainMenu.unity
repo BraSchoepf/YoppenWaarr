@@ -179,25 +179,32 @@ MonoBehaviour:
     Path: event:/music-intro_game
   musica_escenaTutorial:
     Guid:
+      Data1: -209523052
+      Data2: 1183512563
+      Data3: 1576101802
+      Data4: 987461155
+    Path: event:/music-scene_tutorial
+  musica_escenaCreditosFogon:
+    Guid:
+      Data1: -955412403
+      Data2: 1278793599
+      Data3: -1877592133
+      Data4: 165090564
+    Path: event:/music-menu_fogon
+  musica_escenaOpcionesManas:
+    Guid:
       Data1: -1308638884
       Data2: 1075437574
       Data3: -1735282503
       Data4: 1340306473
     Path: event:/music-menu_pause
-  musica_escenaCreditos:
+  musica_menuPausa:
     Guid:
-      Data1: -955412403
-      Data2: 1278793599
-      Data3: -1877592133
-      Data4: 165090564
-    Path: event:/music-menu_fogon
-  musica_escenaOpciones:
-    Guid:
-      Data1: -955412403
-      Data2: 1278793599
-      Data3: -1877592133
-      Data4: 165090564
-    Path: event:/music-menu_fogon
+      Data1: -1308638884
+      Data2: 1075437574
+      Data3: -1735282503
+      Data4: 1340306473
+    Path: event:/music-menu_pause
   musica_boss:
     Guid:
       Data1: -2018401785
