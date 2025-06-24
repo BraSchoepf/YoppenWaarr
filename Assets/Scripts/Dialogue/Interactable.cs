@@ -15,14 +15,14 @@ public class Interactable : MonoBehaviour
     private void Update()
     {
         // Si el jugador esta en rango no hay diálogo activo NO está bloqueado entonces puede interactuar
-        if (playerInRange && Input.GetKeyDown(KeyCode.E) && !DialogueSystem.Instance.IsDialogueActive() && DialogueSystem.Instance.CanStartNewDialogue())
+        if (playerInRange && Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown("joystick button 3") && !DialogueSystem.Instance.IsDialogueActive() && DialogueSystem.Instance.CanStartNewDialogue())
         {
             dialogueTrigger.TriggerDialogue();
             interactPrompt.SetActive(false);
         }
 
         // Cuando ssuelta E se habilita de nuevo las interacciones
-        if (Input.GetKeyUp(KeyCode.E))
+        if (Input.GetKeyUp(KeyCode.E) || Input.GetKeyDown("joystick button 3"))
         {
             DialogueSystem.Instance.ResetInteractionBlock();
         }

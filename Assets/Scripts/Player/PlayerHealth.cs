@@ -76,6 +76,8 @@ public class PlayerHealth : MonoBehaviour
     void Die()
     {
         Debug.Log("El player murio");
+        lowLifeInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+        lowLifeInstance.release();
         lowLifeSonando = false;
 
         if (GameManager.Instance != null)
@@ -111,5 +113,17 @@ public class PlayerHealth : MonoBehaviour
         _currentHealth = Mathf.Min(_currentHealth, _maxHealth);
         Debug.Log("Curado. Vida ACTUAL: " + _currentHealth);
         UpdateHealthUI();
+    }
+
+    public void PausarLowLifeSFX()
+    {
+        if (lowLifeSonando && lowLifeInstance.isValid())
+            lowLifeInstance.setPaused(true);
+    }
+
+    public void ReanudarLowLifeSFX()
+    {
+        if (lowLifeSonando && lowLifeInstance.isValid())
+            lowLifeInstance.setPaused(false);
     }
 }

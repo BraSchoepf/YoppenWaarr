@@ -17,8 +17,9 @@ public class AudioManager : MonoBehaviour
     public EventReference musica_menu;
     public EventReference musica_pre_escenaTutorial;
     public EventReference musica_escenaTutorial;
-    public EventReference musica_escenaCreditos;
-    public EventReference musica_escenaOpciones;
+    public EventReference musica_escenaCreditosFogon;
+    public EventReference musica_escenaOpcionesManas;
+    public EventReference musica_menuPausa;
     public EventReference musica_boss;
     public EventReference musica_gameOver;
     public EventReference musica_victory;
@@ -57,6 +58,24 @@ public class AudioManager : MonoBehaviour
 
         musicInstance = RuntimeManager.CreateInstance(musicEvent);
         musicInstance.start();
+    }
+
+    // Pausar música actual
+    public void PauseMusic()
+    {
+        if (musicInstance.isValid())
+        {
+            musicInstance.setPaused(true);
+        }
+    }
+
+    // Reanudar música actual
+    public void ResumeMusic()
+    {
+        if (musicInstance.isValid())
+        {
+            musicInstance.setPaused(false);
+        }
     }
 
     // detener la música

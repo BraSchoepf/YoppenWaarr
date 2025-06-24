@@ -28,14 +28,14 @@ public class BoleadoraAttackSystem : MonoBehaviour
         if (GameManager.Instance != null && GameManager.Instance.IsInDialogue)
             return;
 
-        if (Input.GetKeyDown(KeyCode.K) && cargasActuales > 0)
+        if ((Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown("joystick button 1")) && cargasActuales > 0)
         {
             LanzarBoleadoras();
             cargasActuales--;
             HUDManager.Instance.ActualizarBoleadoras(cargasActuales);
         }
 
-        if (Input.GetKeyDown(KeyCode.T))
+        if (Input.GetKeyDown(KeyCode.T) || Input.GetKeyDown("joystick button 2") )
         {
             Recargar();
         }

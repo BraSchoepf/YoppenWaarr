@@ -50,7 +50,7 @@ public class PlayerAttackState : IPlayer_State
     {
         _attackTimer += Time.deltaTime;
 
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown("joystick button 0"))
         {
             if (_inputWindowOpen)
             {

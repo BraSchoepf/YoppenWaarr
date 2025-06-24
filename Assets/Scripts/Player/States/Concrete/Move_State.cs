@@ -24,7 +24,7 @@ public class PlayerMoveState : IPlayer_State
             _player.ChangeState(_player.idleState);
         }
 
-        if (Input.GetKeyDown(KeyCode.J))
+        if (Input.GetKeyDown(KeyCode.J) || Input.GetKeyDown("joystick button 0"))
         {
             _player.ChangeState(_player.attackState);
         }

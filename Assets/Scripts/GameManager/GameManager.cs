@@ -19,6 +19,10 @@ public class GameManager : MonoBehaviour
     [SerializeField] private int cantidadBoleadoras = 0;
     public HUDManager hudManager;
 
+    [SerializeField] private FMODUnity.EventReference musica_menuPausa;
+    private FMOD.Studio.EventInstance musicaPausaInstance;
+    private bool musicaOriginalPausada = false;
+
     private void Awake()
     {
         // make sure theres no two gamemanager
@@ -46,7 +50,7 @@ public class GameManager : MonoBehaviour
     private void Update()
     {
         // pausing when press esc (only if not game over)
-        if (Input.GetKeyDown(KeyCode.Escape) && currentState != GameState.GameOver)
+        if (Input.GetKeyDown(KeyCode.Escape) || Input.GetKeyDown("joystick button 7") && currentState != GameState.GameOver)
         {
             TogglePause();
         }
@@ -90,14 +94,37 @@ public class GameManager : MonoBehaviour
         if (currentState == GameState.Playing)
         {
             currentState = GameState.Paused;
-            Time.timeScale = 0f; // this pause
+            Time.timeScale = 0f;
             if (pausePanel != null) pausePanel.SetActive(true);
+
+            // Pausar música de fondo y reproducir música de pausa
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.PauseMusic();
+
+                FindFirstObjectByType<PlayerHealth>()?.PausarLowLifeSFX();
+
+                musicaPausaInstance = FMODUnity.RuntimeManager.CreateInstance(musica_menuPausa);
+                musicaPausaInstance.start();
+            }
         }
         else if (currentState == GameState.Paused)
         {
             currentState = GameState.Playing;
-            Time.timeScale = 1f; // this unpause
+            Time.timeScale = 1f;
             if (pausePanel != null) pausePanel.SetActive(false);
+
+            if (musicaPausaInstance.isValid())
+            {
+                musicaPausaInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+                musicaPausaInstance.release();
+            }
+
+            if (AudioManager.Instance != null)
+            {
+                AudioManager.Instance.ResumeMusic();
+                FindFirstObjectByType<PlayerHealth>()?.ReanudarLowLifeSFX();
+            }
         }
     }
 
