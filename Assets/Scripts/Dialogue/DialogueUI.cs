@@ -21,7 +21,7 @@ public class DialogueUI : MonoBehaviour
 
     private void Update()
     {
-        if (IsActive() && Input.GetKeyDown(KeyCode.E) || Input.GetKeyDown("joystick button 3"))
+        if (IsActive() && Input.GetKeyDown(KeyCode.E) || IsActive() && Input.GetKeyDown("joystick button 3"))
         {
             NextLine();
         }

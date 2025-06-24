@@ -50,7 +50,7 @@ public class HUDManager : MonoBehaviour
 
     private void OpenMap()
     {
-        if (Input.GetKeyDown(KeyCode.M))
+        if (Input.GetKeyDown(KeyCode.M) || Input.GetKeyDown("joystick button 4"))
         {
             _MapOpen = !_MapOpen;
 
@@ -62,7 +62,7 @@ public class HUDManager : MonoBehaviour
 
     private void OpenInventory()
     {
-        if (Input.GetKeyDown(KeyCode.I))
+        if (Input.GetKeyDown(KeyCode.I) || Input.GetKeyDown("joystick button 5"))
         {
             _inventaryOpen = !_inventaryOpen;
 
