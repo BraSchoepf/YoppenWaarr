@@ -21,7 +21,6 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private FMODUnity.EventReference musica_menuPausa;
     private FMOD.Studio.EventInstance musicaPausaInstance;
-    private bool musicaOriginalPausada = false;
 
     private void Awake()
     {
