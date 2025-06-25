@@ -55,14 +55,14 @@ public class GameManager : MonoBehaviour
         }
 
         //TEST boleadoras UI
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            AddBoleadora();
-        }
-        if (Input.GetKeyDown(KeyCode.V))
-        {
-            RemoveBoleadora();
-        }
+        //if (Input.GetKeyDown(KeyCode.B))
+        //{
+        //    AddBoleadora();
+        //}
+        //if (Input.GetKeyDown(KeyCode.V))
+        //{
+        //    RemoveBoleadora();
+        //}
     }
 
     public void AddBoleadora()
