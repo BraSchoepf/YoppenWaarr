@@ -5,7 +5,7 @@ public class EnemyHealthBar : MonoBehaviour
 {
     [SerializeField] private Image _fillImage;
     [SerializeField] private Transform _target; // El enemigo
-    [SerializeField] private Vector3 _offset = new Vector3(0, 12f, 0.1f);
+    [SerializeField] private Vector3 _offset = new Vector3(0, 1f, 0.1f);
 
     public void SetTarget(Transform target)
     {
