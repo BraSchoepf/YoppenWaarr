@@ -278,7 +278,7 @@ MonoBehaviour:
   cantidadBoleadoras: 3
   velocidad: 5
   fuerzaComba: 5
-  rangoDeteccion: 20
+  rangoDeteccion: 10
   layerEnemigos:
     serializedVersion: 2
     m_Bits: 64

@@ -32,9 +32,9 @@ Transform:
   m_GameObject: {fileID: 1980248271595350478}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -22.95, y: -172.96, z: 0}
-  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
-  m_ConstrainProportionsScale: 1
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1420218681251118137}
   m_Father: {fileID: 0}
@@ -174,9 +174,9 @@ MonoBehaviour:
   Animator: {fileID: 682855742308859596}
   spriteRenderer: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
-  velocidadMovimiento: 10
+  velocidadMovimiento: 8
   distanciaMinima: 1
-  radiusAttack: 1.2
+  radiusAttack: 1
   pointAttack: {fileID: 1420218681251118137}
   playerLayer:
     serializedVersion: 2
@@ -196,7 +196,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   bossAI: {fileID: 753640175123352777}
   barraEnergia: {fileID: 0}
-  vidaParaActivar: 80
+  vidaParaActivar: 200
 --- !u!114 &2870945964060019031
 MonoBehaviour:
   m_ObjectHideFlags: 0

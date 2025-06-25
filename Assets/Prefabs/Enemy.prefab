@@ -143,7 +143,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _maxHealth: 100
   spriteRenderer: {fileID: 3994617162317874866}
-  _knockbackForce: 10
+  _knockbackForce: 3
   _knockbackDuration: 0.2
   damageParticlePrefab: {fileID: 4007705353941138147, guid: aaf5c4ec0cfd9e644b6cbdb0f7f4e35f, type: 3}
   _damageSFX:
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e15e3206ab70e1b4c9156a6587b66865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visionRange: 7
+  visionRange: 12
   obstacleMask:
     serializedVersion: 2
     m_Bits: 8
