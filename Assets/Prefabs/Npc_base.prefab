@@ -140,6 +140,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue: {fileID: 0}
+  entregaLlave: 0
+  npcID: 
 --- !u!114 &3176631396135284114
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -187,7 +189,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.06880951, y: -0.017201424}
+  m_Offset: {x: -0.18140411, y: -0.16405392}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -197,5 +199,5 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 5.367157, y: 6.777731}
+  m_Size: {x: 2.1427612, y: 1.1264553}
   m_EdgeRadius: 0

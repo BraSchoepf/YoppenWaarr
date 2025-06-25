@@ -126,8 +126,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.009821236, y: 0.16425109}
-  m_Size: {x: 1.5606991, y: 3.0997014}
+  m_Offset: {x: 0.019251257, y: 0.12798822}
+  m_Size: {x: 0.6562601, y: 1.1555455}
   m_Direction: 0
 --- !u!114 &5369391323227828289
 MonoBehaviour:
@@ -166,17 +166,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e15e3206ab70e1b4c9156a6587b66865, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  visionRange: 30
+  visionRange: 7
   obstacleMask:
     serializedVersion: 2
     m_Bits: 8
   player: {fileID: 0}
-  wanderRadius: 5
-  chaseSpeed: 5
-  wanderSpeed: 5
+  wanderRadius: 6
+  chaseSpeed: 3
+  wanderSpeed: 3
   _wanderCooldown: 2.5
   _wanderTimer: 0.5
-  attackRange: 3
+  attackRange: 1.5
   attackCooldown: 0.7
   attackDamage: 10
   isMovementBlocked: 0
@@ -189,16 +189,16 @@ NavMeshAgent:
   m_GameObject: {fileID: 1738423640264027238}
   m_Enabled: 1
   m_AgentTypeID: 0
-  m_Radius: 2
+  m_Radius: 1
   m_Speed: 5
   m_Acceleration: 8
   avoidancePriority: 50
-  m_AngularSpeed: 120
+  m_AngularSpeed: 60
   m_StoppingDistance: 1.5
   m_AutoTraverseOffMeshLink: 1
   m_AutoBraking: 1
   m_AutoRepath: 1
-  m_Height: 2
+  m_Height: 1
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4

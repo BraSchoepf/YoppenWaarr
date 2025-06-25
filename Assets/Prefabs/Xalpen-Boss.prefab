@@ -155,8 +155,8 @@ CapsuleCollider2D:
   m_UsedByEffector: 1
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
-  m_Size: {x: 1, y: 2}
+  m_Offset: {x: 0.09882613, y: 0.01646932}
+  m_Size: {x: 0.5278296, y: 1.0227051}
   m_Direction: 0
 --- !u!114 &753640175123352777
 MonoBehaviour:
@@ -174,9 +174,9 @@ MonoBehaviour:
   Animator: {fileID: 682855742308859596}
   spriteRenderer: {fileID: 0}
   originalColor: {r: 1, g: 1, b: 1, a: 1}
-  velocidadMovimiento: 20
-  distanciaMinima: 2
-  radiusAttack: 5.5
+  velocidadMovimiento: 10
+  distanciaMinima: 1
+  radiusAttack: 1.2
   pointAttack: {fileID: 1420218681251118137}
   playerLayer:
     serializedVersion: 2
@@ -194,21 +194,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 614101fb5e25f73498f38dde353bd702, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  vidaMaxima: 300
-  barraEnergia: {fileID: 0}
   bossAI: {fileID: 753640175123352777}
-  spriteRenderer: {fileID: 0}
-  damageParticlePrefab: {fileID: 4007705353941138147, guid: aaf5c4ec0cfd9e644b6cbdb0f7f4e35f, type: 3}
-  knockbackForce: 5
-  knockbackDuration: 0.15
-  esInvulnerable: 0
-  damageSFX:
-    Guid:
-      Data1: -1854403018
-      Data2: 1303288979
-      Data3: -189440111
-      Data4: -106187389
-    Path: event:/sfx_hit
+  barraEnergia: {fileID: 0}
+  vidaParaActivar: 80
 --- !u!114 &2870945964060019031
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -222,6 +210,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   vidaMaxima: 300
+  esInvulnerable: 0
   _damageSFX:
     Guid:
       Data1: -1854403018
@@ -230,9 +219,9 @@ MonoBehaviour:
       Data4: -106187389
     Path: event:/sfx_hit
   damageParticlePrefab: {fileID: 4007705353941138147, guid: aaf5c4ec0cfd9e644b6cbdb0f7f4e35f, type: 3}
-  spriteRenderer: {fileID: 7896817682876087922}
-  _knockbackForce: 5
+  _knockbackForce: 2
   _knockbackDuration: 0.15
+  spriteRenderer: {fileID: 7896817682876087922}
 --- !u!95 &682855742308859596
 Animator:
   serializedVersion: 7
