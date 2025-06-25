@@ -268,4 +268,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _fillImage: {fileID: 4736436225071259013}
   _target: {fileID: 3332181361563779440, guid: 8e54e687d1d80f046975ac66b4c4331a, type: 3}
-  _offset: {x: 0, y: 3, z: 0.1}
+  _offset: {x: 0, y: 1, z: 0.1}

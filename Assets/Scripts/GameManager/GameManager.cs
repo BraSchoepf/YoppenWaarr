@@ -21,7 +21,6 @@ public class GameManager : MonoBehaviour
 
     [SerializeField] private FMODUnity.EventReference musica_menuPausa;
     private FMOD.Studio.EventInstance musicaPausaInstance;
-    private bool musicaOriginalPausada = false;
 
     private void Awake()
     {
@@ -56,14 +55,14 @@ public class GameManager : MonoBehaviour
         }
 
         //TEST boleadoras UI
-        if (Input.GetKeyDown(KeyCode.B))
-        {
-            AddBoleadora();
-        }
-        if (Input.GetKeyDown(KeyCode.V))
-        {
-            RemoveBoleadora();
-        }
+        //if (Input.GetKeyDown(KeyCode.B))
+        //{
+        //    AddBoleadora();
+        //}
+        //if (Input.GetKeyDown(KeyCode.V))
+        //{
+        //    RemoveBoleadora();
+        //}
     }
 
     public void AddBoleadora()
@@ -107,6 +106,11 @@ public class GameManager : MonoBehaviour
                 musicaPausaInstance = FMODUnity.RuntimeManager.CreateInstance(musica_menuPausa);
                 musicaPausaInstance.start();
             }
+
+            foreach (var zona in ZoneSFX.zonasActivas)
+            {
+                zona.PausarSfx();
+            }
         }
         else if (currentState == GameState.Paused)
         {
@@ -124,6 +128,11 @@ public class GameManager : MonoBehaviour
             {
                 AudioManager.Instance.ResumeMusic();
                 FindFirstObjectByType<PlayerHealth>()?.ReanudarLowLifeSFX();
+            }
+
+            foreach (var zona in ZoneSFX.zonasActivas)
+            {
+                zona.ReanudarSfx();
             }
         }
     }

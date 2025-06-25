@@ -1,9 +1,12 @@
 using UnityEngine;
 using FMODUnity;
 using FMOD.Studio;
+using System.Collections.Generic;
 
 public class ZoneSFX : MonoBehaviour
 {
+    //cada ZoneSFX se registre automáticamente en una lista al activarse.
+    public static List<ZoneSFX> zonasActivas = new List<ZoneSFX>(); 
     public enum TipoSFX { Granja, Perro }
     public TipoSFX tipo;
 
@@ -18,6 +21,8 @@ public class ZoneSFX : MonoBehaviour
             instancia = RuntimeManager.CreateInstance(referencia);
             instancia.start();
             sonidoActivo = true;
+
+            zonasActivas.Add(this);
         }
     }
 
@@ -28,6 +33,8 @@ public class ZoneSFX : MonoBehaviour
             instancia.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
             instancia.release();
             sonidoActivo = false;
+
+            zonasActivas.Remove(this);
         }
     }
 
@@ -36,5 +43,21 @@ public class ZoneSFX : MonoBehaviour
         if (tipo == TipoSFX.Granja) return AudioManager.Instance.sfx_farm;
         if (tipo == TipoSFX.Perro) return AudioManager.Instance.sfx_dog;
         return default;
+    }
+
+    public void PausarSfx()
+    {
+        if (sonidoActivo && instancia.isValid())
+        {
+            instancia.setPaused(true);
+        }
+    }
+
+    public void ReanudarSfx()
+    {
+        if (sonidoActivo && instancia.isValid())
+        {
+            instancia.setPaused(false);
+        }
     }
 }

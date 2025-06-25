@@ -19,8 +19,8 @@ public class BoleadoraAttackSystem : MonoBehaviour
 
     private void Start()
     {
-        cargasActuales = maxCargas;
-        HUDManager.Instance.ActualizarBoleadoras(cargasActuales);
+        //cargasActuales = maxCargas;
+        //HUDManager.Instance.ActualizarBoleadoras(cargasActuales);
     }
 
     private void Update()
@@ -28,13 +28,13 @@ public class BoleadoraAttackSystem : MonoBehaviour
         if (GameManager.Instance != null && GameManager.Instance.IsInDialogue)
             return;
 
-        if ((Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown("joystick button 1")) && cargasActuales > 0)
+        if ((Input.GetKeyDown(KeyCode.K) || Input.GetKeyDown("joystick button 1")) && GameManager.Instance.GetAmountBoleadoras() > 0)
         {
             LanzarBoleadoras();
-            cargasActuales--;
-            HUDManager.Instance.ActualizarBoleadoras(cargasActuales);
+            GameManager.Instance.RemoveBoleadora();
         }
 
+        //TEST
         if (Input.GetKeyDown(KeyCode.T) || Input.GetKeyDown("joystick button 2") )
         {
             Recargar();
@@ -81,6 +81,7 @@ public class BoleadoraAttackSystem : MonoBehaviour
         return enemigoCercano;
     }
 
+    //TEST
     void Recargar()
     {
         cargasActuales = maxCargas;
