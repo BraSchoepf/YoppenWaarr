@@ -106,6 +106,11 @@ public class GameManager : MonoBehaviour
                 musicaPausaInstance = FMODUnity.RuntimeManager.CreateInstance(musica_menuPausa);
                 musicaPausaInstance.start();
             }
+
+            foreach (var zona in ZoneSFX.zonasActivas)
+            {
+                zona.PausarSfx();
+            }
         }
         else if (currentState == GameState.Paused)
         {
@@ -123,6 +128,11 @@ public class GameManager : MonoBehaviour
             {
                 AudioManager.Instance.ResumeMusic();
                 FindFirstObjectByType<PlayerHealth>()?.ReanudarLowLifeSFX();
+            }
+
+            foreach (var zona in ZoneSFX.zonasActivas)
+            {
+                zona.ReanudarSfx();
             }
         }
     }
