@@ -176,8 +176,8 @@ MonoBehaviour:
   wanderSpeed: 3
   _wanderCooldown: 2.5
   _wanderTimer: 0.5
-  attackRange: 1.5
-  attackCooldown: 0.7
+  attackRange: 1.4
+  attackCooldown: 1.2
   attackDamage: 10
   isMovementBlocked: 0
 --- !u!195 &9145073027863312851
@@ -191,7 +191,7 @@ NavMeshAgent:
   m_AgentTypeID: 0
   m_Radius: 1
   m_Speed: 5
-  m_Acceleration: 8
+  m_Acceleration: 6
   avoidancePriority: 50
   m_AngularSpeed: 60
   m_StoppingDistance: 1.5

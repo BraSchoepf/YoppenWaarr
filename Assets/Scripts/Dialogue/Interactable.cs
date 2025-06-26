@@ -15,7 +15,8 @@ public class Interactable : MonoBehaviour
     private void Update()
     {
         // Si el jugador esta en rango no hay diálogo activo NO está bloqueado entonces puede interactuar
-        if ((playerInRange && Input.GetKeyDown(KeyCode.E) || playerInRange && Input.GetKeyDown("joystick button 3")) && !DialogueSystem.Instance.IsDialogueActive() && DialogueSystem.Instance.CanStartNewDialogue())
+        if ((playerInRange && Input.GetKeyDown(KeyCode.E) && !DialogueSystem.Instance.IsDialogueActive() && DialogueSystem.Instance.CanStartNewDialogue() || 
+            playerInRange && Input.GetKeyDown("joystick button 3")) && !DialogueSystem.Instance.IsDialogueActive() && DialogueSystem.Instance.CanStartNewDialogue())
         {
             dialogueTrigger.TriggerDialogue();
             interactPrompt.SetActive(false);
