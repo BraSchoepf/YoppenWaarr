@@ -276,14 +276,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   boleadoraPrefab: {fileID: 2234801756365365330, guid: e0fd4f3565c4b95458c663bdd9a28242, type: 3}
   cantidadBoleadoras: 3
-  velocidad: 5
-  fuerzaComba: 5
+  velocidad: 3
+  fuerzaComba: 3
   rangoDeteccion: 10
   layerEnemigos:
     serializedVersion: 2
     m_Bits: 64
   tiempoEntreBoleadoras: 0.1
-  "da\xF1o": 2
+  "da\xF1o": 60
   maxCargas: 3
 --- !u!114 &3125615225878000044
 MonoBehaviour:
