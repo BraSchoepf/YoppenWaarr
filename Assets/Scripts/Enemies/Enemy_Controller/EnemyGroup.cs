@@ -25,7 +25,7 @@ public class EnemyGroup : MonoBehaviour
             grupoDesactivado = true;
             Debug.Log($"{gameObject.name} eliminado. Se daña al boss.");
 
-            BossManager.Instance?.ReducirVida(25); // o el valor que uses
+            BossManager.Instance?.ReducirVida(20); // o el valor que uses
         }
     }
 }
