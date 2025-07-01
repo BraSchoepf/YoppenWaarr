@@ -15,10 +15,10 @@ MonoBehaviour:
   active: 1
   temperature:
     m_OverrideState: 1
-    m_Value: 5
+    m_Value: -1
   tint:
     m_OverrideState: 1
-    m_Value: -3
+    m_Value: 9
 --- !u!114 &-5246518481389028404
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -40,10 +40,10 @@ MonoBehaviour:
     m_Value: {x: 0.5, y: 0.5}
   intensity:
     m_OverrideState: 1
-    m_Value: 0.25
+    m_Value: 0.22
   smoothness:
     m_OverrideState: 1
-    m_Value: 0.8
+    m_Value: 0.67
   rounded:
     m_OverrideState: 1
     m_Value: 1
@@ -105,10 +105,10 @@ MonoBehaviour:
     m_Value: 1
   threshold:
     m_OverrideState: 1
-    m_Value: 0
+    m_Value: 0.45
   intensity:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: 0.11
   scatter:
     m_OverrideState: 0
     m_Value: 0.7
@@ -117,7 +117,7 @@ MonoBehaviour:
     m_Value: 65472
   tint:
     m_OverrideState: 1
-    m_Value: {r: 0.9547169, g: 0.66261053, b: 0.4305233, a: 1}
+    m_Value: {r: 0.82641506, g: 0.44423783, b: 0.16684227, a: 1}
   highQualityFiltering:
     m_OverrideState: 0
     m_Value: 0
@@ -170,13 +170,13 @@ MonoBehaviour:
   active: 1
   shadows:
     m_OverrideState: 1
-    m_Value: {x: 0.95917517, y: 0.88285506, z: 1, w: 0}
+    m_Value: {x: 0.9898481, y: 0.96184534, z: 1, w: 0}
   midtones:
     m_OverrideState: 1
-    m_Value: {x: 0.93967235, y: 0.96735126, z: 1, w: 0}
+    m_Value: {x: 0.920127, y: 0.9866774, z: 1, w: 0}
   highlights:
     m_OverrideState: 1
-    m_Value: {x: 0.91647685, y: 1, z: 0.82411546, w: 0}
+    m_Value: {x: 1, y: 0.8689662, z: 0.96098983, w: 0}
   shadowsStart:
     m_OverrideState: 0
     m_Value: 0
@@ -204,19 +204,19 @@ MonoBehaviour:
   active: 1
   postExposure:
     m_OverrideState: 1
-    m_Value: 0.2
+    m_Value: -0.03
   contrast:
     m_OverrideState: 1
     m_Value: 10
   colorFilter:
     m_OverrideState: 1
-    m_Value: {r: 0.8490566, g: 0.8186187, b: 0.8186187, a: 1}
+    m_Value: {r: 0.87169814, g: 0.87169814, b: 0.87169814, a: 1}
   hueShift:
     m_OverrideState: 1
-    m_Value: -3
+    m_Value: -4
   saturation:
     m_OverrideState: 1
-    m_Value: 3
+    m_Value: 23
 --- !u!114 &4977476805364999628
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -253,11 +253,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 1
   type:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 5
   intensity:
-    m_OverrideState: 0
-    m_Value: 0
+    m_OverrideState: 1
+    m_Value: 0.26
   response:
     m_OverrideState: 0
     m_Value: 0.8
