@@ -93,6 +93,14 @@ public class BossHealth : MonoBehaviour, IHittable
     private void Muerte()
     {
         Debug.Log("¡Boss muerto!");
+
+        // Notify QuestManager
+        QuestManager questManager = FindFirstObjectByType<QuestManager>();
+        if (questManager != null)
+        {
+            questManager.CompleteObjective("xalpen");
+        }
+
         if (GameManager.Instance != null)
         {
             GameManager.Instance.Victory();
@@ -136,4 +144,3 @@ public class BossHealth : MonoBehaviour, IHittable
     public void EnableDamage() => esInvulnerable = false;
     public void DisableDamage() => esInvulnerable = true;
 }
-

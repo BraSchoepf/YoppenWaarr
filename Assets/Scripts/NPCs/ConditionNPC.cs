@@ -32,6 +32,13 @@ public class ConditionNPC : MonoBehaviour
         {
             puertaBoss?.AbrirPorton();
             Debug.Log("Se cumplen todas las condiciones → abrir portón");
+
+            // Notify QuestManager
+            QuestManager questManager = FindFirstObjectByType<QuestManager>();
+            if (questManager != null)
+            {
+                questManager.CompleteObjective("door");
+            }
         }
     }
 }
