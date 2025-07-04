@@ -25,6 +25,8 @@ public class PlayerController : MonoBehaviour
     public PlayerMoveState moveState;
     public PlayerAttackState attackState;
 
+    public PlayerVFXHandler VFXHandler { get; private set; }
+
 
     private void Awake()
     {
@@ -36,7 +38,9 @@ public class PlayerController : MonoBehaviour
         attackState = new PlayerAttackState(this);
         stateMachine = GetComponent<Player_State_Machine>();
         stateMachine.Initialize(_animator, this);
-        
+
+        VFXHandler = GetComponent<PlayerVFXHandler>();
+
     }
 
     private void Start()

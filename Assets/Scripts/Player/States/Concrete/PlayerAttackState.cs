@@ -104,6 +104,13 @@ public class PlayerAttackState : IPlayer_State
 
         Debug.Log("Reproduciendo animación: " + animName);
         _player.animator.Play(animName);
+
+        if (_comboIndex == 0) 
+        {
+            Vector2 dir = _player.FacingDirection.normalized;
+           _player.VFXHandler.PlayAttack1Effect(dir);
+        
+        }
     }
 
     private string GetFacingDirection()
