@@ -5,6 +5,10 @@ using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
 {
+
+    private PlayerController _player;
+
+
     [Header("Referencia al SO")]
 
     [SerializeField] private Character_Data_SO _character_Data_SO;
@@ -22,6 +26,11 @@ public class PlayerHealth : MonoBehaviour
 
     private FMOD.Studio.EventInstance lowLifeInstance;
     private bool lowLifeSonando = false;
+
+    void Awake()
+    {
+        _player = GetComponent<PlayerController>();
+    }
 
     void Start()
     {
@@ -75,20 +84,16 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
-        Debug.Log("El player murio");
-        lowLifeInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-        lowLifeInstance.release();
-        lowLifeSonando = false;
+        if (lowLifeSonando)
+        {
+            Debug.Log("El player murio");
+            lowLifeInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            lowLifeInstance.release();
+            lowLifeSonando = false;
+        }
 
-        if (GameManager.Instance != null)
-        {
-            GameManager.Instance.GameOver();
-        }
-        else //backup n debug in case of gamemanager breaks just restart the scene
-        {
-            Debug.LogWarning("No se encontró GameManager. Reseteando escena.");
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        }
+        _player.ChangeState(_player.dieState);
+
     }
 
     //Coroutina for effect damage recive

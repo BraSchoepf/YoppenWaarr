@@ -24,6 +24,7 @@ public class PlayerController : MonoBehaviour
     public PlayerIdleState idleState;
     public PlayerMoveState moveState;
     public PlayerAttackState attackState;
+    public PlayerDieState dieState;
 
     public PlayerVFXHandler VFXHandler { get; private set; }
 
@@ -36,6 +37,7 @@ public class PlayerController : MonoBehaviour
         idleState = new PlayerIdleState(this);
         moveState = new PlayerMoveState(this);
         attackState = new PlayerAttackState(this);
+        dieState = new PlayerDieState(this);
         stateMachine = GetComponent<Player_State_Machine>();
         stateMachine.Initialize(_animator, this);
 

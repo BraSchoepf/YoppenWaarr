@@ -1,0 +1,725 @@
+fileFormatVersion: 2
+guid: ad7effe60a22ef44a9eaa9a1540f4deb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -839882684579692452
+    second: spr_pj_gauchoDIE_0
+  - first:
+      213: -5685796686225073023
+    second: spr_pj_gauchoDIE_1
+  - first:
+      213: 1063647466483198854
+    second: spr_pj_gauchoDIE_2
+  - first:
+      213: 3603320190145831488
+    second: spr_pj_gauchoDIE_3
+  - first:
+      213: 3653086719831695355
+    second: spr_pj_gauchoDIE_4
+  - first:
+      213: 4545786549636405383
+    second: spr_pj_gauchoDIE_5
+  - first:
+      213: 2192195631639363188
+    second: spr_pj_gauchoDIE_6
+  - first:
+      213: 4359471103127464668
+    second: spr_pj_gauchoDIE_7
+  - first:
+      213: 9144952021179007687
+    second: spr_pj_gauchoDIE_8
+  - first:
+      213: -6849116715348850476
+    second: spr_pj_gauchoDIE_9
+  - first:
+      213: -3090439070171977334
+    second: spr_pj_gauchoDIE_10
+  - first:
+      213: 5732005075583548399
+    second: spr_pj_gauchoDIE_11
+  - first:
+      213: 4667332124785830538
+    second: spr_pj_gauchoDIE_12
+  - first:
+      213: 2432356878842902841
+    second: spr_pj_gauchoDIE_13
+  - first:
+      213: 4570660209590080656
+    second: spr_pj_gauchoDIE_14
+  - first:
+      213: 6825120360891695696
+    second: spr_pj_gauchoDIE_15
+  - first:
+      213: -4596467553690439860
+    second: spr_pj_gauchoDIE_16
+  - first:
+      213: 8179125690254304682
+    second: spr_pj_gauchoDIE_17
+  - first:
+      213: -7171240138568773260
+    second: spr_pj_gauchoDIE_18
+  - first:
+      213: -6058583684396732839
+    second: spr_pj_gauchoDIE_19
+  - first:
+      213: -8448235795536797514
+    second: spr_pj_gauchoDIE_20
+  - first:
+      213: 8135724431840488858
+    second: spr_pj_gauchoDIE_21
+  - first:
+      213: 7749815480834607315
+    second: spr_pj_gauchoDIE_22
+  - first:
+      213: -5681975016180097616
+    second: spr_pj_gauchoDIE_23
+  - first:
+      213: 7990325567894240336
+    second: spr_pj_gauchoDIE_24
+  - first:
+      213: -5815524740115702005
+    second: spr_pj_gauchoDIE_25
+  - first:
+      213: 287611815880893874
+    second: spr_pj_gauchoDIE_26
+  - first:
+      213: -6275199751993507252
+    second: spr_pj_gauchoDIE_27
+  - first:
+      213: -7192357535321064562
+    second: spr_pj_gauchoDIE_28
+  - first:
+      213: -3492828544177663283
+    second: spr_pj_gauchoDIE_29
+  - first:
+      213: -8717774392673760676
+    second: spr_pj_gauchoDIE_30
+  - first:
+      213: -1319118380770164438
+    second: spr_pj_gauchoDIE_31
+  - first:
+      213: -8607543095190551365
+    second: spr_pj_gauchoDIE_32
+  - first:
+      213: -722520566404852012
+    second: spr_pj_gauchoDIE_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 96
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5040a4f5232854f0800000000000000
+      internalID: -839882684579692452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_1
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c167cd90ef711b0800000000000000
+      internalID: -5685796686225073023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_2
+      rect:
+        serializedVersion: 2
+        x: 210
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68ba9fd3cb5d2ce00800000000000000
+      internalID: 1063647466483198854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_3
+      rect:
+        serializedVersion: 2
+        x: 315
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 042a2a92f90910230800000000000000
+      internalID: 3603320190145831488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_4
+      rect:
+        serializedVersion: 2
+        x: 420
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bffd34d440f52b230800000000000000
+      internalID: 3653086719831695355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_5
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78893d348c0e51f30800000000000000
+      internalID: 4545786549636405383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_6
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ef60eef4e3c6e10800000000000000
+      internalID: 2192195631639363188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_7
+      rect:
+        serializedVersion: 2
+        x: 735
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cda2e7eeed3ff7c30800000000000000
+      internalID: 4359471103127464668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_8
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c28d56496569ee70800000000000000
+      internalID: 9144952021179007687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_9
+      rect:
+        serializedVersion: 2
+        x: 945
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d80174b2ac03f0a0800000000000000
+      internalID: -6849116715348850476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_10
+      rect:
+        serializedVersion: 2
+        x: 1050
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a89296e1a0e8c15d0800000000000000
+      internalID: -3090439070171977334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_11
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: febb4ec2f3c2c8f40800000000000000
+      internalID: 5732005075583548399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_12
+      rect:
+        serializedVersion: 2
+        x: 1260
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8ae0a2c6d1b5c040800000000000000
+      internalID: 4667332124785830538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_13
+      rect:
+        serializedVersion: 2
+        x: 1365
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 939b862b1b771c120800000000000000
+      internalID: 2432356878842902841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_14
+      rect:
+        serializedVersion: 2
+        x: 1470
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09411a58e3f3e6f30800000000000000
+      internalID: 4570660209590080656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_15
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0524c34aec2b7be50800000000000000
+      internalID: 6825120360891695696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_16
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4f2ca0fc111630c0800000000000000
+      internalID: -4596467553690439860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_17
+      rect:
+        serializedVersion: 2
+        x: 1785
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa521ecfa77128170800000000000000
+      internalID: 8179125690254304682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_18
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471d59db613aa7c90800000000000000
+      internalID: -7171240138568773260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_19
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95e2e812d369beba0800000000000000
+      internalID: -6058583684396732839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_20
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b02a4cfd46d1ca80800000000000000
+      internalID: -8448235795536797514
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_pj_gauchoDIE_21
+      rect:
+        serializedVersion: 2
+        x: 2205
+        y: 0
+        width: 105
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9da15e0446e7e070800000000000000
+      internalID: 8135724431840488858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: c2980f7c5202d584fa6aec178e683e89
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      spr_pj_gauchoDIE_0: -839882684579692452
+      spr_pj_gauchoDIE_1: -5685796686225073023
+      spr_pj_gauchoDIE_10: -3090439070171977334
+      spr_pj_gauchoDIE_11: 5732005075583548399
+      spr_pj_gauchoDIE_12: 4667332124785830538
+      spr_pj_gauchoDIE_13: 2432356878842902841
+      spr_pj_gauchoDIE_14: 4570660209590080656
+      spr_pj_gauchoDIE_15: 6825120360891695696
+      spr_pj_gauchoDIE_16: -4596467553690439860
+      spr_pj_gauchoDIE_17: 8179125690254304682
+      spr_pj_gauchoDIE_18: -7171240138568773260
+      spr_pj_gauchoDIE_19: -6058583684396732839
+      spr_pj_gauchoDIE_2: 1063647466483198854
+      spr_pj_gauchoDIE_20: -8448235795536797514
+      spr_pj_gauchoDIE_21: 8135724431840488858
+      spr_pj_gauchoDIE_3: 3603320190145831488
+      spr_pj_gauchoDIE_4: 3653086719831695355
+      spr_pj_gauchoDIE_5: 4545786549636405383
+      spr_pj_gauchoDIE_6: 2192195631639363188
+      spr_pj_gauchoDIE_7: 4359471103127464668
+      spr_pj_gauchoDIE_8: 9144952021179007687
+      spr_pj_gauchoDIE_9: -6849116715348850476
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
