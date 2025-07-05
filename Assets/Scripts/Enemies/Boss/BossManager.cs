@@ -20,6 +20,8 @@ public class BossManager : MonoBehaviour
     [SerializeField] private GameObject player;
     [SerializeField] private GameObject auraPadre;
 
+    [SerializeField] private ParticleSystem _attackEffect;
+
     private int lastStep = 0;
 
     private void Awake()
@@ -109,6 +111,17 @@ public class BossManager : MonoBehaviour
 
     public void EnableDamage() => GetComponent<BossHealth>()?.EnableDamage();
     public void DisableDamage() => GetComponent<BossHealth>()?.DisableDamage();
+
+    public void PlayAttackEffect()
+    {
+        if (_attackEffect == null)
+        {
+            Debug.LogWarning("Falta la partícula del ataque 2.");
+            return;
+        }
+
+        _attackEffect.Play();
+    }
 
 
 }
