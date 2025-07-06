@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 4033793591447076902}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.57, y: -0.31, z: 0}
+  m_LocalPosition: {x: 0, y: -0.31, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -53,6 +53,7 @@ GameObject:
   - component: {fileID: 8449005272271226904}
   - component: {fileID: 5891523765942679948}
   - component: {fileID: 1619093051457571095}
+  - component: {fileID: 2412226056141431893}
   m_Layer: 7
   m_Name: 'Player_Gaucho '
   m_TagString: Player
@@ -380,9 +381,64 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdb24beb9128e494f961ad68007cef08, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _attack1EffectRight: {fileID: 7460585688491026365, guid: b37fb6072c90ff742ae1c6d7a9cfa192, type: 3}
+  _attack1EffectLeft: {fileID: 7460585688491026365, guid: 6b258d707c8bebe43b9fe718dc23bcb2, type: 3}
   _attack2Effect: {fileID: 8245417179343256706}
-  _attack1EffectPrefaps: {fileID: 0}
-  _vfxSpawnPoint: {fileID: 6802360368928101126}
+  _vfxSpawnPoint: {fileID: 1942137005027194683}
+  _spawnDistance: 1.18
+--- !u!114 &2412226056141431893
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4056388399023633032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_Priority: 1
+  m_ComponentVersion: 5
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_AlphaCutoff: 0.287
+  m_ApplyToSortingLayers: 000000000fc9bea3bb6863d8e5eecca4
+  m_ShapePath:
+  - {x: -0.5, y: -0.703125, z: 0}
+  - {x: -0.5, y: 0.703125, z: 0}
+  - {x: 0.5, y: 0.703125, z: 0}
+  - {x: 0.5, y: -0.703125, z: 0}
+  m_ShapePathHash: 0
+  m_InstanceId: 0
+  m_ShadowShape2DComponent: {fileID: 4895865624441599196}
+  m_ShadowShape2DProvider:
+    rid: 6493454121293054044
+  m_ShadowCastingSource: 2
+  m_ShadowMesh:
+    m_Mesh: {fileID: 0}
+    m_LocalBounds:
+      m_Center: {x: -0.017578125, y: -0.140625, z: 0}
+      m_Extent: {x: 0.34257507, y: 0.51249695, z: 0}
+    m_EdgeProcessing: 1
+    m_TrimEdge: 0.05
+    m_FlipX: 0
+    m_FlipY: 0
+    m_InitialTrim: 0
+  m_CastingOption: 1
+  m_PreviousTrimEdge: 0.05
+  m_PreviousEdgeProcessing: 1
+  m_PreviousShadowCastingSource: 2
+  m_PreviousShadowShape2DSource: {fileID: 4895865624441599196}
+  references:
+    version: 2
+    RefIds:
+    - rid: 6493454121293054044
+      type: {class: ShadowShape2DProvider_SpriteRenderer, ns: UnityEngine.Rendering.Universal, asm: Unity.RenderPipelines.Universal.2D.Runtime}
+      data: 
 --- !u!1 &4888084992174682510
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,7 +537,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2335595320747518634, guid: 11f9f2f3123f2954abbb07dcb2d8dea1, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.01616478
+      value: -0.19
       objectReference: {fileID: 0}
     - target: {fileID: 2335595320747518634, guid: 11f9f2f3123f2954abbb07dcb2d8dea1, type: 3}
       propertyPath: m_LocalPosition.z
@@ -518,6 +574,10 @@ PrefabInstance:
     - target: {fileID: 5704224029244079660, guid: 11f9f2f3123f2954abbb07dcb2d8dea1, type: 3}
       propertyPath: m_Name
       value: vfx_remolino_Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 8046662504978675417, guid: 11f9f2f3123f2954abbb07dcb2d8dea1, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
