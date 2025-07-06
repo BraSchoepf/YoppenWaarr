@@ -11,9 +11,16 @@ public class PlayerMoveState : IPlayer_State
         _player = player;
     }
 
-    public void Enter() { }
+    public void Enter() 
+    {
 
-    public void Exit() { }
+    }
+
+    public void Exit() 
+    {
+    
+        _player.VFXHandler.StopWalkPoof();
+    }
 
     public void Update()
     {
@@ -30,6 +37,8 @@ public class PlayerMoveState : IPlayer_State
         }
 
         _player.UpdateAnimation(input);
+        _player.VFXHandler.EnsureWalkPoofActive(input);
+        
     }
 
     public void FixedUpdate()

@@ -15,6 +15,11 @@ public class PlayerVFXHandler : MonoBehaviour
     [SerializeField] private Transform _vfxSpawnPoint;
     [SerializeField] private float _spawnDistance = 0.8f;
 
+    [Header("Partícula de caminata (embebida)")]
+    [SerializeField] private ParticleSystem _walkPoofEffect;
+
+   
+
     public void PlayAttack1Effect(Vector2 direction)
     {
         if (_vfxSpawnPoint == null)
@@ -63,5 +68,31 @@ public class PlayerVFXHandler : MonoBehaviour
         }
 
         _attack2Effect.Play();
+    }
+    private int _lastDirectionX = 0;
+
+    public void EnsureWalkPoofActive(Vector2 direction)
+    {
+        if (_walkPoofEffect == null || direction.magnitude < 0.1f)
+            return;
+
+        int currentDirX = (int)Mathf.Sign(direction.x);
+
+        // Si no está reproduciendo, o cambió de dirección
+        if (!_walkPoofEffect.isPlaying || currentDirX != _lastDirectionX)
+        {
+            _walkPoofEffect.Play();
+            _lastDirectionX = currentDirX;
+
+            // Si querés cambiar rotación o escala, podés hacerlo acá también
+        }
+    }
+
+    public void StopWalkPoof()
+    {
+        if (_walkPoofEffect != null && _walkPoofEffect.isPlaying)
+        {
+            _walkPoofEffect.Stop();
+        }
     }
 }
