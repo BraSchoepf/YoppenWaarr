@@ -15,4 +15,4 @@ MonoBehaviour:
   npcName: "Don Laureano \u201CEl Lanza\u201D Far\xEDas"
   portrait: {fileID: 5800689524079040419, guid: 6488a0d8d816a1d4e92cb13047d237dc, type: 3}
   baseController: {fileID: 9100000, guid: a0c1711850b7add46836f1bcaf0c3839, type: 2}
-  idleClip: {fileID: 7400000, guid: c63fb935514f56449bb2f802d4ffd67c, type: 2}
+  idleClip: {fileID: 7400000, guid: 94eb4c7a7a50fb743b416ee4df22733e, type: 2}

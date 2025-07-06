@@ -8,7 +8,6 @@ public class PlayerKnockback : MonoBehaviour
     private PlayerController movimiento; // si tenés un script de movimiento propio
 
     [SerializeField] private float duracion = 0.2f;
-    [SerializeField] private float fuerza = 6f;
 
     private void Awake()
     {

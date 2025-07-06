@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class NPCController : MonoBehaviour
@@ -23,21 +24,32 @@ public class NPCController : MonoBehaviour
         // Crear un nuevo override controller basado en el baseController
         AnimatorOverrideController overrideController = new AnimatorOverrideController(npcData.baseController);
 
+        // Obtener los clips actuales que se pueden overridear
+        var overrides = new List<KeyValuePair<AnimationClip, AnimationClip>>();
+        overrideController.GetOverrides(overrides);
+
         // Debug: Ver qué clips están disponibles para override
-        foreach (var clipPair in overrideController.clips)
+        foreach (var clipPair in overrides)
         {
-            Debug.Log($"[DEBUG] Clip original en baseController: {clipPair.originalClip}");
+            Debug.Log($"[DEBUG] Clip original en baseController: {clipPair.Key.name}, actual override: {clipPair.Value?.name ?? "null"}");
         }
 
-        // Reemplazar el clip (ajustá el nombre si el original no es exactamente "Idle")
-        overrideController["Idle_Base"] = npcData.idleClip;
+        // Reemplazar el clip (asegurate de que el nombre original sea correcto)
+        for (int i = 0; i < overrides.Count; i++)
+        {
+            if (overrides[i].Key.name == "Idle_Base") // <-- ajustá esto si tu clip original se llama distinto
+            {
+                overrides[i] = new KeyValuePair<AnimationClip, AnimationClip>(overrides[i].Key, npcData.idleClip);
+            }
+        }
 
-        // Aplicar el override al Animator
+        // Aplicar los cambios al override controller
+        overrideController.ApplyOverrides(overrides);
+
+        // Asignar el controller al Animator
         _animator.runtimeAnimatorController = overrideController;
 
         Debug.Log($"NPC '{npcData.npcName}' usa animación: {npcData.idleClip.name}");
     }
-
-
 }
 
