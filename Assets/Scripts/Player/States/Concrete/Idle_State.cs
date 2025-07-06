@@ -12,7 +12,6 @@ public class PlayerIdleState : IPlayer_State
     public void Enter()
     {
         _player.UpdateAnimation(Vector2.zero);
-       // _player._stateMachine.Animator.SetBool("InCombat", false);
     }
 
     public void Exit() { }

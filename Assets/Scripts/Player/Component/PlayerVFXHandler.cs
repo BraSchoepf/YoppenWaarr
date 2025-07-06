@@ -3,8 +3,10 @@ using UnityEngine;
 public class PlayerVFXHandler : MonoBehaviour
 {
     [Header("Prefabs de ataque 1")]
-    [SerializeField] private GameObject _attack1EffectRight;
-    [SerializeField] private GameObject _attack1EffectLeft;
+    [SerializeField] private GameObject _attack1Right;
+    [SerializeField] private GameObject _attack1Left;
+    [SerializeField] private GameObject _attack1Up;
+    [SerializeField] private GameObject _attack1Down;
 
     [Header("Partícula de ataque 2 (embebida)")]
     [SerializeField] private ParticleSystem _attack2Effect;
@@ -26,18 +28,20 @@ public class PlayerVFXHandler : MonoBehaviour
 
         GameObject prefabToUse = null;
 
-        // Elegimos el prefab según dirección
-        if (direction.x >= 0 && Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
+        if (Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
         {
-            prefabToUse = _attack1EffectRight;
-        }
-        else if (direction.x < 0 && Mathf.Abs(direction.x) > Mathf.Abs(direction.y))
-        {
-            prefabToUse = _attack1EffectLeft;
+            // Horizontal
+            prefabToUse = direction.x >= 0 ? _attack1Right : _attack1Left;
         }
         else
         {
-            // No reproducimos nada en vertical
+            // Vertical
+            prefabToUse = direction.y >= 0 ? _attack1Up : _attack1Down;
+        }
+
+        if (prefabToUse == null)
+        {
+            Debug.LogWarning("No hay prefab asignado para esa dirección.");
             return;
         }
 
@@ -61,5 +65,3 @@ public class PlayerVFXHandler : MonoBehaviour
         _attack2Effect.Play();
     }
 }
-
-

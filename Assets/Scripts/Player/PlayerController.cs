@@ -26,6 +26,7 @@ public class PlayerController : MonoBehaviour
     public PlayerAttackState attackState;
     public PlayerDieState dieState;
 
+    public bool canMove = true;
     public PlayerVFXHandler VFXHandler { get; private set; }
 
 
@@ -48,6 +49,8 @@ public class PlayerController : MonoBehaviour
     private void Start()
     {
         stateMachine.ChangeState(idleState);
+        Revive();
+
     }
 
     // Update is called once per frame
@@ -96,6 +99,7 @@ public class PlayerController : MonoBehaviour
 
     public Vector2 ReadInput()
     {
+        if (!canMove) return Vector2.zero;
         if (GameManager.Instance != null && GameManager.Instance.IsInDialogue)
         return Vector2.zero; // if is in dialogue do not read the inputs
         
@@ -128,6 +132,12 @@ public class PlayerController : MonoBehaviour
         yield return new WaitForSeconds(0.15f); 
 
         _rbPlayer.linearVelocity = Vector2.zero; 
+    }
+
+    public void Revive()
+    {
+        _rbPlayer.simulated = true;
+        stateMachine.ChangeState(idleState);
     }
 
 }

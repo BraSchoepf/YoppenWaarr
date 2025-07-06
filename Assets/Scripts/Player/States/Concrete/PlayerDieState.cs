@@ -23,6 +23,7 @@ public class PlayerDieState : IPlayer_State
         string animName = _player.FacingDirection.x >= 0 ? "Die_Right" : "Die_Left";
         _animator.Play(animName);
 
+        _player.canMove = false;
         _player.GetComponent<Rigidbody2D>().linearVelocity = Vector2.zero;
     }
 
@@ -43,6 +44,8 @@ public class PlayerDieState : IPlayer_State
             _timer += Time.deltaTime;
             if (_timer >= 1f)
             {
+                _player.canMove = true; // permitimos input
+                _player.ChangeState(_player.idleState);
                 // Reiniciar escena o llamar al GameManager
                 if (GameManager.Instance != null)
                     GameManager.Instance.GameOver();
@@ -53,5 +56,10 @@ public class PlayerDieState : IPlayer_State
     }
     public void FixedUpdate() { }
 
-    public void Exit() { }
+    public void Exit() 
+    {
+        _hasPlayedAnimation = false;
+        _timer = 0f;
+
+    }
 }
