@@ -7,6 +7,7 @@ TagManager:
   - Enemy
   - Projectile
   - Boss
+  - PlayerAttack
   layers:
   - Default
   - TransparentFX
