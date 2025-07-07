@@ -72,10 +72,21 @@ public class BossAI : MonoBehaviour
         Collider2D player = Physics2D.OverlapCircle(pointAttack.position, radiusAttack, playerLayer);
         if (player != null)
         {
-            player.GetComponent<PlayerHealth>()?.TakeDamage(MeleeDamage);
+            Vector2 direccionKnockback = (player.transform.position - transform.position).normalized;
+
+            PlayerKnockback knockback = player.GetComponent<PlayerKnockback>();
+            if (knockback != null)
+            {
+                knockback.RecibirKnockback(direccionKnockback, 8f, MeleeDamage); // fuerza y daño
+            }
+            else
+            {
+                // fallback en caso de no tener knockback
+                player.GetComponent<PlayerHealth>()?.TakeDamage(MeleeDamage);
+            }
         }
-       
-        
+
+
     }
     public void OrientTowardsPlayer()
     {
@@ -84,9 +95,9 @@ public class BossAI : MonoBehaviour
 
         float dirX = objetivoJugador.position.x - transform.position.x;
 
-        Vector3 escala = transform.localScale;
-        escala.x = Mathf.Abs(escala.x) * (dirX >= 0 ? -1 : 1);
-        transform.localScale = escala;
+        transform.rotation = (dirX >= 0)
+    ? Quaternion.Euler(0, 180, 0)   // Mira a la derecha
+    : Quaternion.Euler(0, 0, 0);    // Mira a la izquierda
     }
 
     private void OnDrawGizmosSelected()
