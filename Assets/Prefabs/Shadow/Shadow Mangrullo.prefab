@@ -56,9 +56,9 @@ MonoBehaviour:
   m_ShapePath:
   - {x: -1.9186611, y: -0.56216717, z: 0}
   - {x: -1.9172401, y: 0.03687191, z: 0}
-  - {x: 0.4774189, y: 0.07044029, z: 0}
-  - {x: 0.47114563, y: -0.55668163, z: 0}
-  m_ShapePathHash: -2045024539
+  - {x: 0.07646179, y: 0.054401398, z: 0}
+  - {x: 0.078207016, y: -0.54866314, z: 0}
+  m_ShapePathHash: -1812239707
   m_InstanceId: 0
   m_ShadowShape2DComponent: {fileID: 0}
   m_ShadowShape2DProvider:
@@ -67,8 +67,8 @@ MonoBehaviour:
   m_ShadowMesh:
     m_Mesh: {fileID: 0}
     m_LocalBounds:
-      m_Center: {x: -0.7206211, y: -0.24586344, z: 0}
-      m_Extent: {x: 1.19804, y: 0.31630373, z: 0}
+      m_Center: {x: -0.92022705, y: -0.25388288, z: 0}
+      m_Extent: {x: 0.99843407, y: 0.30828428, z: 0}
     m_EdgeProcessing: 1
     m_TrimEdge: 0
     m_FlipX: 0
