@@ -184,6 +184,13 @@ MonoBehaviour:
       Data3: 1576101802
       Data4: 987461155
     Path: event:/music-scene_tutorial
+  musica_escenaTurorialNoche:
+    Guid:
+      Data1: -457903861
+      Data2: 1325530965
+      Data3: -1770099285
+      Data4: 789959573
+    Path: event:/music-scene_tutorialNight
   musica_escenaCreditosFogon:
     Guid:
       Data1: -955412403
@@ -212,6 +219,13 @@ MonoBehaviour:
       Data3: -791292791
       Data4: 1266908994
     Path: event:/music-boss
+  music_boss_2:
+    Guid:
+      Data1: -558872493
+      Data2: 1214471838
+      Data3: -369582949
+      Data4: 434302973
+    Path: event:/music-boos_dos
   musica_gameOver:
     Guid:
       Data1: -1708024932
@@ -275,6 +289,27 @@ MonoBehaviour:
       Data3: -1378222925
       Data4: -702903951
     Path: event:/sfx-canon
+  sfx_buo:
+    Guid:
+      Data1: 618820964
+      Data2: 1248140720
+      Data3: 249936029
+      Data4: -1464772412
+    Path: "event:/sfx-b\xFAo"
+  sfx_grillo:
+    Guid:
+      Data1: -1498955720
+      Data2: 1155059688
+      Data3: 1351776657
+      Data4: 817697878
+    Path: event:/sfx_grillo
+  sfx_fogata:
+    Guid:
+      Data1: -309617597
+      Data2: 1102363779
+      Data3: 2128609450
+      Data4: -1048287305
+    Path: event:/sfx-fogata
 --- !u!1 &125421360
 GameObject:
   m_ObjectHideFlags: 0

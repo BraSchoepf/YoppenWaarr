@@ -44,6 +44,7 @@ public class GameManager : MonoBehaviour
         if (gameOverPanel != null) gameOverPanel.SetActive(false);
         if (pausePanel != null) pausePanel.SetActive(false);
         if (victoryPanel != null) victoryPanel.SetActive(false);
+
     }
 
     private void Update()
@@ -143,6 +144,8 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 0f; // this pause the game
         Debug.Log("Fin del juego.");
 
+        FindFirstObjectByType<PlayerHealth>()?.DetenerLowLifeSFX();
+
         // show game over panel
         if (gameOverPanel != null) gameOverPanel.SetActive(true);
     }
@@ -152,6 +155,8 @@ public class GameManager : MonoBehaviour
         currentState = GameState.Victory;
         Time.timeScale = 0f; // this pause the game
         Debug.Log("Fin del juego.");
+
+        FindFirstObjectByType<PlayerHealth>()?.DetenerLowLifeSFX();
 
         // show game over panel
         if (victoryPanel != null) victoryPanel.SetActive(true);
@@ -168,7 +173,22 @@ public class GameManager : MonoBehaviour
     public void GoToMainMenu()
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene("MainMenu"); // make sure this scene exist in build settings
+
+        // Detener música pausa si sigue activa
+        if (musicaPausaInstance.isValid())
+        {
+            musicaPausaInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
+            musicaPausaInstance.release();
+            musicaPausaInstance.clearHandle();
+        }
+
+        // Detener música general
+        AudioManager.Instance?.StopMusic();
+
+        // Resetear lowLife si está sonando
+        FindFirstObjectByType<PlayerHealth>()?.DetenerLowLifeSFX();
+
+        SceneManager.LoadScene("MainMenu"); // asegurate que este nombre esté bien
     }
 
     // this called by quit button
