@@ -84,14 +84,7 @@ public class PlayerHealth : MonoBehaviour
 
     void Die()
     {
-        if (lowLifeSonando)
-        {
-            Debug.Log("El player murio");
-            lowLifeInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
-            lowLifeInstance.release();
-            lowLifeSonando = false;
-        }
-
+        DetenerLowLifeSFX();
         _player.ChangeState(_player.dieState);
 
     }
@@ -130,5 +123,15 @@ public class PlayerHealth : MonoBehaviour
     {
         if (lowLifeSonando && lowLifeInstance.isValid())
             lowLifeInstance.setPaused(false);
+    }
+
+    public void DetenerLowLifeSFX()
+    {
+        if (lowLifeSonando && lowLifeInstance.isValid())
+        {
+            lowLifeInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            lowLifeInstance.release();
+            lowLifeSonando = false;
+        }
     }
 }

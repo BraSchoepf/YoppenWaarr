@@ -17,10 +17,12 @@ public class AudioManager : MonoBehaviour
     public EventReference musica_menu;
     public EventReference musica_pre_escenaTutorial;
     public EventReference musica_escenaTutorial;
+    public EventReference musica_escenaTurorialNoche;
     public EventReference musica_escenaCreditosFogon;
     public EventReference musica_escenaOpcionesManas;
     public EventReference musica_menuPausa;
     public EventReference musica_boss;
+    public EventReference music_boss_2;
     public EventReference musica_gameOver;
     public EventReference musica_victory;
 
@@ -32,6 +34,9 @@ public class AudioManager : MonoBehaviour
     public EventReference sfx_lowLife;
     public EventReference sfx_powerUp;
     public EventReference sfx_canon;
+    public EventReference sfx_buo;
+    public EventReference sfx_grillo;
+    public EventReference sfx_fogata;
 
     private void Awake()
     {

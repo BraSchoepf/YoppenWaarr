@@ -32,7 +32,7 @@ public class PuertaBossController : MonoBehaviour
 
         
 
-        AudioManager.Instance.PlayMusic(AudioManager.Instance.musica_boss);
+        AudioManager.Instance.PlayMusic(AudioManager.Instance.music_boss_2);
         if (healthBoss != null) healthBoss.SetActive(true);
 
     }
