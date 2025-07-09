@@ -96,6 +96,8 @@ GameObject:
   - component: {fileID: 3640177765860657234}
   - component: {fileID: 6123019776175382636}
   - component: {fileID: 117383165840653280}
+  - component: {fileID: 6419001783794434160}
+  - component: {fileID: 3111759926949525747}
   m_Layer: 0
   m_Name: Fogata
   m_TagString: Untagged
@@ -242,3 +244,54 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.031908, y: 0.34711027}
   m_EdgeRadius: 0
+--- !u!114 &6419001783794434160
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576991210556557783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 826e9b43567714847b3647cfbe36d295, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  "da\xF1o": 1
+  fuerzaKnockback: 1
+  "cooldownDa\xF1o": 0.2
+--- !u!58 &3111759926949525747
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1576991210556557783}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: -0.014038086, y: -0.21057153}
+  m_Radius: 0.3893435

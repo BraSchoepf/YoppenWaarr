@@ -15,11 +15,14 @@ MonoBehaviour:
   npcName: El Lanza
   lines:
   - ...
-  - ... hasta que te largo el coronel.
-  - Este asunto de la Xalpen lo volvio loco, literalmente. Ahora esta frontera corre
-    a cargo de los gauchos recien llegados.
-  - "Parece que todo este asunto alrededor tuyo los tiene a todos alerta y al tanto,
-    compa\xF1ero."
-  - En fin, el Sombra te esta esperando ahi con su tipico poncho rojo. Dice que tiene
-    que hablarte de algo importante.
-  - "Hablale que si no se pone loco despues. Nos vemos compa\xF1ero."
+  - "\u2014Hasta que al fin te larg\xF3 el coronel..."
+  - "Ese asunto de la Xalpen lo dej\xF3 medio sonso, no te miento.\nAhora esta frontera
+    la bancamos los gauchos, nom\xE1s, los que llegamos de apuro y sin gal\xF3n."
+  - 'Parece que lo tuyo tiene revuelto el avispero, paisano.
+
+    Todos andan alerta,
+    con el ojo abierto y la oreja parada.'
+  - "El Sombra te anda esperando all\xE1, con su poncho colorado como sangre de cordero.\nDice
+    que tiene algo serio pa\u2019 contarte..."
+  - "Hablale vos, no lo hagas calentar, que despu\xE9s se le saltan los tapones."
+  - "Nos vemos, compa\xF1ero. Que el viento te sea gaucho."

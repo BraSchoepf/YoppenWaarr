@@ -15,11 +15,14 @@ MonoBehaviour:
   npcName: Cara Seca
   lines:
   - ...
-  - ... eh?
-  - Ah sos vos. Toma la llave de la puerta. Espero hayas practicado las armas y si
-    no, plata y miedo nunca tuvimos.
-  - Desde el mangrullo aviste unos grupos de "Marcados", mas o menos cinco grupos.
-  - Va a ser importante que los elimines primero y luego acabes con lo que sea que
-    haya por ahi.
-  - No te puedo decir mucho mas, la verdad es que todo esto me tiene de nervios.
-  - Buena suerte.
+  - "\u2014\xBFEh? \xBFSos vos? No te esperaba.\nTom\xE1 la llave, no me habl\xE1s
+    nada."
+  - "Espero que hayas hecho m\xFAsculo con las armas...\ny si no, acordate que el
+    gaucho pobre tendr\xE1,\npero plata y miedo jam\xE1s."
+  - "Desde el mangrullo vi unas sombras,\ncinco grupos de Marcados al menos,\nmovi\xE9ndose
+    como fantasmas en la bruma."
+  - "Ser\xE1 cosa tuya barrer con esos primeros,\ny luego enfrentar lo que se esconda
+    m\xE1s all\xE1."
+  - "No tengo mucho m\xE1s que decirte...\nla verdad, todo esto me tiene con el alma
+    en vilo."
+  - "Que la suerte te acompa\xF1e, paisano.\nY que la Virgen te tape con su manto."

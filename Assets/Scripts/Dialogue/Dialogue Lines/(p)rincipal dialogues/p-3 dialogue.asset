@@ -15,10 +15,14 @@ MonoBehaviour:
   npcName: El Tranca
   lines:
   - ...
-  - Hola compadre. Finalmente te mandaron para aca.
-  - "Metete ahi y ponete a practicar ese facon que te va a hacer falta. - J o Button
-    0 - Metele unos fajasos a los mu\xF1ecos de trapo y nos fijamos si estas en condiciones."
-  - '- J o Button 0 - Para golepar con tu facon.'
-  - "Metele unos fajasos a los mu\xF1ecos de trapo y nos fijamos si estas en condiciones.
-    Despues tomatelas para el corral este asi practicas las boleadoras si todavia
-    no fuiste."
+  - "\u2014\xA1Ah, compadre! Al fin te largaron pa\u2019 este lado."
+  - "Metete all\xE1, y dale al fac\xF3n como si te jugaras el pellejo.\nGolpealo
+    firme al mu\xF1eco de trapo,\nque quiero ver si sab\xE9s m\xE1s que florearlo
+    al aire."
+  - "\u2014(J o Button 0) \u2014 Us\xE1 el fac\xF3n, no lo tengas de adorno."
+  - "Cuando termines con esos trapos, raj\xE1 pa\u2019l corral aquel.\nAll\xED est\xE1n
+    las boleadoras esperando tus manos...\nsi es que a\xFAn no fuiste a probarlas."
+  - "\xA1Ah, compadre...! Despu\xE9s de tanto darle al fierro,\nme agarr\xF3 una
+    sed que no te cuento.\nPor suerte el Lanza me trajo un poco de chicha,\npa\u2019
+    mojar el garguero y volver a tener alma en el cuerpo."
+  - "\u2014(La Chicha regenera salud)..."

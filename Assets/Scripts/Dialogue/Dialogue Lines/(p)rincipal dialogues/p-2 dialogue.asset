@@ -15,14 +15,18 @@ MonoBehaviour:
   npcName: El Sombra
   lines:
   - ...
-  - Con verte la cara me doy cuenta que el coronel debe estar peor. Un caso perdido
-    si me preguntan.
-  - Como sea, vengo de la puerta sur. Los muchachos estan un poco nerviosos, parece
-    que hay mucho movimiento de los "Marcados" en el campo sur.
-  - Hace tiempo ya que se llevaron a todos los militares del puesto y que arrasaron
-    con las poblaciones nativas locales.
-  - Asi que desconozco de donde consiguen tantos "Marcados". Ahora quedamos los gauchos
-    que algunos ni experiencia en la frotera tienen.
-  - Cuando estes listo, ve a la puerta a hablar con el "Cara Seca". Estoy seguro
-    que te necesita.
-  - 'Nos vemos y cuidate. '
+  - "\u2014Con solo mirarte, ya me doy cuenta: el coronel debe estar hecho un gui\xF1apo.\nPa\u2019
+    m\xED, ya no hay vuelta que darle... caso perdido."
+  - 'Vengo de la puerta del sur, donde el campo arde de susurros.
+
+    Los muchachos
+    andan con la piel de gallina,
+
+    dicen que hay mucho Marcado rondando el pajonal.'
+  - "Hace rato que se llevaron a los milicos,\ny que quemaron tolder\xEDas y ranchos
+    sin piedad."
+  - "No s\xE9 de d\xF3nde sacan tanto endiablado con marcas...\npero quedamos los
+    de a caballo, los gauchos,\nmuchos sin traza ni colmillo de frontera."
+  - "Cuando est\xE9s pronto, andate hasta la puerta\ny charl\xE1 con el Cara Seca.
+    Ese seguro te precisa."
+  - Nos vemos... y cuidate la espalda, que el diablo anda suelto.

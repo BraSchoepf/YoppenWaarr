@@ -92,6 +92,13 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
+  - time: 0
+    functionName: SetAdditiveMaterial
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
   - time: 0.125
     functionName: PlayAttackEffect
     data: 
@@ -106,8 +113,8 @@ AnimationClip:
     floatParameter: 0
     intParameter: 0
     messageOptions: 0
-  - time: 0.5
-    functionName: SpawnAttackVFX_Clean
+  - time: 0.625
+    functionName: ResetMaterial
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

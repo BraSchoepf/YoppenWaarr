@@ -15,7 +15,7 @@ MonoBehaviour:
   npcName: Pata e' Llama
   lines:
   - ...
-  - Como andas cabezon. Vamos a practicar con las boleadoras un poco.
+  - "\u2014\xBFC\xF3mo and\xE1s, cabez\xF3n?\nVamos a probar suerte con las boleadoras."
   - '- K o Button 1 - Para lanzar boleadoras, se apuntan automaticamente.'
-  - Metete al corral y fijate si le das a algunas gallinas. Despues raja para el
-    corral oeste si no practicaste el faconazo.
+  - "Metete al corral y tirale a esos mu\xF1ecos mongos, los que arm\xF3 el Tranca,
+    bien torcidos, con tapo viejo y con su parecido."

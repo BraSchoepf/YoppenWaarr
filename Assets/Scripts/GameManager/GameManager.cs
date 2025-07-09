@@ -24,6 +24,7 @@ public class GameManager : MonoBehaviour
 
     private void Awake()
     {
+        Application.targetFrameRate = 60;
         // make sure theres no two gamemanager
         if (Instance == null)
         {

@@ -35,7 +35,7 @@ public class PlayerHealth : MonoBehaviour
     void Start()
     {
         _maxHealth = _character_Data_SO.Health;
-        _currentHealth = _maxHealth;
+        _currentHealth = Mathf.FloorToInt(_maxHealth * 0.5f);
         UpdateHealthUI();
         _originalColor  = spriteRenderer.color;
     }

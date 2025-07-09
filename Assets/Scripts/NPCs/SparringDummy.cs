@@ -3,6 +3,7 @@ using UnityEngine;
 public class SparringDummy : MonoBehaviour
 {
     private Animator _animator;
+    [SerializeField] private GameObject damageParticlePrefab;
 
     private void Awake()
     {
@@ -20,6 +21,18 @@ public class SparringDummy : MonoBehaviour
         if (other.CompareTag("PlayerAttack") || other.CompareTag("Projectile"))
         {
             OnHit();
+            SpawnDamageParticles();
+        }
+    }
+
+    private void SpawnDamageParticles()
+    {
+        if (damageParticlePrefab != null)
+        {
+            // Instantiate the particle prefab at the enemy's position
+            GameObject particles = Instantiate(damageParticlePrefab, transform.position, Quaternion.identity);
+            // Optionally, you can set the particles to be destroyed after a certain time
+            Destroy(particles, 1f); // Destroy after 1 second
         }
     }
 }
